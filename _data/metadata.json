@@ -1,15 +1,15 @@
 {
-  "title": "Your Blog Name",
-  "url": "https://myurl.com/",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "title": "Capitalgram",
+  "url": "https://capitalgram.net/",
+  "description": "Building services for smarter and sustainanble investing",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "Stories about the future of investing",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://myurl.com/"
+    "id": "https://capitalgram.net/"
   },
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com"
+    "name": "Mikko Ohtamaa",
+    "email": "mikko-REMOVENOSPAM-@capitalgram.com"
   }
 }
