@@ -37,6 +37,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("css");
+  eleventyConfig.addPassthroughCopy("js");
 
   /* Markdown Overrides */
   let markdownLibrary = markdownIt({
@@ -51,7 +52,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.setLibrary("md", markdownLibrary);
 
   // Browsersync Overrides
-  eleventyConfig.setBrowserSyncConfig({
+  eleventyConfig.setBrowserSyncConfig({    
     callbacks: {
       ready: function(err, browserSync) {
         const content_404 = fs.readFileSync('_site/404.html');
@@ -63,8 +64,10 @@ module.exports = function(eleventyConfig) {
         });
       },
     },
-    ui: false,
-    ghostMode: false
+    ui: { port: 8080 },
+    ghostMode: false,
+    notify: true,
+    logLevel: "debug"
   });
 
   return {
