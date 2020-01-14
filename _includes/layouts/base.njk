@@ -7,7 +7,8 @@
     <meta name="Description" content="{{ renderData.description or description or metadata.description }}">
     
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    {# <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"> #}
+    <script src="https://kit.fontawesome.com/d71689699d.js" crossorigin="anonymous"></script>
 
     <link href="https://fonts.googleapis.com/css?family=Exo+2|Roboto&display=swap" rel="stylesheet"> 
 
@@ -61,7 +62,7 @@
               
                 <li class="nav-item">
                   <a href="https://linkedin/in/ohtis" class="nav-link waves-effect" target="_blank">
-                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-linkedin"></i>                    
                   </a>
                 </li>
 
@@ -98,7 +99,67 @@
       </div>
     </main>
 
-    <footer></footer>
+    <!--Footer-->
+    {#
+    <footer class="page-footer wow  mdb-color darken-2 mt-4 fadeIn">
+    #}
+    <footer class="page-footer wow fadeIn">
+    
+      <div class="container">
+        <div class="row">
+
+          <div class="col">
+            <h4>Business</h4>
+
+            <ul>
+              <li>About</li>
+              <li>Services</li>
+              <li>Blog</li>
+            </ul>
+            
+          </div>
+
+          <div class="col">
+            <h4>Social media</h4>
+
+            <ul>
+              <li><i class="fab fa-linkedin"></i> LinkedIn</li>
+              <li><i class="fab fa-twitter"></i> Twitter</li>
+              <li><i class="fas fa-rss"></i> RSS</li>
+            </ul>
+          </div>
+
+          <div class="col">
+            <h4>Newsletter</h4>
+
+            <form class="form-inline">
+              <div class="md-form my-0">
+
+                <div class="input-group">
+                  <input class="form-control mr-sm-2" type="email" placeholder="Your email" aria-label="Email">
+                  <div class="input-group-addon">
+                    <button class="btn btn-link btm-sm">
+                      Subscribe
+                    </button>
+                  </div>
+                  
+                </div>                
+              </div>              
+            </form>            
+          </div>
+
+          <div class="col">
+            <h4>Contact us</h4>
+
+            <p><a href="mailto:hello@capitalgram.com">hello@capitalgram.com</a></p>
+            <p>Yehat Technologies Ltd.</p>
+            <p>Gibraltar</p>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+    <!--/.Footer-->
 
     <!-- Current page: {{ page.url | url }} -->
 

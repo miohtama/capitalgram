@@ -3,6 +3,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  background: #fafafa;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -15,4 +16,90 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar.navbar-light .breadcrumb .nav-item .nav-link, .navbar.navbar-light .navbar-nav .nav-item .nav-link {
   transition: .35s;
+  text-transform: uppercase;
 }
+
+.nav-flex-icons i {
+  font-size: 24px;
+  color: #b68300;
+}
+
+.card-jumbo {
+    /*
+  background: #eeb302;
+  */
+  background: #EEEEEE;
+  color: black;
+}
+
+.card-deck-home {
+  margin-top: 6rem;
+}
+
+.card-deck-home .card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-deck-home .card-body .card-text {
+  flex: auto;
+}
+
+.card-deck-home .card-body .btn {
+  align-self: flex-end;
+}
+
+.card-deck-home .card-body .btn-primary {
+  /*
+  background: #eeb302 !important;
+  color: black;
+  */
+}
+
+
+footer.page-footer {
+  background: #eeb302;
+  color: black;
+  margin-top: 6rem;
+  padding: 3rem 0;
+}
+
+.page-footer h4 {
+  color: black;
+  margin-bottom: 20px;
+}
+
+.page-footer ul {
+  list-style: none;
+  padding: 0;  
+}
+
+.page-footer li {
+  margin-bottom: 10px;
+}
+
+.page-footer .btn-outline-primary {
+  color :black !important;
+  border-color: black !important;
+}
+
+.page-footer .md-form input[type=email]:focus {
+  border-bottom: 1px solid #b68300 !important;
+  box-shadow: 0 1px 0 0 #b68300 !important;
+}
+
+.page-footer .input-group {
+  display: flex;
+}
+
+.page-footer .input-group input[type=email] {
+  flex: auto;
+}
+
+.page-footer .input-group .btn {
+  padding: 0.84rem 0;
+}
+
+
+
+

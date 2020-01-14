@@ -4,23 +4,17 @@ layout: layouts/home.njk
 
 
 <!--Section: Jumbotron-->
-<section class="card wow fadeIn" style="background-image: url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg);">
+<section class="card wow fadeIn card-jumbo">
 
   <!-- Content -->
-  <div class="card-body text-white text-center py-5 px-5 my-5">
+  <div class="card-body text-center py-5 px-5 my-5">
 
     <h1 class="mb-4">
-      <strong>Building services for smarter and sustainable investing</strong>
+      <strong>Building smart services for investing</strong>
     </h1>
-    <p>
-      <strong>Best & free guide of responsive web design</strong>
-    </p>
-    <p class="mb-4">
-      <strong>The most comprehensive tutorial for the Bootstrap 4. Loved by over 500 000 users. Video and written
-        versions available. Create your own, stunning website.</strong>
-    </p>
-    <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/" class="btn btn-outline-white btn-lg">Start
-      free tutorial
+    
+    <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/" class="btn btn-lg">
+      Find out more
       <i class="fas fa-graduation-cap ml-2"></i>
     </a>
 
@@ -29,6 +23,96 @@ layout: layouts/home.njk
 </section>
 <!--Section: Jumbotron-->
 
+<section class="card-deck-home">
+    <div class="card-deck mb-3">
+      <!--Card-->
+      <div class="card">
+        <!--Card image-->
+        <div class="view overlay">
+          <img src="https://mdbootstrap.com/wp-content/uploads/2017/11/brandflow-tutorial-fb.jpg" class="card-img-top"
+            alt="">
+          <a href="https://mdbootstrap.com/education/tech-marketing/automated-app-introduction/" target="_blank">
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+        <!--Card content-->
+        <div class="card-body">
+          <!--Title-->
+          <h4 class="card-title">Software services</h4>
+          <!--Text-->
+          <p class="card-text">
+            We build next generation software-as-a-service solutions 
+            for investors and companies raising capital.
+            </p>
+          <a href="/services" target="_blank"
+            class="btn btn-primary btn-md">Find out more
+            <i class="fas fa-play ml-2"></i>
+          </a>
+        </div>
+      </div>
+      <!--/.Card-->  
+
+      <!--Card-->
+      <div class="card">
+
+        <!--Card image-->
+        <div class="view overlay">
+          <img src="https://mdbootstrap.com/wp-content/uploads/2017/11/brandflow-tutorial-fb.jpg" class="card-img-top"
+            alt="">
+          <a href="https://mdbootstrap.com/education/tech-marketing/automated-app-introduction/" target="_blank">
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+
+        <!--Card content-->
+        <div class="card-body">
+          <!--Title-->
+          <h4 class="card-title">Advisory</h4>
+          <!--Text-->
+          <p class="card-text">
+            We have experience of developing platforms and tokens for $350M capital raises.  
+          </p>
+
+          <a href="https://mdbootstrap.com/education/tech-marketing/automated-app-introduction/" target="_blank"
+            class="btn btn-primary btn-md">Learn 
+            <i class="fas fa-play ml-2"></i>
+          </a>
+        </div>
+      </div>
+      
+      <!--Card-->
+      <div class="card">
+
+        <!--Card image-->
+        <div class="view overlay">
+          <img src="https://mdbootstrap.com/wp-content/uploads/2017/11/brandflow-tutorial-fb.jpg" class="card-img-top"
+            alt="">
+          <a href="https://mdbootstrap.com/education/tech-marketing/automated-app-introduction/" target="_blank">
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+
+        <!--Card content-->
+        <div class="card-body">
+          <!--Title-->
+          <h4 class="card-title">Blog</h4>
+          <!--Text-->
+          <p class="card-text">
+            We write about the alternative investing opportunities, cryptocurrency and blockchain and technology.
+          </p>
+          <a href="https://mdbootstrap.com/education/tech-marketing/automated-app-introduction/" target="_blank"
+            class="btn btn-primary btn-md">Read articles
+            <i class="fas fa-play ml-2"></i>
+          </a>
+        </div>
+      </div>
+      
+
+    </div>
+</section>
+
+
+{#
 <h1>Latest 3 Posts</h1>
 
 {% set postslist = collections.posts | head(-3) %}
@@ -36,3 +120,4 @@ layout: layouts/home.njk
 {% include "postslist.njk" %}
 
 <p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>
+#}
