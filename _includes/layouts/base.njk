@@ -9,6 +9,8 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
 
+    <link href="https://fonts.googleapis.com/css?family=Exo+2|Roboto&display=swap" rel="stylesheet"> 
+
     <link rel="stylesheet" href="{{ '/css/bootstrap.min.css' | url }}">
     <link rel="stylesheet" href="{{ '/css/mdb.min.css' | url }}">
     <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
@@ -33,7 +35,7 @@
 
             <!-- Brand -->
             <a class="navbar-brand waves-effect" href="{{ '/'|url }}">
-              <strong class="blue-text">Capitalgram</strong>
+              <img class="img-logo" src="{{ '/img/capitalgram-logo.png' | url }}" alt="Capitalgram">
             </a>
 
             <!-- Collapse -->
@@ -58,19 +60,14 @@
               <ul class="navbar-nav nav-flex-icons">
               
                 <li class="nav-item">
-                  <a href="https://www.facebook.com/mdbootstrap" class="nav-link waves-effect" target="_blank">
-                    <i class="fab fa-facebook-f"></i>
+                  <a href="https://linkedin/in/ohtis" class="nav-link waves-effect" target="_blank">
+                    <i class="fab fa-linkedin"></i>
                   </a>
                 </li>
+
                 <li class="nav-item">
-                  <a href="https://twitter.com/MDBootstrap" class="nav-link waves-effect" target="_blank">
+                  <a href="https://twitter.com/moo9000" class="nav-link waves-effect" target="_blank">
                     <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="https://github.com/mdbootstrap/bootstrap-material-design" class="nav-link border border-light rounded waves-effect"
-                    target="_blank">
-                    <i class="fab fa-github mr-2"></i>MDB GitHub
                   </a>
                 </li>
               </ul>
@@ -96,7 +93,6 @@
         <p><em>This is an <a href="https://www.11ty.io/">Eleventy project</a> created from the <a href="https://github.com/11ty/eleventy-base-blog"><code>eleventy-base-blog</code> repo</a>.</em></p>
       </div>
       #}
-  
       <div class="container">
         {{ content | safe }}
       </div>
