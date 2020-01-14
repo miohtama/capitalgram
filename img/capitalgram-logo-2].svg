@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="128"
+   height="16"
+   viewBox="0 0 128 16"
+   enable-background="new 0 0 16 16"
+   id="svg60"
+   sodipodi:docname="capitalgram-logo-2].svg"
+   inkscape:version="1.0beta2 (2b71d25, 2019-12-03)"
+   inkscape:export-filename="/Users/mikkoohtamaa/code/capitalgram/img/capitalgram-logo-2.png"
+   inkscape:export-xdpi="413.31"
+   inkscape:export-ydpi="413.31">
+  <metadata
+     id="metadata66">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs64" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1680"
+     inkscape:window-height="1005"
+     id="namedview62"
+     showgrid="false"
+     inkscape:zoom="5.4520112"
+     inkscape:cx="42.377562"
+     inkscape:cy="1.3421057"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg60"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:document-rotation="0">
+    <sodipodi:guide
+       position="53.490969,12.505747"
+       orientation="0,1"
+       id="guide4860"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="35.730706,3.2577997"
+       orientation="0,1"
+       id="guide4862"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="41.405583,14.922824"
+       orientation="0,1"
+       id="guide20"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <circle
+     id="path68"
+     cx="8"
+     cy="8"
+     r="7.0873232"
+     style="fill:#eeb302;fill-opacity:1;stroke-width:1.15082955" />
+  <path
+     d="m 2.6844513,8.8502185 2.360534,0.885201 1.180267,3.2457335 1.688372,-2.25431 3.0326957,1.074043 1.180267,-8.2618686 z M 6.9151184,10.290144 6.3745561,11.756626 5.7336711,9.9165905 10.691972,5.4132814 Z"
+     id="path58"
+     inkscape:connector-curvature="0"
+     style="fill:#b78400;stroke-width:0.59013349;fill-opacity:1" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:45.5595px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.13899"
+     x="17.615366"
+     y="12.552531"
+     id="text4858"
+     transform="scale(0.97944969,1.0209815)"><tspan
+       sodipodi:role="line"
+       id="tspan4856"
+       x="17.615366"
+       y="12.552531"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.1867px;font-family:Cinzel;-inkscape-font-specification:'Cinzel, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#eeb302;fill-opacity:1;stroke-width:1.13899">Capitalgram</tspan></text>
+</svg>
