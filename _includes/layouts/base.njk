@@ -107,28 +107,29 @@
       <div class="container">
         <div class="row">
 
-          <div class="col">
+          <div class="col-md-3">
             <h4>Business</h4>
 
             <ul>
-              <li>About</li>
-              <li>Services</li>
-              <li>Blog</li>
+              <li><a href="{{ '/services'|url }}">Services</a></li>
+              <li><a href="{{ '/advisory'|url }}">Advisory</a></li>
+              <li><a href="{{ '/blog'|url }}">Blog</a></li>
+              <li><a href="{{ '/about'|url }}">About</a></li>
             </ul>
             
           </div>
 
-          <div class="col">
+          <div class="col-md-3">
             <h4>Social media</h4>
 
             <ul>
-              <li><i class="fab fa-fw fa-linkedin"></i> LinkedIn</li>
-              <li><i class="fab fa-fw fa-twitter"></i> Twitter</li>
-              <li><i class="fas fa-fw fa-rss"></i> RSS</li>
+              <li><a href="https://linkedin/in/ohtis"><i class="fab fa-fw fa-linkedin"></i> LinkedIn</a></li>
+              <li><a href="https://twitter/moo9000"><i class="fab fa-fw fa-twitter"></i> Twitter</a></li>
+              <li><a href="{{ '/feed/feed.xml'|url }}"><i class="fas fa-fw fa-rss"></i> RSS</a></li>
             </ul>
           </div>
 
-          <div class="col">
+          <div class="col-md-3">
             <h4>Newsletter</h4>
 
             <form class="form-inline">
@@ -137,7 +138,7 @@
                 <div class="input-group">
                   <input class="form-control mr-sm-2" type="email" placeholder="Your email" aria-label="Email">
                   <div class="input-group-addon">
-                    <button class="btn btn-link btn-outline btm-sm">
+                    <button class="btn btn-outline btm-sm z-depth-0">
                       Subscribe
                     </button>
                   </div>
@@ -147,10 +148,10 @@
             </form>            
           </div>
 
-          <div class="col">
+          <div class="col-md-3">
             <h4>Contact us</h4>
 
-            <p><a href="mailto:hello@capitalgram.com">hello@capitalgram.com</a></p>
+            <p><a class="mailto" href="mailto:hello@capitalgram.com">hello@capitalgram.com</a></p>
             <p>Yehat Technologies Ltd.</p>
             <p>Gibraltar</p>
           </div>
