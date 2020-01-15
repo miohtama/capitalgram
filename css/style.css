@@ -16,7 +16,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar.navbar-light .breadcrumb .nav-item .nav-link, .navbar.navbar-light .navbar-nav .nav-item .nav-link {
   transition: .35s;
-  text-transform: uppercase;
+  text-transform: none
+}
+
+.navbar-brand {
+  margin-right: 60px;
+}
+
+.navbar-collapse .nav-item {
+  margin-right: 20px;
 }
 
 .nav-flex-icons i {
@@ -24,12 +32,28 @@ h1, h2, h3, h4, h5, h6 {
   color: #b68300;
 }
 
+.tmpl-home {
+  margin-top: 0 !important;
+  padding-top: 0  !important;
+}
+
 .card-jumbo {
     /*
   background: #eeb302;
   */
-  background: #EEEEEE;
+  background: #EEEEEE url(../img/splash4.jpg);
   color: black;
+  background-size: contain;
+
+}
+
+.card-jumbo .lead {
+  font-weight: 500;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+.jumbo-bg-image {
+  
 }
 
 .card-deck-home {

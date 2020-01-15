@@ -7,23 +7,32 @@ layout: layouts/home.njk
 <section class="card wow fadeIn card-jumbo">
 
   <!-- Content -->
-  <div class="card-body text-center py-5 px-5 my-5">
+  <div class="card-body jumbo-bg-image py-5 px-5 my-5" style="background-image: {{ '/img/splash.jpg'|url }}">
 
-    <h1 class="mb-4">
-      <strong>Building smarter finance</strong>
-    </h1>
-    
+    <div class="container">
+      <h1 class="mb-4">
+        <strong>Building smarter finance</strong>
+      </h1>
+
+      <p class="lead">
+        Our insight on financial technology gives companies and investors an edge to success.
+      </p>
+    </div>  
+
+  
+    {#
     <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/" class="btn btn-lg">
       Find out more
       <i class="fas fa-graduation-cap ml-2"></i>
     </a>
+    #}
 
   </div>
   <!-- Content -->
 </section>
 <!--Section: Jumbotron-->
 
-<section class="card-deck-home">
+<section class="card-deck-home container">
     <div class="card-deck mb-3">
       <!--Card-->
       <div class="card">
@@ -38,14 +47,14 @@ layout: layouts/home.njk
         <!--Card content-->
         <div class="card-body">
           <!--Title-->
-          <h4 class="card-title">Software services</h4>
+          <h4 class="card-title">Software for capital</h4>
           <!--Text-->
           <p class="card-text">
-            We build next generation software-as-a-service solutions 
-            for investors and companies raising capital.
+            We engineer finance for success.            
+            Capitalgram builds next generation online services for fundraising, investor relationships and corporate governance.
             </p>
           <a href="/services" target="_blank"
-            class="btn btn-primary btn-md">Find out more
+            class="btn btn-primary btn-md">Learn about services
             <i class="fas fa-play ml-2"></i>
           </a>
         </div>

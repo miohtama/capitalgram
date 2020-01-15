@@ -83,7 +83,7 @@
       <!--Main Navigation-->
     
     <main {% if templateClass %} class="{{ templateClass }} mt-5 pt-5"{% endif %}>
-      
+      {{ content | safe }}
       {# 
       <div class="warning">
         <ol>
@@ -95,7 +95,6 @@
       </div>
       #}
       <div class="container">
-        {{ content | safe }}
       </div>
     </main>
 
@@ -123,9 +122,9 @@
             <h4>Social media</h4>
 
             <ul>
-              <li><i class="fab fa-linkedin"></i> LinkedIn</li>
-              <li><i class="fab fa-twitter"></i> Twitter</li>
-              <li><i class="fas fa-rss"></i> RSS</li>
+              <li><i class="fab fa-fw fa-linkedin"></i> LinkedIn</li>
+              <li><i class="fab fa-fw fa-twitter"></i> Twitter</li>
+              <li><i class="fas fa-fw fa-rss"></i> RSS</li>
             </ul>
           </div>
 

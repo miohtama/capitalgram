@@ -1,10 +1,10 @@
 ---
 layout: layouts/post.njk
-title: About
+title: Advisory
 templateClass: tmpl-post
 eleventyNavigation:
-  key: About
-  order: 98
+  key: Advisory
+  order: 4
 ---
 
 I am a person that writes stuff.
