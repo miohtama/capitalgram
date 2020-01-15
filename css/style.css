@@ -58,7 +58,8 @@ h1, h2, h3, h4, h5, h6 {
 
 
 footer.page-footer {
-  background: #eeb302;
+  /* background: #eeb302; */
+  background: #eeb302; 
   color: black;
   margin-top: 6rem;
   padding: 3rem 0;
@@ -97,8 +98,20 @@ footer.page-footer {
 }
 
 .page-footer .input-group .btn {
-  padding: 0.84rem 0;
+  padding: 0.84rem;
+  border: 2px solid #475056;
+  color: #475056;
 }
+
+footer.page-footer a {
+  color: black;
+  font-weight: bold;
+}
+
+.page-footer a:hover {
+  text-decoration: underline;
+}
+
 
 
 
