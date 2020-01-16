@@ -2,8 +2,39 @@
 layout: layouts/base.njk
 templateClass: tmpl-post
 ---
-<h1>{{ title }}</h1>
 
-{{ content | safe }}
+<!--Section: Jumbotron-->
+<section class="card wow fadeIn card-jumbo">
 
-<p><a href="{{ '/' | url }}">← Home</a></p>
+  <!-- Content -->
+  <div class="card-body jumbo-bg-image py-5 px-5 my-5" style="background-image: {{ '/img/splash.jpg'|url }}">
+
+    <div class="container">
+      <h1 class="mb-4">
+        {{ title }}
+      </h1>
+
+      <p class="lead">
+        {{ description }}
+      </p>
+    </div>  
+  
+    {#
+    <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/" class="btn btn-lg">
+      Find out more
+      <i class="fas fa-graduation-cap ml-2"></i>
+    </a>
+    #}
+
+  </div>
+  <!-- Content -->
+</section>
+<!--Section: Jumbotron-->
+
+<section class="content">
+  <div class="container">
+    {{ content | safe }}
+  </div>
+</section>  
+
+

@@ -33,7 +33,9 @@ h1, h2, h3, h4, h5, h6 {
   /*color: #023dee;*/
 }
 
-.tmpl-home {
+
+/* Header image adjust */
+.tmpl-home, .tmpl-post {
   margin-top: 0 !important;
   padding-top: 0  !important;
 }
