@@ -1,3 +1,5 @@
+
+
 .main-content a {
   font-weight: bold;
 }
@@ -22,6 +24,7 @@
 
 .card-about-the-author {
   margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .card-about-the-author img {

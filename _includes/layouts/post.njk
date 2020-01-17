@@ -11,7 +11,7 @@ extraCSS: /css/blog.css
     {# Generate <picture> tags for gulpfile preprocessed images #}
     <div class="header-image-wrapper {{ headerImageModeClass }}" style="background-image: url({{ header|bgimage }});{% if headerImageBackgroundColor %}backgrond-color: {{headerImageBackgroundColor}} {% endif %}">
 
-      <div class="header-text">
+      <div class="header-text text-center">
         <div class="container">
           
           <h1 class="mb-4">
@@ -28,16 +28,54 @@ extraCSS: /css/blog.css
   </section>
 {% endif %}  
 
-<section class="content">
-  <div class="container">
+<section class="blog-content">
+  
+    <div class="main-content ">
+      <div class="container">
+        <div class="card">
+          <div class="card-body">
+                <div class="post-byline text-right">
 
-    <div class="main-content">
-      {{ content | safe }}
-    </div>
+                  <span class="font-small dark-grey-text mb-1">
+                      <strong>Author:</strong> Mikko Ohtamaa</span>
+                  <span class="font-small grey-text mb-0 ml-3">
+                      <i class="far fa-clock-o dark-grey-text"></i> 
+                      <time class="post-date" datetime="{{ date | htmlDateString }}">
+                        {{ date | readableDate }}
+                      </time>
+                  </span>                              
+                </div>
+
+                <div class="body-text">              
+                  {{ content | safe }}
+                </div>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div>  
+
 
     <div class="about-author">
-      {% include "./author.html" %}
+      <div class="container">
+        {% include "author.html" %}
+       </div> 
     </div>
+
+    <div class="about-comments">
+      <div class="container">
+        <div class="card">
+          <div class="card-body">
+            <h4>Comments</h4>
+
+            <a href="https://twitter.com/moo9000" class="btn  btn-primary">Send any feedback on Twitter</a>
+          </div>
+        </div> 
+      </div>  
+    </div>
+
+
   </div>
 </section>  
 
