@@ -11,7 +11,7 @@
     "images:clean": "yarn gulp cleanImages",
     "images:resize": "yarn gulp resizeImages",
     "images:minify": "yarn gulp minifyImages",
-    "images:favicons": "yarn gulp generatePwaFavicons",
+    "images:favicons": "yarn gulp generatePwaFavicons"
   },
   "repository": {
     "type": "git",
@@ -32,7 +32,6 @@
     "luxon": "^1.21.3",
     "markdown-it": "^8.4.2",
     "markdown-it-anchor": "^5.2.5",
-
     "gulp": "^4.0.0",
     "gulp-changed": "^4.0.0",
     "gulp-changed-in-place": "^2.3.0",
@@ -44,6 +43,6 @@
     "gulp-responsive": "^2.13.0",
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.4",
-    "gulp-webp": "^4.0.1",    
+    "gulp-webp": "^4.0.1"
   }
 }

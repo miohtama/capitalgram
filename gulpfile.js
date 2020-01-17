@@ -1,3 +1,5 @@
+// TODO: Remove hardcoded image paths, read from config
+
 'use strict';
 
 // ------
@@ -18,7 +20,7 @@ const changed = require('gulp-changed');
 const debug = require('gulp-debug');
 
 // Require eleventy's metadata
-const metadata = require ("./src/_data/metadata.json");
+const metadata = require ("./_data/metadata.json");
 
 // Require Node.js utils
 const fs = require('fs');
@@ -50,20 +52,20 @@ function moveFile(file, dir2) {
 // Image minification.
 // Happens in-place (directly on src folder)
 function minifyImages() {
-    return src('src/public/images/dist/**/*.{png,jpg,jpeg,webp}')
+    return src('_site/img/content/dist/**/*.{png,jpg,jpeg,webp}')
         // .pipe(changed('src/public/images/dist'))
         .pipe(debug({ title : 'Minify'}))
         .pipe(imagemin())
-        .pipe(dest('src/public/images/dist'))
+        .pipe(dest('_site/img/content/dist'))
 };
 
 // Image conversion to webP
 function createWebp() {
-    return src('src/public/images/dist/**/*.{png,jpg,jpeg}')
+    return src('_site/img/content/dist/**/*.{png,jpg,jpeg}')
         // .pipe(changed('src/public/images/dist'))
         .pipe(debug({ title : 'webp'}))
         .pipe(webp())
-		.pipe(dest('src/public/images/dist'))
+		.pipe(dest('_site/img/content/dist'))
 };
 
 // Favicon generation, based on a mandatory src/assets/img/favicon.jpg
@@ -99,7 +101,7 @@ function moveFaviconHtml() {
 // Remove all the generated images. Only the originals will be left.
 function cleanImages() {
     return del([
-        'src/public/images/dist'
+        '_site/img/content/dist'
     ])
 };
 
@@ -145,8 +147,8 @@ function generateGulpResponsiveConfiguration(){
 // Generate all the images.
 // Beware: This can become a really expensive operation!
 function resizeImages() {
-    return src('src/public/images/src/**/*.{png,jpg,jpeg}')
-        .pipe(dest('src/public/images/dist'))
+    return src('img/content/src/**/*.{png,jpg,jpeg}')
+        .pipe(dest('_site/img/content/dist'))
         .pipe(debug({ title : 'Resize'}))
         // .pipe(changed('src/public/images/dist'))
         .pipe(responsive(
@@ -163,7 +165,7 @@ function resizeImages() {
                 withMetadata: false,
             }
         ))
-        .pipe(dest('src/public/images/dist'));
+        .pipe(dest('_site/img/content/dist'));
 }
 
 
