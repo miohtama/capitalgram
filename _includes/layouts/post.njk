@@ -1,39 +1,43 @@
 ---
 layout: layouts/base.njk
 templateClass: tmpl-post
+extraCSS: /css/blog.css
 ---
 
-<!--Section: Jumbotron-->
-<section class="card wow fadeIn card-jumbo">
+{# Run only if a header image has been specified #}
+{% if header %}
+  <section class="section-header-image wow fadeIn">
 
-  <!-- Content -->
-  <div class="card-body jumbo-bg-image py-5 px-5 my-5" style="background-image: {{ '/img/content/' + header|image }}">
+    {# Generate <picture> tags for gulpfile preprocessed images #}
+    <div class="header-image-wrapper {{ headerImageModeClass }}" style="background-image: url({{ header|bgimage }});{% if headerImageBackgroundColor %}backgrond-color: {{headerImageBackgroundColor}} {% endif %}">
 
-    <div class="container">
-      <h1 class="mb-4">
-        {{ title }}
-      </h1>
+      <div class="header-text">
+        <div class="container">
+          
+          <h1 class="mb-4">
+            {{ title }}
+          </h1>
 
-      <p class="lead">
-        {{ description }}
-      </p>
-    </div>  
-  
-    {#
-    <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/" class="btn btn-lg">
-      Find out more
-      <i class="fas fa-graduation-cap ml-2"></i>
-    </a>
-    #}
+          <p class="lead">
+            {{ description }}
+          </p>
+        </div>  
+      </div>
+    </div>
 
-  </div>
-  <!-- Content -->
-</section>
-<!--Section: Jumbotron-->
+  </section>
+{% endif %}  
 
 <section class="content">
   <div class="container">
-    {{ content | safe }}
+
+    <div class="main-content">
+      {{ content | safe }}
+    </div>
+
+    <div class="about-author">
+      {% include "./author.html" %}
+    </div>
   </div>
 </section>  
 

@@ -1,0 +1,74 @@
+.main-content a {
+  font-weight: bold;
+}
+
+.header-image-wrapper {
+}
+
+.header-image-wrapper picture { 
+}
+
+.header-image-wrapper .header-text {
+  padding: 3rem;
+}
+
+.header-image-wrapper .header-text .lead {
+  background: white;
+  color: #b68300;
+  display: inline-block;
+  padding: 0.5rem;
+  font-weight: 500;
+}
+
+.card-about-the-author {
+  margin-top: 3rem;
+}
+
+.card-about-the-author img {
+  margin-right: 1rem;
+}
+
+
+/* 
+* Different ways of aligning header image 
+*/
+
+.header-image-mode-contain-image {
+  background-size: contain;
+  min-height: 400px;
+  margin-bottom: 3rem;
+}
+
+.header-image-mode-cover-image {
+  background-size: cover;
+  min-height: 400px;
+  margin-bottom: 3rem;
+}
+
+.header-image-mode-cover-image-border {
+  background-size: cover;
+  background-origin: border-box;
+  min-height: 400px;
+  margin-bottom: 3rem;
+}
+
+.header-image-mode-transparent {
+  background-size: contain;
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  min-height: 400px;
+  margin-bottom: 3rem;  
+}
+
+
+
+
+@media (max-width: 767px) {
+  .header-image-mode-contain-image {
+    min-height: 200px;
+  }
+}
+
+

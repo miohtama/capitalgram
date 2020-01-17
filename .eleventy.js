@@ -7,6 +7,7 @@ const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
 const pictureFilter = require('./filters/picture');
 const imageFilter = require('./filters/image');
+const bgimageFilter = require('./filters/bgimage');
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
@@ -28,6 +29,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter("picture", pictureFilter );
   eleventyConfig.addFilter("image", imageFilter );  
+  eleventyConfig.addFilter("bgimage", bgimageFilter );  
 
   // Get the first `n` elements of a collection.
   eleventyConfig.addFilter("head", (array, n) => {

@@ -1,7 +1,7 @@
 const config =  {
     // Common
-    sourceDir : './img/content',
-    relativeSourceDir : '/img/processed',
+    sourceDir : './img/content/src',
+    relativeSourceDir : '/img/content/dist',
     // Set to true to use LFS
     lfs : false,
     // If lfs = true;
@@ -10,7 +10,7 @@ const config =  {
     sizes : [
         {
             name: 'large',
-            width: 1400,
+            width: 1920,
             height: false,
             isResponsive: true,
             customQuery: {
