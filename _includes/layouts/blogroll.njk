@@ -4,8 +4,37 @@ templateClass: tmpl-blog-roll
 extraCSS: /css/blog.css
 ---
 
+  <section class="section-header-image wow fadeIn">
+    <div class="header-image-wrapper header-image-mode-cover-image header-image-mode-inverse-heading" style="background-image: url(/img/blog-cover.jpg)">
+
+      <div class="header-text text-center">
+        <div class="container">
+          
+          <h1 class="mb-4">
+            Capitalgram blog
+          </h1>
+
+          <p class="lead">
+            Analysing technology, alternative investing opportunities and blockchain space.
+          </p>
+        </div>  
+      </div>
+    </div>
+  </section>
+
 <section class="content">
   <div class="container">
-    {{ content | safe }}
+
+    <div class="row mt-5 pt-3">
+      <div class="col-lg-8 col-12 mt-1 mx-lg-4">
+        {{ content | safe }}
+      </div>
+
+      <div class="col-lg-3 col-12 mt-1">
+      xxxx
+        {% include "partials/sidebar.njk" %}
+      </div>
+    </div>
+    
   </div>
 </section>  

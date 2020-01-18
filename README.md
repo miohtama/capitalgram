@@ -83,8 +83,10 @@ https://mdbootstrap.com/freebies/jquery/blog/
 
 https://freesvg.org/paper-plane-silhouette
 
-https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=eeb302
+https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=eeb302&secondary.color=80DEEA
 
-https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=eeb302
+https://material.io/design/color/the-color-system.html#tools-for-picking-colors
 
 https://github.com/idiazroncero/eleventy-netlify-cms
+
+##023dee

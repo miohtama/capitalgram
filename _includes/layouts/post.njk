@@ -7,8 +7,6 @@ extraCSS: /css/blog.css
 {# Run only if a header image has been specified #}
 {% if header %}
   <section class="section-header-image wow fadeIn">
-
-    {# Generate <picture> tags for gulpfile preprocessed images #}
     <div class="header-image-wrapper {{ headerImageModeClass }}" style="background-image: url({{ header|bgimage }});{% if headerImageBackgroundColor %}backgrond-color: {{headerImageBackgroundColor}} {% endif %}">
 
       <div class="header-text text-center">
@@ -24,9 +22,27 @@ extraCSS: /css/blog.css
         </div>  
       </div>
     </div>
-
   </section>
-{% endif %}  
+{% else %}  
+  {# Plain boring background #}
+  <section class="section-header-image wow fadeIn">
+    <div class="header-image-wrapper header-image-missing {{ headerImageModeClass }}">
+
+      <div class="header-text text-center">
+        <div class="container">
+          
+          <h1 class="mb-4">
+            {{ title }}
+          </h1>
+
+          <p class="lead">
+            {{ description }}
+          </p>
+        </div>  
+      </div>
+    </div>
+  </section>
+{% endif %}
 
 <section class="blog-content">
   
@@ -37,7 +53,7 @@ extraCSS: /css/blog.css
                 <div class="post-byline text-right">
 
                   <span class="font-small dark-grey-text mb-1">
-                      <strong>Author:</strong> Mikko Ohtamaa</span>
+                      <strong>Author:</strong> {{ author }}</span>
                   <span class="font-small grey-text mb-0 ml-3">
                       <i class="far fa-clock-o dark-grey-text"></i> 
                       <time class="post-date" datetime="{{ date | htmlDateString }}">
@@ -59,7 +75,7 @@ extraCSS: /css/blog.css
 
     <div class="about-author">
       <div class="container">
-        {% include "author.html" %}
+        {% include "partials/author.njk" %}
        </div> 
     </div>
 

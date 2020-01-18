@@ -39,7 +39,7 @@ a {
 
 
 /* Header image adjust */
-.tmpl-home, .tmpl-post {
+.tmpl-home, .tmpl-post, .tmpl-blog-roll {
   margin-top: 0 !important;
   padding-top: 0  !important;
 }
@@ -86,7 +86,12 @@ a {
 
 .card-deck-home .card-body .btn-primary {
 
+  /*
   background: #023dee !important;
+  */
+  background: black !important;
+  color: white;
+  font-family: "Exo 2";
   /*
   color: black;
   */

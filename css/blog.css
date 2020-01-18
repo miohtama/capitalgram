@@ -4,10 +4,17 @@
   font-weight: bold;
 }
 
+.post-byline {
+  margin-bottom: 1rem;
+}
+
 .header-image-wrapper {
 }
 
-.header-image-wrapper picture { 
+
+.header-image-wrapper.header-image-missing {
+  background: white;
+  margin-bottom: 3rem;
 }
 
 .header-image-wrapper .header-text {
@@ -31,10 +38,28 @@
   margin-right: 1rem;
 }
 
+/*
+ * Blog roll / post list
+ */
+
+.card-post-list {
+  margin-bottom: 1rem;
+}
+
+.post-list-byline {
+  font-size: 80%;
+  color: #616161; /* Material UI brown 50 */
+}
 
 /* 
 * Different ways of aligning header image 
 */
+
+/* Background image too hard for dark text */
+.header-image-mode-inverse-heading  h1 {
+  color: white;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
 
 .header-image-mode-contain-image {
   background-size: contain;
