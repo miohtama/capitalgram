@@ -90,3 +90,10 @@ https://material.io/design/color/the-color-system.html#tools-for-picking-colors
 https://github.com/idiazroncero/eleventy-netlify-cms
 
 ##023dee
+
+## 
+
+https://www.prompty.io/using-your-rss-feed-to-automate-notifications/
+
+https://www.pushbullet.com/channels
+
