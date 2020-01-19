@@ -1,24 +1,28 @@
 {% for post in postslist | reverse %}
 
   <div class="card card-post-list">
-
-    {% if post.header %}
+  
+    {% if post.data.header %}
       <!--Card image-->
       <div class="view overlay">
-        <img src="{{ post.header|bgimage }}" class="card-img-top" alt="">
+        <img src="{{ post.data.header|bgimage }}" class="card-img-top {{ post.data.postListImageClass }}" alt="">
         <a>
           <div class="mask rgba-white-slight waves-effect waves-light"></div>
         </a>
       </div>
       <!--/.Card image-->
+    {% else %}
+      <div class="card-post-list-img-missing"></div>
     {% endif %}
 
     <!--Card content-->
     <div class="card-body mx-4">
       <!--Title-->
-      <h4 class="card-title">
-        {{ post.data.title }}
-      </h4>
+      <a href="{{ post.url }}">
+        <h4 class="card-title">
+          {{ post.data.title }}
+        </h4>
+      </a>  
       <hr>
 
       <p class="post-list-byline">
@@ -38,9 +42,9 @@
       
       <p></p>
 
-      <p class="text-right mb-0 text-uppercase dark-grey-text font-weight-bold">
-        <a class="btn btn-primary btn-link">
-          Read more
+      <p class="text-right">
+        <a class="btn btn-link btn-read-post" href="{{ post.url }}">
+          Read post
           <i class="fas fa-chevron-right" aria-hidden="true"></i>
         </a>
       </p>
@@ -50,23 +54,3 @@
   </div>
 
 {% endfor %}
-
-<ol reversed="reversed" class="postlist" style="counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }}">
-  {% for post in postslist | reverse %}
-    <li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
-      <a href="{{ post.url | url }}" class="postlist-link">
-        {% if post.data.title %}{{ post.data.title }}
-        {% else %}
-          <code>{{ post.url }}</code>
-        {% endif %}
-      </a>
-      <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
-      {% for tag in post.data.tags %}
-        {%- if collections.tagList.indexOf(tag) != -1 -%}
-          {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-          <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
-        {%- endif -%}
-      {% endfor %}
-    </li>
-  {% endfor %}
-</ol>

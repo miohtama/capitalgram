@@ -9,6 +9,7 @@ layout: layouts/post.njk
 header: world-squares.png
 headerImageModeClass: header-image-mode-transparent
 headerImageBackgrondColor: #eeeeee
+postListImageClass: post-list-image-cover 
 author: Mikko Ohtamaa
 ---
 

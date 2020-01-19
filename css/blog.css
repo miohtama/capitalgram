@@ -43,7 +43,21 @@
  */
 
 .card-post-list {
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
+}
+
+.card-post-list a {
+  color: black;
+}
+
+.card-post-list-img-missing {
+  height: 8px;
+  background: #b68300;
+}
+
+.btn-read-post {
+  padding-right: 0;
+  margin-right: 0;
 }
 
 .post-list-byline {
@@ -88,6 +102,11 @@
   background-position-y: center;
   min-height: 400px;
   margin-bottom: 3rem;  
+}
+
+.post-list-image-cover {
+  max-height: 150px;
+  object-fit: cover;
 }
 
 
