@@ -88,6 +88,23 @@
   font-size: 24px;
 }
 
+.latest-posts-list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.latest-posts-item {
+  display: block;
+  margin-bottom: 1rem;
+  color: black; 
+}
+
+.latest-posts-date {
+  color: #616161;
+  font-size: 80%;
+}
+
 
 /* 
 * Different ways of aligning header image 
