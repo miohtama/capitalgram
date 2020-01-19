@@ -47,7 +47,7 @@
 }
 
 .card-post-list a {
-  color: black;
+  color: black;e
 }
 
 .card-post-list-img-missing {
@@ -64,6 +64,30 @@
   font-size: 80%;
   color: #616161; /* Material UI brown 50 */
 }
+
+/*
+ * Sidebar
+ */
+
+ .sidebar .card {
+   margin-bottom: 3rem;
+ }
+
+ .card-follow ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+ }
+
+ .card-follow li {
+   display: inline-block;
+ }
+
+ .card-follow i {
+  color: black;
+  font-size: 24px;
+}
+
 
 /* 
 * Different ways of aligning header image 
