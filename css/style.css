@@ -37,6 +37,26 @@ a {
   /*color: #023dee;*/
 }
 
+.navbar.navbar-light .navbar-nav .nav-item {
+  transition: all 0.3s;
+  border-bottom: 4px solid white;
+  position: relative;
+  top: 4px;
+}
+
+.navbar.navbar-light .navbar-nav .nav-item.active {
+  border-bottom: 4px solid #b68300;
+}
+
+.navbar.navbar-light .navbar-nav .nav-item.active>.nav-link {
+  background: inherit;
+}
+
+.navbar.navbar-light .navbar-nav .nav-item:hover {
+  background: inherit;
+  border-bottom: 4px solid #b68300;
+}
+
 
 /* Header image adjust */
 .tmpl-home, .tmpl-post, .tmpl-blog-roll {
