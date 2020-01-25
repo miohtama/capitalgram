@@ -5,9 +5,9 @@ const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
-const pictureFilter = require('./filters/picture');
-const imageFilter = require('./filters/image');
-const bgimageFilter = require('./filters/bgimage');
+const pictureFilter = require('@capitalgram/filters/picture');
+const imageFilter = require('@capitalgram/filters/image');
+const bgimageFilter = require('@capitalgram/filters/bgimage');
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
@@ -42,9 +42,9 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addCollection("tagList", require("./_11ty/getTagList"));
 
-  eleventyConfig.addPassthroughCopy("img");
-  eleventyConfig.addPassthroughCopy("css");
-  eleventyConfig.addPassthroughCopy("js");
+  eleventyConfig.addPassthroughCopy("static/img");
+  eleventyConfig.addPassthroughCopy("static/css");
+  eleventyConfig.addPassthroughCopy("static/js");
 
   /* Markdown Overrides */
   let markdownLibrary = markdownIt({

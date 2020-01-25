@@ -89,6 +89,8 @@ https://material.io/design/color/the-color-system.html#tools-for-picking-colors
 
 https://github.com/idiazroncero/eleventy-netlify-cms
 
+https://github.com/muhajirdev/sendgrid-subscription-netlify-function
+
 ##023dee
 
 ## 
