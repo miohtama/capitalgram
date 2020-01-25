@@ -1,7 +1,7 @@
 {
-  "name": "eleventy-base-blog",
+  "name": "capitalgram",
   "version": "5.0.2",
-  "description": "A website based on eleventy-base-blog",
+  "description": "A corporate site based on eleventy-base-blog",
   "scripts": {
     "build": "eleventy",
     "watch": "eleventy --watch",
@@ -47,5 +47,8 @@
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.4",
     "gulp-webp": "^4.0.1"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
   }
 }

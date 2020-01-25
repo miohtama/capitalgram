@@ -1,6 +1,6 @@
 // Generate URLs for style="background-image: url(...)"
 
-const { lfs, nf_resize, relativeSourceDir } = require('../images.config'); 
+const { lfs, nf_resize, relativeSourceDir } = require('../config/images.config'); 
 
 
 function bgimage(sourceFile){

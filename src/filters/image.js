@@ -1,4 +1,4 @@
-const { lfs, nf_resize, relativeSourceDir } = require('../images.config'); 
+const { lfs, nf_resize, relativeSourceDir } = require('../config/images.config'); 
 
 
 function imageLFS(sourceFile, query){

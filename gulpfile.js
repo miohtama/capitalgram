@@ -1,4 +1,6 @@
-// TODO: Remove hardcoded image paths, read from config
+// This will do src/ folder remap as @capitalgram for imports
+// https://gist.github.com/branneman/8048520
+require('module-alias/register');
 
 'use strict';
 
@@ -6,8 +8,10 @@
 // SETUP, CONFIG, IMPORTS AND GLOBALS
 // ------
 
+
+
 // Import the image handling config values from our custom config js file.
-const { lfs, sizes, sizeNames, sourceDir } = require('./images.config'); 
+const { lfs, sizes, sizeNames, sourceDir } = require('@capitalgram/config/images.config'); 
 
 // Require gulp core utils and all gulp plugins
 const {dest, src, series } = require('gulp');

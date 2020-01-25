@@ -1,3 +1,7 @@
+// This will do src/ folder remap as @capitalgram for imports
+// https://gist.github.com/branneman/8048520
+require('module-alias/register');
+
 const { DateTime } = require("luxon");
 const fs = require("fs");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
@@ -8,6 +12,7 @@ const markdownItAnchor = require("markdown-it-anchor");
 const pictureFilter = require('@capitalgram/filters/picture');
 const imageFilter = require('@capitalgram/filters/image');
 const bgimageFilter = require('@capitalgram/filters/bgimage');
+
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
@@ -103,7 +108,7 @@ module.exports = function(eleventyConfig) {
     dir: {
       input: ".",
       includes: "_includes",
-      data: "_data",
+      data: "src/_data",
       output: "_site"
     }
   };

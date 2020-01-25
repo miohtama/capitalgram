@@ -1,5 +1,5 @@
 const fs = require('fs');
-const { sourceDir, relativeSourceDir } = require('../images.config'); 
+const { sourceDir, relativeSourceDir } = require('../config/images.config'); 
 
 
 module.exports = function(file, size){
