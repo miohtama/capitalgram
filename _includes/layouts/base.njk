@@ -136,21 +136,7 @@
 
           <div class="col-md-3">
             <h4>Newsletter</h4>
-
-            <form class="form-inline">
-              <div class="md-form my-0">
-
-                <div class="input-group">
-                  <input class="form-control mr-sm-2" type="email" placeholder="Your email" aria-label="Email">
-                  <div class="input-group-addon">
-                    <button class="btn btn-outline btm-sm z-depth-0">
-                      Subscribe
-                    </button>
-                  </div>
-                  
-                </div>                
-              </div>              
-            </form>            
+            {% include "partials/newsletter.njk" %}
           </div>
 
           <div class="col-md-3">
@@ -169,13 +155,17 @@
     <!-- Current page: {{ page.url | url }} -->
 
     <!-- JQuery -->
-    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="{{ '/static/js/jquery-3.4.1.min.js'|url }}"></script>
     <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="{{ '/static/js/popper.min.js'|url }}"></script>
     <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="{{ '/static/js/bootstrap.min.js'|url }}"></script>
     <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script type="text/javascript" src="{{ '/static/js/mdb.min.js'|url }}"></script>
+
+    <!-- Newsletter subscriber -->
+    <script type="text/javascript" src="{{ '/static/js/newsletter.js'|url }}"></script>
+
     <!-- Initializations -->
     <script type="text/javascript">
       // Animations initialization

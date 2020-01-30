@@ -38,6 +38,15 @@
   margin-right: 1rem;
 }
 
+
+.body-text {
+}
+
+.body-text p {
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
 /*
  * Blog roll / post list
  */

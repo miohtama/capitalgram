@@ -3,9 +3,9 @@
 
     <div class="card card-follow">
 
-        <h4 class="card-header">
+        <h5 class="card-header">
             Follow
-        </h4>
+        </h5>
 
         <div class="card-body">
             <p>
@@ -22,37 +22,21 @@
 
     <div class="card card-subscribe pb-0">
 
-        <h4 class="card-header">
-            Subscribe
-        </h4>
+        <h5 class="card-header">
+            Newsletter
+        </h5>
 
         <div class="card-body">
- 
-            <h5>Notifications</h5>
-
-            <hr>
-
-            <h5>Newsletter</h5>
-            <form class="md-form">
-
-                <input class="form-control mr-sm-2" type="email" placeholder="Your email" aria-label="Email">
-                <div class="input-group-addon">
-                    <button class="btn btn-primary btn-block btm-sm z-depth-0">
-                        Subscribe
-                    </button>
-
-                </form>
-
-            </div>        
+            {% include "partials/newsletter-sidebar.njk" %}
         </div>
 
     </div>    
 
     <div class="card card-latest-posts pb-0">
 
-        <h4 class="card-header">
+        <h5 class="card-header">
             Latest posts
-        </h4>
+        </h5>
 
         <div class="card-body">
             <ul class="latest-posts-list">
