@@ -2,6 +2,7 @@
 
 const axios = require('axios');  // https://www.npmjs.com/package/axios
 const { promises: fs } = require('fs');
+const assert = require('assert');
 
 /**
  * Quick wrapper around mailerlite
@@ -13,6 +14,8 @@ const { promises: fs } = require('fs');
 
     constructor(apiKey, endpoint=null) {
         this.apiKey = apiKey;
+
+        assert(apiKey, "API key not defined");
 
         // Default API endpoint
         if(!endpoint) {
@@ -38,22 +41,28 @@ const { promises: fs } = require('fs');
 
         // https://developers.mailerlite.com/docs/response
         try {
-            const resp = await axios.request({
-                url: fullPath,
-                method,
-                headers, 
+            const content = {
+                method: method,
+                url: fullPath,                
+                headers: headers, 
                 data: params,
-            });
-
-            return resp;    
+            };
+            console.log("Making MailerLite request", content);
+            const resp = await axios.request(content);
+            assert(resp.status == 200)
+            return resp.data;    
         } catch(e) {
             // https://gist.github.com/fgilio/230ccd514e9381fafa51608fcf137253
-            const data = e.data;
-            const message = data.message;
+            let message = e.message;
+            if(e.response) {
+                message += " status:" + e.response.status + " " + e.response.statusText;
+            }
             throw new MailerLiteError(message, e);
         }        
     }
 
+
+    // https://developers.mailerlite.com/v2/reference#create-a-subscriber
     subscribe(email, name=null) {
 
         let payload = { email: email };
@@ -63,13 +72,18 @@ const { promises: fs } = require('fs');
             payload.name = name;
         }
 
-        this.makeRequest("post", "/subscribers", payload);    
+        this.makeRequest("/subscribers", "post", payload);    
+    }
+
+    // https://developers.mailerlite.com/v2/reference#subscribers
+    getSubscribers() {
+        return this.makeRequest("/subscribers", "get");    
     }
  }
 
  class MailerLiteError extends Error {    
     constructor(message, exception) {
-        this.message = message;
+        super(message);
         this.exception = exception;
     }
 }
@@ -85,7 +99,7 @@ const { promises: fs } = require('fs');
   * 
   */
  async function test() {
-    const apiKey = await fs.readFile('mailerlite-apikey.txt');
+    const apiKey = await (await fs.readFile('mailerlite-apikey.txt', "utf-8")).trim();
 
     if(!apiKey) {
         throw new Error("API key missing");
@@ -93,8 +107,16 @@ const { promises: fs } = require('fs');
 
     const client = new MailerLiteClient(apiKey);
 
-    let resp = client.subscribe("dummy@example.com"); // https://en.wikipedia.org/wiki/Example.com
-    console.log(resp);
+    await client.subscribe("dummy2@example.com", "Dumpery Dummy"); // https://en.wikipedia.org/wiki/Example.com
+    console.log("Subscription ok");
+
+    const subscribers = await client.getSubscribers()
+    console.log("Current subscribers:");
+
+    for(const s of subscribers) {
+        console.log(s);
+    }
+
  };
 
  module.exports = {

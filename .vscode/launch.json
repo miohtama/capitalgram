@@ -9,9 +9,11 @@
             "request": "launch",
             "name": "Launch MailerLite test",
             "runtimeExecutable": "npm",
-            "runtimeArgs": [
+            "runtimeArgs": [                
                 "run-script",
-                "test-mailerlite"
+                "test-mailerlite",
+                "--",
+                "--inspect-brk=9229",
             ],
             "port": 9229,
             "skipFiles": [
