@@ -1,7 +1,7 @@
 // Simplified MailerLite API client
 
 const axios = require('axios');  // https://www.npmjs.com/package/axios
-
+const { promises: fs } = require('fs');
 
 /**
  * Quick wrapper around mailerlite
@@ -12,7 +12,7 @@ const axios = require('axios');  // https://www.npmjs.com/package/axios
  class MailerLiteClient {
 
     constructor(apiKey, endpoint=null) {
-        this.apiKey = apikey;
+        this.apiKey = apiKey;
 
         // Default API endpoint
         if(!endpoint) {
@@ -29,7 +29,7 @@ const axios = require('axios');  // https://www.npmjs.com/package/axios
      * @param {string} method Like "get"
      * @param {object} params Dict of passed params
      */
-    makeRequest(path, method="get", params={}) {
+    async makeRequest(path, method="get", params={}) {
         const fullPath = this.endpoint + path;
 
         const headers = {
@@ -48,7 +48,7 @@ const axios = require('axios');  // https://www.npmjs.com/package/axios
             return resp;    
         } catch(e) {
             // https://gist.github.com/fgilio/230ccd514e9381fafa51608fcf137253
-            const data = resp.data;
+            const data = e.data;
             const message = data.message;
             throw new MailerLiteError(message, e);
         }        
@@ -79,19 +79,25 @@ const axios = require('axios');  // https://www.npmjs.com/package/axios
   * 
   * To run: 
   * 
-  *     MAILER_LITE_API_KEY = "..." node -e "require('src/utils/mailerlite.js').test()"
+  *     export  MAILER_LITE_API_KEY=...
+  *     node -e "await require('./src/utils/mailerlite.js').test()"
   * 
   * 
   */
- function test() {
-    const apiKey =  process.env.MAILER_LITE_API_KEY;
-    const client = MailerLiteClient(apiKey);
+ async function test() {
+    const apiKey = await fs.readFile('mailerlite-apikey.txt');
+
+    if(!apiKey) {
+        throw new Error("API key missing");
+    }
+
+    const client = new MailerLiteClient(apiKey);
 
     let resp = client.subscribe("dummy@example.com"); // https://en.wikipedia.org/wiki/Example.com
     console.log(resp);
- }
+ };
 
- module exports = {
+ module.exports = {
     MailerLiteClient,
     MailerLiteError,
     test

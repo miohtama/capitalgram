@@ -4,3 +4,4 @@ package-lock.json
 dist
 .DS_Store
 img/content/dist
+mailerlite-apikey.txt
