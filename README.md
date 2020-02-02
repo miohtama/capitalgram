@@ -1,37 +1,27 @@
-# eleventy-base-blog
+# Capitalgram blog
 
-A starter repository showing how to build a blog with the [Eleventy](https://github.com/11ty/eleventy) static site generator.
+This is a corporate website and blog based on [Evelenty example](https://github.com/11ty/eleventy-base-blog).
 
-[![Build Status](https://travis-ci.org/11ty/eleventy-base-blog.svg?branch=master)](https://travis-ci.org/11ty/eleventy-base-blog)
+# Features 
 
-## Demos
+* Netlify hosting
 
-* [Netlify](https://eleventy-base-blog.netlify.com/)
-* [GitHub Pages](https://11ty.github.io/eleventy-base-blog/)
+* MailerLite newsletter
 
-## Deploy this to your own site
+* Custom theme based on Material Boostrap
 
-These builders are amazing—try them out to get your own Eleventy site in a few clicks!
+# How to develop
 
-* [Get your own Eleventy web site on Netlify](https://app.netlify.com/start/deploy?repository=https://github.com/11ty/eleventy-base-blog)
-* [Get your own Eleventy web site on ZEIT Now](https://zeit.co/new/project?template=11ty/eleventy-base-blog)
+As the site is very company-specific content, you mostly benefit about this repository
+as an example for your own Eleventy based site.
+
+Here are the instructions for running the project locally.
 
 ## Getting Started
 
 ### 1. Clone this Repository
 
-```
-git clone https://github.com/11ty/eleventy-base-blog.git my-blog-name
-```
-
-
 ### 2. Navigate to the directory
-
-```
-cd my-blog-name
-```
-
-Specifically have a look at `.eleventy.js` to see if you want to configure any Eleventy options differently.
 
 ### 3. Install dependencies
 
@@ -39,9 +29,7 @@ Specifically have a look at `.eleventy.js` to see if you want to configure any E
 npm install
 ```
 
-### 4. Edit _data/metadata.json
-
-### 5. Run Eleventy
+### 4. Run Eleventy
 
 ```
 npx eleventy
@@ -62,20 +50,34 @@ Or in debug mode:
 DEBUG=* npx eleventy
 ```
 
-### Implementation Notes
+## Testing MailerLite client
 
-* `about/index.md` shows how to add a content page.
-* `posts/` has the blog posts but really they can live in any directory. They need only the `post` tag to be added to this collection.
-* Add the `nav` tag to add a template to the top level site navigation. For example, this is in use on `index.njk` and `about/index.md`.
-* Content can be any template format (blog posts needn’t be markdown, for example). Configure your supported templates in `.eleventy.js` -> `templateFormats`.
-	* Because `css` and `png` are listed in `templateFormats` but are not supported template types, any files with these extensions will be copied without modification to the output (while keeping the same directory structure).
-* The blog post feed template is in `feed/feed.njk`. This is also a good example of using a global data files in that it uses `_data/metadata.json`.
-* This example uses three layouts:
-  * `_includes/layouts/base.njk`: the top level HTML structure
-  * `_includes/layouts/home.njk`: the home page template (wrapped into `base.njk`)
-  * `_includes/layouts/post.njk`: the blog post template (wrapped into `base.njk`)
-* `_includes/postlist.njk` is a Nunjucks include and is a reusable component used to display a list of all the posts. `index.njk` has an example of how to use it.
+A small JavaScript lib is included to interact with MailerLite from Netlify server-side functions.
 
+To test, write your MailerLite API key in a file called `mailerlite-apikey.txt` that is Gitignored.
+
+Then run.
+
+```sh
+npm run test-mailerlite
+```
+
+## Testing Netlify server-side functions
+
+To run server-side functions locally, do the following.
+
+```sh
+export MAILERLITE_API_KEY=...
+./node_modules/.bin/netlify-lambda serve src/utils 
+```    
+
+[More information](https://www.npmjs.com/package/netlify-lambda)
+
+# Random links
+
+## Netlify
+
+[How to run Netlify and Eleventy locally in the same server](https://github.com/philhawksworth/eleventyone)
 
 ## Bootstrap
 
@@ -91,9 +93,6 @@ https://github.com/idiazroncero/eleventy-netlify-cms
 
 https://github.com/muhajirdev/sendgrid-subscription-netlify-function
 
-##023dee
-
-## 
 
 https://www.prompty.io/using-your-rss-feed-to-automate-notifications/
 

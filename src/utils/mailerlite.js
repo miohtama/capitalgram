@@ -96,7 +96,7 @@ const assert = require('assert');
   *     export  MAILER_LITE_API_KEY=...
   *     node -e "await require('./src/utils/mailerlite.js').test()"
   * 
-  * 
+  * See also package.json runner.
   */
  async function test() {
     const apiKey = await (await fs.readFile('mailerlite-apikey.txt', "utf-8")).trim();

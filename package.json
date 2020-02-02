@@ -3,10 +3,10 @@
   "version": "5.0.2",
   "description": "A corporate site based on eleventy-base-blog",
   "scripts": {
-    "build": "eleventy",
+    "build": "cross-env ELEVENTY_ENV=prod eleventy",
     "watch": "eleventy --watch",
-    "serve": "eleventy --serve",
-    "debug": "DEBUG=* eleventy",
+    "serve": "cross-env ELEVENTY_ENV=dev eleventy --serve",
+    "debug": "cross-env ELEVENTY_ENV=dev DEBUG=* eleventy",
     "test-mailerlite": "node -e \"require('./src/utils/mailerlite.js').test()\"",
     "images": "yarn gulp processImages",
     "images:clean": "yarn gulp cleanImages",
@@ -33,9 +33,7 @@
     "@11ty/eleventy-navigation": "^0.1.3",
     "@11ty/eleventy-plugin-rss": "^1.0.7",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
-    "luxon": "^1.21.3",
-    "markdown-it": "^8.4.2",
-    "markdown-it-anchor": "^5.2.5",
+    "cross-env": "^7.0.0",
     "gulp": "^4.0.0",
     "gulp-changed": "^4.0.0",
     "gulp-changed-in-place": "^2.3.0",
@@ -47,10 +45,14 @@
     "gulp-responsive": "^2.13.0",
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.4",
-    "gulp-webp": "^4.0.1"
+    "gulp-webp": "^4.0.1",
+    "luxon": "^1.21.3",
+    "markdown-it": "^8.4.2",
+    "markdown-it-anchor": "^5.2.5"
   },
   "dependencies": {
     "axios": "^0.19.2",
-    "module-alias": "^2.2.2"
+    "module-alias": "^2.2.2",
+    "netlify-lambda": "^1.6.3"
   }
 }
