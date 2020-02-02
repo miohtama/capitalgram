@@ -2,6 +2,7 @@
 // https://gist.github.com/branneman/8048520
 require('module-alias/register');
 
+const assert = require("assert");
 const { DateTime } = require("luxon");
 const fs = require("fs");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
@@ -15,6 +16,11 @@ const bgimageFilter = require('@capitalgram/filters/bgimage');
 
 
 module.exports = function(eleventyConfig) {
+
+  // Read env variable set by cross-env
+  const env = process.env.ELEVENTY_ENV;
+  assert(env == "prod" || env == "dev", `Please specify env before running this, now it is set to ${env}`);
+
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(pluginNavigation);
@@ -108,7 +114,7 @@ module.exports = function(eleventyConfig) {
     dir: {
       input: ".",
       includes: "_includes",
-      data: "src/_data",
+      data: `src/config/${env}`,
       output: "_site"
     }
   };

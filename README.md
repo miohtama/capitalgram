@@ -17,6 +17,8 @@ as an example for your own Eleventy based site.
 
 Here are the instructions for running the project locally.
 
+The project has been only built on OSX, though Windows should work in theory.
+
 ## Getting Started
 
 ### 1. Clone this Repository
@@ -29,15 +31,15 @@ Here are the instructions for running the project locally.
 npm install
 ```
 
-### 4. Run Eleventy
+### 4. Run Eleventy with Netlify helper
 
 ```
-npx eleventy
+npx netlify dev
 ```
 
 Or build and host locally for local development
 ```
-npx eleventy --serve
+npx eleventy --build
 ```
 
 Or build automatically when a template changes:
@@ -47,7 +49,7 @@ npx eleventy --watch
 
 Or in debug mode:
 ```
-DEBUG=* npx eleventy
+npx debug
 ```
 
 ## Testing MailerLite client
@@ -64,12 +66,23 @@ npm run test-mailerlite
 
 ## Testing Netlify server-side functions
 
-To run server-side functions locally, do the following.
+To run server-side functions locally, write down the api key in gitignored `mailerlite-apikey.txt`.
+Then you can export it as following:
 
 ```sh
-export MAILERLITE_API_KEY=...
-./node_modules/.bin/netlify-lambda serve src/utils 
+export MAILERLITE_API_KEY=`cat mailerlite-apikey.txt`
+npx netlify dev
 ```    
+
+Then you can go directly to a function URL with your browser:
+
+http://localhost:8888/api/newsletter
+
+This should give you the reply
+
+```
+Method Not Allowed for newsletter subscriber
+```
 
 [More information](https://www.npmjs.com/package/netlify-lambda)
 
@@ -77,9 +90,15 @@ export MAILERLITE_API_KEY=...
 
 ## Netlify
 
-[How to run Netlify and Eleventy locally in the same server](https://github.com/philhawksworth/eleventyone)
+Netlify integration was inspired by Phil Hawksworth's example [How to run Netlify and Eleventy locally in the same server](https://github.com/philhawksworth/eleventyone).
 
-## Bootstrap
+It uses [cross-env](https://www.npmjs.com/package/cross-env) to set environment variable `ELEVENTY_ENV` compatible manner across Windows and Unixes.
+
+`src/data` folder is split to `dev` and `prod` configs. `.eleventy.js` chooses between these configs.
+
+Note that the separation of enviroments is not currently used for anything.
+
+## Bootstrap and theming links
 
 https://mdbootstrap.com/freebies/jquery/blog/
 
@@ -93,8 +112,8 @@ https://github.com/idiazroncero/eleventy-netlify-cms
 
 https://github.com/muhajirdev/sendgrid-subscription-netlify-function
 
-
 https://www.prompty.io/using-your-rss-feed-to-automate-notifications/
 
 https://www.pushbullet.com/channels
 
+https://alligator.io/nodejs/solve-cors-once-and-for-all-netlify-dev/
