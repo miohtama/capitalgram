@@ -23,7 +23,8 @@
         $.ajax({
             type: "POST",
             url: url,
-            data: {"email": email},
+            data: JSON.stringify({"email": email}),
+            contentType: "application/json"
           }).done(cb);
 
         function cb(data, textStatus, xhr) {
