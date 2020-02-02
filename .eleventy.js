@@ -69,7 +69,10 @@ module.exports = function(eleventyConfig) {
   });
   eleventyConfig.setLibrary("md", markdownLibrary);
 
+
   // Browsersync Overrides
+  
+  /*
   eleventyConfig.setBrowserSyncConfig({    
     callbacks: {
       ready: function(err, browserSync) {
@@ -83,6 +86,13 @@ module.exports = function(eleventyConfig) {
       },
     },
     ui: { port: 8080 },
+    ghostMode: false,
+    notify: true,
+    logLevel: "debug"
+  });*/
+
+  eleventyConfig.setBrowserSyncConfig({    
+    ui: false,
     ghostMode: false,
     notify: true,
     logLevel: "debug"

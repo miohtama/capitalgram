@@ -84,6 +84,9 @@ This should give you the reply
 Method Not Allowed for newsletter subscriber
 ```
 
+Then you can proceed to actually try to do the newsletter subscription, on the dev server,
+from the subscription form in the footer.
+
 [More information](https://www.npmjs.com/package/netlify-lambda)
 
 # Random links
