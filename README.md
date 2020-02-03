@@ -66,11 +66,11 @@ npm run test-mailerlite
 
 ## Testing Netlify server-side functions
 
-To run server-side functions locally, write down the api key in gitignored `mailerlite-apikey.txt`.
+To run server-side functions locally, write down the api key in gitignored `secrets/mailerlite-api-key.txt`.
 Then you can export it as following:
 
 ```sh
-export MAILERLITE_API_KEY=`cat mailerlite-apikey.txt`
+export MAILERLITE_API_KEY=`cat secrets/mailerlite-api-key.txt`
 npx netlify dev
 ```    
 
@@ -90,13 +90,17 @@ Test subscription with cURL:
 curl --header "Content-Type: application/json" \
   --request POST \
   --data '{"email":"foo@bar.com"}' \
-  http://localhost:3000/api/login
+  http://localhost:8888/api/newsletter
 ```  
 
-Then you can proceed to actually try to do the newsletter subscription, on the dev server,
+Then you can proceed to try to do the newsletter subscription with a browser, on the webserver,
 from the subscription form in the footer.
 
-[More information](https://www.npmjs.com/package/netlify-lambda)
+[More information about Netlify dev server](https://github.com/netlify/cli/blob/master/docs/netlify-dev.md#netlify-functions)
+
+# Deploying in production on Netlify
+
+
 
 # Random links
 
