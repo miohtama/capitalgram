@@ -84,6 +84,15 @@ This should give you the reply
 Method Not Allowed for newsletter subscriber
 ```
 
+Test subscription with cURL:
+
+```sh
+curl --header "Content-Type: application/json" \
+  --request POST \
+  --data '{"email":"foo@bar.com"}' \
+  http://localhost:3000/api/login
+```  
+
 Then you can proceed to actually try to do the newsletter subscription, on the dev server,
 from the subscription form in the footer.
 

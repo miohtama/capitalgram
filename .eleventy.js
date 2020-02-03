@@ -94,8 +94,10 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.setBrowserSyncConfig({    
     ui: false,
     ghostMode: false,
-    notify: true,
-    logLevel: "debug"
+    notify: false,
+    logLevel: "debug",
+    logConnections: true,
+    reloadDelay: 2000
   });
 
   return {

@@ -8,7 +8,7 @@
         e.preventDefault();
         var form = $(e.target).parents("form");
         var email = form.find("input[name='email']").val();
-        var url = form.attr("action");
+        var url = form.attr("data-ajax-action");
 
         console.log("Subscribing xxxx to newsletter", url, email);
 
@@ -24,11 +24,12 @@
             type: "POST",
             url: url,
             data: JSON.stringify({"email": email}),
-            contentType: "application/json"
-          }).done(cb);
+            contentType: "application/json",
+            timeout: 5000
+          }).always(cb);
 
-        function cb(data, textStatus, xhr) {
-            console.log(data, textStatus, xhr);
+        function cb(xhr) {
+            console.log(xhr);
 
             if(xhr.status == 200) {
                 form.find(".status-success").fadeIn();
