@@ -1,6 +1,10 @@
+This license covers the original work going to Capitalgram.com website. 
+Various parts of this repository contains code from other projects,
+as referred in README.
+
 MIT License
 
-Copyright (c) 2018 Zach Leatherman @zachleat
+Copyright (c) 2020 Mikko Ohtamaa
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
