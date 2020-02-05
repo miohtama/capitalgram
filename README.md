@@ -4,11 +4,13 @@ This is a corporate website and blog based on [Evelenty example](https://github.
 
 # Features 
 
-* Netlify hosting
+* A landing page, content pages and blog posts
 
-* MailerLite newsletter
+* Netlify hosting (free)
 
-* Custom theme based on Material Boostrap
+* MailerLite newsletter sign up integration with Netlify functions
+
+* Theme based on [Material Design for Boostrap](https://mdbootstrap.com/freebies/jquery/blog/)
 
 * Google Sitemaps support 
 
@@ -147,6 +149,8 @@ Primary #eeb302
 P - light #ffe54c
 
 P - dark #b78400
+
+![Material palette](screenshots/material_palette.png)
 
 https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=eeb302&secondary.color=80DEEA
 
