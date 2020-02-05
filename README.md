@@ -16,6 +16,8 @@ This is a corporate website and blog based on [Evelenty example](https://github.
 
 * RSS feed 
 
+* Using [Node.js module aliases](https://www.npmjs.com/package/module-alias) to create a clean `@capitalgram` namespace
+
 * [Gulp based pipepline](https://github.com/idiazroncero/eleventy-netlify-cms) for creating various sizes for content images and `<picture>` sets (ripped out from eleventy-netlify-cms)
 
 # How to develop
