@@ -16,6 +16,8 @@ This is a corporate website and blog based on [Evelenty example](https://github.
 
 * RSS feed 
 
+* [Gulp based pipepline](https://github.com/idiazroncero/eleventy-netlify-cms) for creating various sizes for content images and `<picture>` sets (ripped out from eleventy-netlify-cms)
+
 # How to develop
 
 As the site is very company-specific content, you mostly benefit about this repository
@@ -103,6 +105,24 @@ Then you can proceed to try to do the newsletter subscription with a browser, on
 from the subscription form in the footer.
 
 [More information about Netlify dev server](https://github.com/netlify/cli/blob/master/docs/netlify-dev.md#netlify-functions)
+
+## Image processing pipeline
+
+You can manually process images locally.
+
+* It reads `static/img/content` images
+
+* It produces `_site/img/content/dist` images
+
+* In `src/filters` I have added template filters to nicely access these images in post headers and post content
+
+To run processing manually:
+
+```
+npm run images:resize 
+```
+
+This is also run part of 
 
 # Deploying in production on Netlify
 

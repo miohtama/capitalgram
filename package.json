@@ -4,14 +4,14 @@
   "description": "A corporate site based on eleventy-base-blog",
   "scripts": {
     "start": "npm run dev",
-    "build": "cross-env ELEVENTY_ENV=prod eleventy",
+    "build": "cross-env ELEVENTY_ENV=prod eleventy && npm run images:resize",
     "watch": "eleventy --watch",
     "dev": "cross-env ELEVENTY_ENV=dev eleventy --serve",
     "debug": "cross-env ELEVENTY_ENV=dev DEBUG=* eleventy",
     "test-mailerlite": "node -e \"require('./src/utils/mailerlite.js').test()\"",
     "images": "yarn gulp processgit Images",
     "images:clean": "yarn gulp cleanImages",
-    "images:resize": "yarn gulp resizeImages",
+    "images:resize": "gulp resizeImages",
     "images:minify": "yarn gulp minifyImages",
     "images:favicons": "yarn gulp generatePwaFavicons"
   },

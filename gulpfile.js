@@ -24,7 +24,8 @@ const changed = require('gulp-changed');
 const debug = require('gulp-debug');
 
 // Require eleventy's metadata
-const metadata = require ("./_data/metadata.json");
+// Hardcoded for prod now
+const metadata = require ("@capitalgram/config/prod/metadata.json");
 
 // Require Node.js utils
 const fs = require('fs');
@@ -151,7 +152,7 @@ function generateGulpResponsiveConfiguration(){
 // Generate all the images.
 // Beware: This can become a really expensive operation!
 function resizeImages() {
-    return src('img/content/src/**/*.{png,jpg,jpeg}')
+    return src('static/img/content/src/**/*.{png,jpg,jpeg}')
         .pipe(dest('_site/img/content/dist'))
         .pipe(debug({ title : 'Resize'}))
         // .pipe(changed('src/public/images/dist'))
