@@ -2,7 +2,7 @@
 title: A new dawn, a new company
 description: First post!
 longDescription: I am setting up the company website. If you managed to scroll this far down, you have seen all.
-date: 2018-05-01
+date: 2020-02-01
 tags:
   - another-tag
 layout: layouts/post.njk
