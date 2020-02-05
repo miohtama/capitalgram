@@ -130,6 +130,14 @@ Note that the separation of environments is not currently used for anything.
 
 The logo is this free clipart https://freesvg.org/paper-plane-silhouette
 
+## Fonts
+
+Logo: [Cinzel](https://fonts.google.com/specimen/Cinzel)
+
+Heading: [Exo 2](https://fonts.google.com/specimen/Exo+2)
+
+Body: [Roboto](https://fonts.google.com/specimen/Roboto)
+
 ## Colors
 
 As given by Material palette generator
