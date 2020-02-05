@@ -100,54 +100,7 @@
       </div>
     </main>
 
-    <!--Footer-->
-    {#
-    <footer class="page-footer wow  mdb-color darken-2 mt-4 fadeIn">
-    #}
-    <footer class="page-footer wow fadeIn">
-    
-      <div class="container">
-        <div class="row">
-
-          <div class="col-md-3">
-            <h4>Business</h4>
-
-            <ul>
-              <li><a href="{{ '/services'|url }}">Services</a></li>
-              <li><a href="{{ '/advisory'|url }}">Advisory</a></li>
-              <li><a href="{{ '/blog'|url }}">Blog</a></li>
-              <li><a href="{{ '/about'|url }}">About</a></li>
-            </ul>
-            
-          </div>
-
-          <div class="col-md-3">
-            <h4>Social media</h4>
-
-            <ul>
-              <li><a href="https://linkedin/in/ohtis"><i class="fab fa-fw fa-linkedin"></i> LinkedIn</a></li>
-              <li><a href="https://twitter/moo9000"><i class="fab fa-fw fa-twitter"></i> Twitter</a></li>
-              <li><a href="{{ '/feed/feed.xml'|url }}"><i class="fas fa-fw fa-rss"></i> RSS</a></li>
-            </ul>
-          </div>
-
-          <div class="col-md-3">
-            <h4>Newsletter</h4>
-            {% include "partials/newsletter.njk" %}
-          </div>
-
-          <div class="col-md-3">
-            <h4>Contact us</h4>
-
-            <p><a class="mailto" href="mailto:hello@capitalgram.com">hello@capitalgram.com</a></p>
-            <p>Yehat Technologies Ltd.</p>
-            <p>Gibraltar</p>
-          </div>
-
-        </div>
-      </div>
-    </footer>
-    <!--/.Footer-->
+    {% include "partials/footer.njk" %}
 
     <!-- Current page: {{ page.url | url }} -->
 

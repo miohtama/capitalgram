@@ -1,0 +1,46 @@
+<section class="blog-content">
+
+    <div class="main-content ">
+
+        <div class="card">
+            <div class="card-body">
+                <div class="post-byline text-right">
+
+                    <span class="font-small grey-text mb-1">
+                        <strong>Author:</strong>
+                        {{ author }}
+                    </span>
+
+                    <span class="font-small grey-text mb-0 ml-3">
+                        <i class="far fa-clock-o dark-grey-text"></i>
+                        <time class="post-date" datetime="{{ date | htmlDateString }}">
+                            {{ date | readableDate }}
+                        </time>
+                    </span>
+                </div>
+
+                <div class="body-text">
+                    {{ content | safe }}
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="about-author">
+        {% include "partials/author.njk" %}
+    </div>
+
+    {% if commentLink %}
+        <div class="about-comments">
+            <div class="card">
+                <div class="card-body">
+                    <h4>Comments</h4>
+
+                    <a href="https://twitter.com/moo9000" class="btn  btn-primary">Send any feedback on Twitter</a>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+
+</section>

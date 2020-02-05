@@ -13,7 +13,9 @@ postListImageClass: post-list-image-cover
 author: Mikko Ohtamaa
 ---
 
-There is nothing here, but a clean slate and excitement.
+There is nothing here yet, but a clean slate and excitement.
 
 Testing out how [Eleventy](https://github.com/11ty/eleventy/) and [Netlify](https://www.netlify.com/) work.
+
+Please check out [Github repository for the website](https://github.com/miohtama/capitalgram)
 
