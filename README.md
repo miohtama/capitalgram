@@ -104,6 +104,12 @@ from the subscription form in the footer.
 
 # Deploying in production on Netlify
 
+* Toggle all optimisation options in Netlify's *Postprocessing* so you do not need to minify JS, CSS and images by hand
+
+* Set environment variable for MailerLite API key
+
+![Netlify environment](screenshots/netlify_environment.png)
+
 # Lessons learned 
 
 * The used [MDB - Material Design for Bootstrap](https://mdbootstrap.com/freebies/jquery/blog/) stylesheets are not that high quality - a lot of `!important` statements. Next time I will go with alternative [Material Design for Boostrap](https://fezvrasta.github.io/bootstrap-material-design/)
@@ -140,15 +146,14 @@ https://material.io/design/color/the-color-system.html#tools-for-picking-colors
 
 ## Bootstrap and theming links
 
-https://mdbootstrap.com/freebies/jquery/blog/
+[Theme base](https://mdbootstrap.com/freebies/jquery/blog/)
 
+[Eleventy + Netlify CMS](https://github.com/idiazroncero/eleventy-netlify-cms)
 
-https://github.com/idiazroncero/eleventy-netlify-cms
+## Push
 
-https://github.com/muhajirdev/sendgrid-subscription-netlify-function
+[SMS push for RSS with Prompty](https://www.prompty.io/using-your-rss-feed-to-automate-notifications/)
 
-https://www.prompty.io/using-your-rss-feed-to-automate-notifications/
+[PushBullet](https://www.pushbullet.com/channels)
 
-https://www.pushbullet.com/channels
-
-https://alligator.io/nodejs/solve-cors-once-and-for-all-netlify-dev/
+[CORS with Netlify](https://alligator.io/nodejs/solve-cors-once-and-for-all-netlify-dev/)
