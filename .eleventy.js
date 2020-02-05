@@ -125,7 +125,7 @@ module.exports = function(eleventyConfig) {
     // These are all optional, defaults are shown:
     dir: {
       input: ".",
-      includes: "_includes",
+      includes: "templates",
       data: `src/config/${env}`,
       output: "_site"
     }

@@ -1477,6 +1477,7 @@ button.bg-light:focus {
 .flex-1 {
   flex: 1; }
 
+/*  
 @font-face {
   font-family: Roboto;
   font-weight: 200;
@@ -1506,9 +1507,10 @@ button.bg-light:focus {
   font-weight: 700;
   src: url("../font/roboto/Roboto-Bold.eot");
   src: url("../font/roboto/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("../font/roboto/Roboto-Bold.woff2") format("woff2"), url("../font/roboto/Roboto-Bold.woff") format("woff"), url("../font/roboto/Roboto-Bold.ttf") format("truetype"); }
+*/
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: sans-serif;
   font-weight: 300; }
 
 h1, h2, h3, h4, h5, h6 {

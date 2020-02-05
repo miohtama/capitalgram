@@ -10,6 +10,10 @@ This is a corporate website and blog based on [Evelenty example](https://github.
 
 * Custom theme based on Material Boostrap
 
+* Google Sitemaps support 
+
+* RSS feed 
+
 # How to develop
 
 As the site is very company-specific content, you mostly benefit about this repository
@@ -100,7 +104,9 @@ from the subscription form in the footer.
 
 # Deploying in production on Netlify
 
+# Lessons learned 
 
+* The used [MDB - Material Design for Bootstrap](https://mdbootstrap.com/freebies/jquery/blog/) stylesheets are not that high quality - a lot of `!important` statements. Next time I will go with alternative [Material Design for Boostrap](https://fezvrasta.github.io/bootstrap-material-design/)
 
 # Random links
 
@@ -112,17 +118,30 @@ It uses [cross-env](https://www.npmjs.com/package/cross-env) to set environment 
 
 `src/data` folder is split to `dev` and `prod` configs. `.eleventy.js` chooses between these configs.
 
-Note that the separation of enviroments is not currently used for anything.
+Note that the separation of environments is not currently used for anything.
+
+## Logo
+
+The logo is this free clipart https://freesvg.org/paper-plane-silhouette
+
+## Colors
+
+As given by Material palette generator
+
+Primary #eeb302
+
+P - light #ffe54c
+
+P - dark #b78400
+
+https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=eeb302&secondary.color=80DEEA
+
+https://material.io/design/color/the-color-system.html#tools-for-picking-colors
 
 ## Bootstrap and theming links
 
 https://mdbootstrap.com/freebies/jquery/blog/
 
-https://freesvg.org/paper-plane-silhouette
-
-https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=eeb302&secondary.color=80DEEA
-
-https://material.io/design/color/the-color-system.html#tools-for-picking-colors
 
 https://github.com/idiazroncero/eleventy-netlify-cms
 

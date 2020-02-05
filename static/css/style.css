@@ -137,6 +137,10 @@ footer.page-footer {
   }
 }
 
+.page-footer .alert {
+  background: #ffe54c;
+}
+
 .page-footer ul {
   list-style: none;
   padding: 0;  
@@ -146,9 +150,9 @@ footer.page-footer {
   margin-bottom: 10px;
 }
 
-.page-footer .btn-outline-primary {
-  color :black !important;
-  border-color: black !important;
+.page-footer .btn-outline {
+  color: black !important;
+  border: 2px solid #b78400 !important;
 }
 
 .page-footer .md-form input[type=email]:focus {
