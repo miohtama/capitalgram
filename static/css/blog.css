@@ -131,10 +131,16 @@
   margin-bottom: 3rem;
 }
 
-.header-image-mode-cover-image {
+.header-image-mode-cover-image,
+.header-image-mode-cover-image-black {
   background-size: cover;
   min-height: 400px;
   margin-bottom: 3rem;
+}
+
+.header-image-mode-cover-image-black h1 {
+  color: white;
+  text-shadow: 0 0 3px white;
 }
 
 .header-image-mode-cover-image-border {

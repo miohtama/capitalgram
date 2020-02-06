@@ -59,7 +59,7 @@ a {
 
 
 /* Header image adjust */
-.tmpl-home, .tmpl-post, .tmpl-blog-roll {
+.tmpl-home, .tmpl-post, .tmpl-blog-roll, .tmpl-page {
   margin-top: 0 !important;
   padding-top: 0  !important;
 }

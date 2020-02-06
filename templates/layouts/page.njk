@@ -1,0 +1,60 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-page
+extraCSS: /static/css/blog.css
+---
+
+{# Run only if a header image has been specified #}
+{% if header %}
+  <section class="section-header-image wow fadeIn">
+    <div class="header-image-wrapper {{ headerImageModeClass }}" style="background-image: url({{ header|url }});{% if headerImageBackgroundColor %}backgrond-color: {{headerImageBackgroundColor}} {% endif %}">
+
+      <div class="header-text text-center">
+        <div class="container">
+          
+          <h1 class="mb-4">
+            {{ title }}
+          </h1>
+
+          <p class="lead">
+            {{ description }}
+          </p>
+        </div>  
+      </div>
+    </div>
+  </section>
+{% else %}  
+  {# Plain boring background #}
+  <section class="section-header-image wow fadeIn">
+    <div class="header-image-wrapper header-image-missing {{ headerImageModeClass }}">
+
+      <div class="header-text text-center">
+        <div class="container">
+          
+          <h1 class="mb-4">
+            {{ title }}
+          </h1>
+
+          <p class="lead">
+            {{ description }}
+          </p>
+        </div>  
+      </div>
+    </div>
+  </section>
+{% endif %}
+
+
+<section class="content">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-12">
+        {{ content|safe }}
+      </div>
+    </div>
+  </div>
+</section>  
+
+
+

@@ -178,6 +178,10 @@ https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=e
 
 https://material.io/design/color/the-color-system.html#tools-for-picking-colors
 
+## Photos
+
+[Markus Spiske](https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
 ## Bootstrap and theming links
 
 [Theme base](https://mdbootstrap.com/freebies/jquery/blog/)
