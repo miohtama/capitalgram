@@ -9,6 +9,7 @@
             "request": "launch",
             "name": "Launch MailerLite test",
             "runtimeExecutable": "npm",
+            "cwd": "${workspaceFolder}",
             "runtimeArgs": [                
                 "run-script",
                 "test-mailerlite",
@@ -18,7 +19,10 @@
             "port": 9229,
             "skipFiles": [
                 "<node_internals>/**"
-            ]
+            ],
+            "env": {
+                "PATH": "/Users/moo/.nvm/versions/node/v11.0.0/bin:${env:PATH}"
+            }
         }        
     ]
 }

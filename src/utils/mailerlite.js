@@ -55,15 +55,21 @@ const assert = require('assert');
             // https://gist.github.com/fgilio/230ccd514e9381fafa51608fcf137253
             let message = e.message;
             if(e.response) {
-                message += " status:" + e.response.status + " " + e.response.statusText;
+                message += " status:" + e.response.status + " " + e.response.statusText;            
+
+                //  Object {code: 400, message: "Invalid email address"}
+                if(e.response.data && e.response.data.error) {
+                    message = e.response.data.error.message;
+                }
             }
-            throw new MailerLiteError(message, e);
+            
+        throw new MailerLiteError(message, e);
         }        
     }
 
 
     // https://developers.mailerlite.com/v2/reference#create-a-subscriber
-    subscribe(email, name=null) {
+    async subscribe(email, name=null) {
 
         let payload = { email: email };
 
@@ -72,16 +78,20 @@ const assert = require('assert');
             payload.name = name;
         }
 
-        this.makeRequest("/subscribers", "post", payload);    
+        return this.makeRequest("/subscribers", "post", payload);    
     }
 
     // https://developers.mailerlite.com/v2/reference#subscribers
-    getSubscribers() {
+    async getSubscribers() {
         return this.makeRequest("/subscribers", "get");    
     }
  }
 
+ /**
+  * Message should be end user readable.
+  */
  class MailerLiteError extends Error {    
+
     constructor(message, exception) {
         super(message);
         this.exception = exception;
@@ -99,7 +109,7 @@ const assert = require('assert');
   * See also package.json runner.
   */
  async function test() {
-    const apiKey = await (await fs.readFile('mailerlite-apikey.txt', "utf-8")).trim();
+    const apiKey = await (await fs.readFile('secrets/mailerlite-api-key.txt', "utf-8")).trim();
 
     if(!apiKey) {
         throw new Error("API key missing");
@@ -108,6 +118,14 @@ const assert = require('assert');
     const client = new MailerLiteClient(apiKey);
 
     await client.subscribe("dummy2@example.com", "Dumpery Dummy"); // https://en.wikipedia.org/wiki/Example.com
+    console.log("Subscription ok");
+
+    try { 
+        await client.subscribe("bademail", "Dumpery Dummy"); // https://en.wikipedia.org/wiki/Example.com
+    } catch(e) {
+        assert(e.message == "Invalid email address");
+    }
+    
     console.log("Subscription ok");
 
     const subscribers = await client.getSubscribers()

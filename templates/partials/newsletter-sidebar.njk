@@ -1,12 +1,12 @@
 {# AJAX form to handle the newsletter subscripton #}
-<form class="form-newsletter">
+<form class="form-newsletter" data-ajax-action="{{ '/api/newsletter'|url }}">
     <div class="md-form my-0">
         <div class="text-small status-success status-message" style="display: none">
             You are now subscribed.
         </div>
 
-        <div class="alert alert-error status-error status-message" style="display: none">
-            Something went wrong.
+        <div class="alert alert-danger status-error status-message" style="display: none">
+            Something went wrong and subscription was not successful. <strong class="status-error-user"><!-- --></strong>.
         </div>
 
         <input class="form-control mr-sm-2" type="email" placeholder="Your email" aria-label="Email" name="email">

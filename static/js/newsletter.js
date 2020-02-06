@@ -29,13 +29,14 @@
           }).always(cb);
 
         function cb(xhr) {
-            console.log(xhr);
+            console.log(xhr.responseText);
 
             if(xhr.status == 200) {
                 form.find(".status-success").fadeIn();
                 form.find("button,input").hide();
             } else {
-                form.find(".status-error").show();
+                form.find(".status-error-user").text(xhr.responseText);
+                form.find(".status-error").show();                
             }
 
             form.find("button,input").removeAttr("disabled");

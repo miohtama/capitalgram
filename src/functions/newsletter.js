@@ -39,8 +39,15 @@ exports.handler = async (event, context, cb) => {
         }
     }
 
-    client.subscribe(email);
-
+    try {
+        await client.subscribe(email);
+    } catch(e) {
+        return {
+            statusCode: 500,
+            body: e.message
+        }        
+    }
+    
     return {
         statusCode: 200,
         body: "ok"
