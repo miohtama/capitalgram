@@ -180,7 +180,13 @@ https://material.io/design/color/the-color-system.html#tools-for-picking-colors
 
 ## Photos
 
+Photographs from the following photographers were used on the website. All photos were sourced on Unsplash
+
+[Austin Distel](https://unsplash.com/@austindistel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
 [Markus Spiske](https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+Photos are under [Unsplash license](https://unsplash.com/license).
 
 ## Bootstrap and theming links
 
