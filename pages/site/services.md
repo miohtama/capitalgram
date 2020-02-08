@@ -9,6 +9,9 @@ eleventyNavigation:
 header: /static/img/header-services.jpg
 headerImageModeClass: header-image-mode-cover-image-black
 headerImageBackgrondColor: #000000
+
+permalink: "services"
+permalinkBypassOutputDir: true
 ---
 
 <section class="card-deck-home card-deck-services">
