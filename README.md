@@ -186,6 +186,8 @@ Photographs from the following photographers were used on the website. All photo
 
 [Markus Spiske](https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
+[Christina @ wocintechchat.com)[https://unsplash.com/@wocintechchat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText]
+
 Photos are under [Unsplash license](https://unsplash.com/license).
 
 ## Bootstrap and theming links

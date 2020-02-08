@@ -100,6 +100,36 @@ a {
   flex: auto;
 }
 
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/::marker 
+
+Does not work in Chrome yet, experimental
+*/
+/*
+.card-deck-home li::marker {
+  color: #eeb302;
+  font-size: 1.2em;
+}*/
+
+/* https://stackoverflow.com/a/5308785/315168 */
+.card-deck-home ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 20px;
+}
+
+.card-deck-home li::before {
+  content: "▶";
+  font-size: 80%;
+  color: #eeb302;
+  position: relative;
+  left: -10px;
+}
+
+.card-deck-home li {
+  text-indent: -12px;
+  margin-bottom: 10px;
+}
+
 .card-deck-home .card-body .btn {
   align-self: flex-end;
 }
