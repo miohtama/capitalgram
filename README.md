@@ -193,7 +193,13 @@ Photographs from the following photographers were used on the website. All photo
 
 [Markus Spiske](https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
-[Christina @ wocintechchat.com)[https://unsplash.com/@wocintechchat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText]
+[Christina @ wocintechchat.com](https://unsplash.com/@wocintechchat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+[Shannon Rowies](https://unsplash.com/@shannonrowies?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+[Alexandre Debiève](https://unsplash.com/@alexkixa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+[Joao Silas](https://unsplash.com/@joaosilas?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 Photos are under [Unsplash license](https://unsplash.com/license).
 
@@ -210,3 +216,7 @@ Photos are under [Unsplash license](https://unsplash.com/license).
 [PushBullet](https://www.pushbullet.com/channels)
 
 [CORS with Netlify](https://alligator.io/nodejs/solve-cors-once-and-for-all-netlify-dev/)
+
+## Other good Eleventy sites
+
+[Raymond Camden](https://www.raymondcamden.com)

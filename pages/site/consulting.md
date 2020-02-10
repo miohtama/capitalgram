@@ -1,12 +1,12 @@
 ---
 layout: layouts/page.njk
 title: Fintech and blockchain consulting
-description: Advisory for building fintech services and investing in technology.
+description: Advisory for building fintech companies and investing in technology.
 templateClass: tmpl-page
 eleventyNavigation:
   key: Consulting
   order: 4
-header: /static/img/header-services.jpg
+header: /static/img/header-consulting.jpg
 headerImageModeClass: header-image-mode-cover-image-black
 headerImageBackgrondColor: #000000
 
@@ -18,28 +18,28 @@ permalinkBypassOutputDir: false
   <div class="card-deck mb-2">
     <div class="card">
         <div class="view overlay">
-          <img src="{{ '/static/img/service-equity-crowdfunding.jpg'|url }}" class="card-img-top" alt="">
+          <img src="{{ '/static/img/consulting-cto.jpg'|url }}" class="card-img-top" alt="">
         </div>
         <div class="card-body">
-            <h4>CTO services</h5>
+            <h4>CTO and advisory services</h5>
             <div class="card-middle">
               <p>
-                  Our online software platform allows you to 
-                  manage deal flow, onboard investors and 
-                  make transactions in scaleable.                 
+                  <strong>Are you building a tech startup and need help to get your platform development kickstarted?</strong> 
+              </p>    
+              <p>Contact us to get a CTO 
+                  who will write a technology roadmap and set up a 
+                  development team for you.
               </p>
               <h5>Benefits</h5>
               <ul>
-                <li>Deal flow discovery for funds and private equity</li>              
-                <li>Reach out investors easily around the world</li>
-                <li>Frictionless online investment process</li>
-                <li>Onboard large and small investors without hassle</li>
-                <li>Automatic integration with global compliance databases</li>
+                <li>Experienced cofounder</li>
+                <li>Process oriented working model</li>              
+                <li>Ready network and relationships to set up a tech development team</li>
               </ul>            
-              <h5>The plaform is ideal for:</h5>
+              <h5>The CTO service is an ideal for:</h5>
               <ul>
-                <li>Regional investment advisors</li>
-                <li>Private equity funds looking to automate their processes</li>
+                <li>A company that has raised a seed funding</li>
+                <li>35% of more equity to allocate</li>
               </ul>              
             </div>  
             <a href="mailto:hello@capitalgram.com"
@@ -49,38 +49,32 @@ permalinkBypassOutputDir: false
     </div>
     <div class="card">
         <div class="view overlay">
-          <img src="{{ '/static/img/service-investment-warden.jpg'|url }}" class="card-img-top" alt="">
+          <img src="{{ '/static/img/consulting-due-diligence.jpg'|url }}" class="card-img-top" alt="">
         </div>
         <div class="card-body">
             <h4>Technical due diligence</h5>
             <p>
-                Investment warden service consists of automated investor dashboard and a corporate governance expert 
-                appointed as a board member.
-                It protects the investors' interest in a company and lowers the
-                risks in private equity investments. Raised capital is
-                held on an escrow account and released to the company 
-                based on agreed milestones.            
+                <strong>Are you looking to invest in a technology company or a blockchain project?</strong>
+            <p>
+            <p>    
+                Ask our experts to find out how solid is the pitch of the project.
             </p>              
             <h5>Benefits</h5>
             <ul>
               <li>
-                If the business plan fails, the raised capital can be partially
-                reclaimed from the escrow
+                Get an in-depth unfiltered analysis of the technology feasiblity
               </li>
               <li>
-                Automated Key Performance Index (KPI) reports for the investors
+                Compare with benchmarks on projects in the same space
               </li>
               <li>
-                An appointed board member with full access rights who writes 
-                a summary to investors each month or quarter, so investors
-                have an independent view of a company state                  
+                Get an independent opinion on assumptions and cash flow analysis
               </li>              
             </ul>            
             <h5>The service is ideal for:</h5>
             <ul>
-              <li>Crowdfunded companies</li>
-              <li>Private companies with a high number of shareholders</li>
-              <li>Developing country companies who are looking invesments from abroad</li>
+              <li>Angel investors</li>
+              <li>Cryptocurrency funds</li>
             </ul>              
             <a href="mailto:hello@capitalgram.com"
               class="btn btn-primary btn-md">Contact us<i class="fas fa-envelope ml-2"></i> 
