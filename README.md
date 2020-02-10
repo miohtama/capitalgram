@@ -138,7 +138,9 @@ This is also run part of
 
 * The used [MDB - Material Design for Bootstrap](https://mdbootstrap.com/freebies/jquery/blog/) stylesheets are not that high quality - a lot of `!important` statements. Next time I will go with alternative [Material Design for Boostrap](https://fezvrasta.github.io/bootstrap-material-design/)
 
-# Random links
+# Links
+
+Helpful links related to building this website.
 
 ## Netlify
 
@@ -151,6 +153,9 @@ It uses [cross-env](https://www.npmjs.com/package/cross-env) to set environment 
 Note that the separation of environments is not currently used for anything.
 
 We have some force pushed `node_modules` inside `src/functions` because Netlify functions deployer cannot do `npm install` yet.
+
+[Discussion how to deploy functions bundled with packages and additional files](https://community.netlify.com/t/cannot-find-module-error-when-site-is-live-and-function-is-invoked/1449)
+
 
 ## Logo
 
@@ -197,10 +202,6 @@ Photos are under [Unsplash license](https://unsplash.com/license).
 [Theme base](https://mdbootstrap.com/freebies/jquery/blog/)
 
 [Eleventy + Netlify CMS](https://github.com/idiazroncero/eleventy-netlify-cms)
-
-## Netlify
-
-[Discussion how to deploy functions bundled with packages and additional files](https://community.netlify.com/t/cannot-find-module-error-when-site-is-live-and-function-is-invoked/1449)
 
 ## Push
 
