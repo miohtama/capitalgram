@@ -28,9 +28,9 @@
             timeout: 5000
           }).always(cb);
 
-        function cb(xhr) {
+        function cb(data, textStatus, xhr) {
             
-            console.log("API response", xhr);
+            console.log("API response", data, textStatus, xhr);
 
             if(xhr.status == 200) {
                 form.find(".status-success").fadeIn();

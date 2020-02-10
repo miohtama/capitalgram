@@ -23,7 +23,13 @@ exports.handler = async (event, context, cb) => {
     // }
 
     if(event.httpMethod != "POST") {
-        return { statusCode: 405, body: "Method Not Allowed for newsletter subscriber" };
+        return { 
+            statusCode: 405, 
+            body: "Method Not Allowed for newsletter subscriber",
+            headers: {
+                "content-type": "application/text"
+            },            
+        };
     }
 
     console.log("Processing POST");
@@ -33,6 +39,9 @@ exports.handler = async (event, context, cb) => {
     
     if (!email) {
         return {
+            headers: {
+                "content-type": "application/text"
+            },                        
             statusCode: 500,
             body: "param email not found"
         }
@@ -43,13 +52,21 @@ exports.handler = async (event, context, cb) => {
         await client.subscribe(email);
     } catch(e) {
         return {
+            headers: {
+                "content-type": "application/text"
+            },            
             statusCode: 500,
             body: e.message
         }        
     }
     
     return {
-        statusCode: 200,
+        // You need to explicitly add content-type here,
+        // or Firefox tries to parse the response as XML
+        headers: {
+            "content-type": "application/text"
+        },        
+        statusCode: 200,                
         body: "ok"
     };
 };
