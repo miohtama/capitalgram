@@ -1,16 +1,16 @@
 ---
 layout: layouts/page.njk
-title: Software-as-a-service solutions for investing 
-description: Modern online products for raising capital, investing and corporate governance.
+title: Fintech and blockchain consulting
+description: Advisory for building fintech services and investing in technology.
 templateClass: tmpl-page
 eleventyNavigation:
-  key: Services
-  order: 3
+  key: Consulting
+  order: 4
 header: /static/img/header-services.jpg
 headerImageModeClass: header-image-mode-cover-image-black
 headerImageBackgrondColor: #000000
 
-permalink: "investor-software-as-a-service/"
+permalink: "fintech-consulting/"
 permalinkBypassOutputDir: false
 ---
 
@@ -21,7 +21,7 @@ permalinkBypassOutputDir: false
           <img src="{{ '/static/img/service-equity-crowdfunding.jpg'|url }}" class="card-img-top" alt="">
         </div>
         <div class="card-body">
-            <h4>Equity crowdfunding platform</h5>
+            <h4>CTO services</h5>
             <div class="card-middle">
               <p>
                   Our online software platform allows you to 
@@ -52,7 +52,7 @@ permalinkBypassOutputDir: false
           <img src="{{ '/static/img/service-investment-warden.jpg'|url }}" class="card-img-top" alt="">
         </div>
         <div class="card-body">
-            <h4>Investment Warden</h5>
+            <h4>Technical due diligence</h5>
             <p>
                 Investment warden service consists of automated investor dashboard and a corporate governance expert 
                 appointed as a board member.

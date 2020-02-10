@@ -23,7 +23,7 @@
             url: url,
             data: JSON.stringify({"email": email}),
             contentType: "application/json",
-            timeout: 5000
+            timeout: 5000 // Netlify functions themselves have timeout of 10s
           }).always(cb);
 
         function cb(data, textStatus, xhr) {

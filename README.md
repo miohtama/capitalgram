@@ -8,17 +8,17 @@ This is a corporate website and blog based on [Evelenty example](https://github.
 
 * Netlify hosting (free)
 
-* MailerLite newsletter sign up integration with Netlify functions
+* MailerLite newsletter sign up integration using Netlify serverless functions
 
-* Theme based on [Material Design for Boostrap](https://mdbootstrap.com/freebies/jquery/blog/)
+* Theme based on [Material Design for Boostrap](https://mdbootstrap.com/freebies/jquery/blog/), uses [Wow.js](https://wowjs.uk/) for reveal animations
 
 * Google Sitemaps support 
 
 * RSS feed 
 
-* Using [Node.js module aliases](https://www.npmjs.com/package/module-alias) to create a clean `@capitalgram` namespace
+* Clean source tree by using  [Node.js module aliases](https://www.npmjs.com/package/module-alias) to create a `@capitalgram` namespace
 
-* [Gulp based pipepline](https://github.com/idiazroncero/eleventy-netlify-cms) for creating various sizes for content images and `<picture>` sets (ripped out from eleventy-netlify-cms)
+* Image optimisations and `<picture>` size sets with [Gulp based pipepline](https://github.com/idiazroncero/eleventy-netlify-cms) (ripped out from eleventy-netlify-cms)
 
 # How to develop
 
