@@ -65,9 +65,6 @@ a {
 }
 
 .card-jumbo {
-    /*
-  background: #eeb302;
-  */
   background: #EEEEEE url(../img/splash4.jpg);
   color: black;
   background-size: contain;
@@ -145,6 +142,48 @@ Does not work in Chrome yet, experimental
   /*
   color: black;
   */
+}
+
+/* Plain pages */
+
+.body-tmpl-plain {
+  background: white;  
+}
+
+.tmpl-plain {
+  padding: 0;
+}
+
+.tmpl-plain .view {
+  /* Fix for box shadow not rendering on <img> */
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.gold-text {
+  color: #eeb302;
+}
+
+ul.follow-person {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.follow-person li {
+  display: inline-block;
+}
+
+.follow-person i {
+ font-size: 24px;
+}
+
+.follow-person a {
+  transition: 0.35s;
+  color: black;
+}
+
+.follow-person a:hover {
+  color: #ffe54c;
 }
 
 
