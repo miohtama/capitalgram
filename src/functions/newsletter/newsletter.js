@@ -5,8 +5,7 @@
  * This is called on the client side by AJAX in static/js/newsletter.js
  */
 
-const { MailerLiteClient } = require('../utils/mailerlite');
-const { preflight } = require('../utils/cors');
+const { MailerLiteClient } = require('./mailerlite');
 
 const { MAILERLITE_API_KEY } = process.env;
 
@@ -39,6 +38,7 @@ exports.handler = async (event, context, cb) => {
         }
     }
 
+    // Call MailerLite API
     try {
         await client.subscribe(email);
     } catch(e) {

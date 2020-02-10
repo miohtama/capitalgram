@@ -1,0 +1,17 @@
+{
+    "name": "newsletter",
+    "version": "1.0.0",
+    "description": "MailerLite integration with Netlify",
+    "main": "main.js",
+    "keywords": [
+      "netlify",
+      "serverless",
+      "js"
+    ],
+    "author": "Mikko Ohtamaa",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^0.19.2"
+    }
+  }
+  
