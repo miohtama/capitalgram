@@ -4,14 +4,13 @@
     "description": "MailerLite integration with Netlify",
     "main": "main.js",
     "keywords": [
-      "netlify",
-      "serverless",
-      "js"
+        "netlify",
+        "serverless",
+        "js"
     ],
     "author": "Mikko Ohtamaa",
     "license": "MIT",
     "dependencies": {
         "axios": "^0.19.2"
     }
-  }
-  
+}

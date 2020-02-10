@@ -8,7 +8,7 @@
     "watch": "eleventy --watch",
     "dev": "cross-env ELEVENTY_ENV=dev eleventy --serve",
     "debug": "cross-env ELEVENTY_ENV=dev DEBUG=* eleventy",
-    "test-mailerlite": "node -e \"require('./src/utils/mailerlite.js').test()\"",
+    "test-mailerlite": "node -e \"require('./src/functions/newsletter/mailerlite.js').test()\"",
     "images": "yarn gulp processgit Images",
     "images:clean": "yarn gulp cleanImages",
     "images:resize": "gulp resizeImages",

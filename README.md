@@ -150,6 +150,8 @@ It uses [cross-env](https://www.npmjs.com/package/cross-env) to set environment 
 
 Note that the separation of environments is not currently used for anything.
 
+We have some force pushed `node_modules` inside `src/functions` because Netlify functions deployer cannot do `npm install` yet.
+
 ## Logo
 
 The logo is this free clipart https://freesvg.org/paper-plane-silhouette
@@ -195,6 +197,10 @@ Photos are under [Unsplash license](https://unsplash.com/license).
 [Theme base](https://mdbootstrap.com/freebies/jquery/blog/)
 
 [Eleventy + Netlify CMS](https://github.com/idiazroncero/eleventy-netlify-cms)
+
+## Netlify
+
+[Discussion how to deploy functions bundled with packages and additional files](https://community.netlify.com/t/cannot-find-module-error-when-site-is-live-and-function-is-invoked/1449)
 
 ## Push
 
