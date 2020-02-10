@@ -10,15 +10,13 @@
         var email = form.find("input[name='email']").val();
         var url = form.attr("data-ajax-action");
 
-        console.log("Subscribing xxxx to newsletter", url, email);
+        console.log("Subscribing to newsletter", url, email);
 
         // Simple state machine with CSS attributes
         form.find("button,input").attr("disabled", "disabled");
         form.find("input").attr("disabled", "disabled");
         form.find(".fa-spinner").show();
         form.find(".status-message").hide();
-
-        // $.post(url, , cb);
 
         $.ajax({
             type: "POST",
