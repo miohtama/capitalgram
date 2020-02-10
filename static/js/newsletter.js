@@ -29,13 +29,18 @@
           }).always(cb);
 
         function cb(xhr) {
-            console.log(xhr.responseText);
+            console.log(xhr);
 
             if(xhr.status == 200) {
                 form.find(".status-success").fadeIn();
                 form.find("button,input").hide();
             } else {
-                form.find(".status-error-user").text(xhr.responseText);
+                if(xhr.responseText) {
+                    form.find(".status-error-user").text(xhr.responseText);
+                } else {
+                    form.find(".status-error-user").text("Unknown error");
+                }
+                
                 form.find(".status-error").show();                
             }
 
