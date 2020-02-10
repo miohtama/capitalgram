@@ -29,10 +29,12 @@
           }).always(cb);
 
         function cb(xhr) {
-            console.log(xhr);
+            
+            console.log("API response", xhr);
 
             if(xhr.status == 200) {
                 form.find(".status-success").fadeIn();
+                form.find(".status-error").hide();
                 form.find("button,input").hide();
             } else {
                 if(xhr.responseText) {
