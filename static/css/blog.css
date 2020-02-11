@@ -201,7 +201,7 @@
 
 .header-image-text-white h1 {
   color: white;
-  background: #eeb302;
+  background:rgba(238,179,2, 0.66);
   font-weight: 700;
   font-size: 3.5rem;
   padding: 1rem;
