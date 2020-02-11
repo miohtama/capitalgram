@@ -11,21 +11,19 @@ postListImageClass: post-list-image-cover
 author: Mikko Ohtamaa
 ---
 
-A cap table service is an online service that manages records of shareholdings in a company. Usually, these services may provide value adding features, like investor communications, digital agreement signing and share transfer services.  
+A cap table service is an online service that manages records of shareholdings in a company. Futhermore, these services often provide value adding features, like investor communications, agreement signing and share transfer services.  
 
-In this post, we take a look couple of well-known services and if they can be used for an international company. In this case, an international company means a company outside the US, having its shares nominated in some other currency that is not the United States Dollar (USD). I did a quick onboarding test and also tweeted for the service providers for additional help.
+In this post, we take a look couple of well-known services and if they can be used for an international company. In this case, an international company means a company outside the US, having its shares nominated in some other currency that is not the United States Dollar (USD). Many of the services in this space focus on the US markets, so it is somewhat hard to find one for managing international or EU cap table. I did a quick onboarding test and also tweeted for the service providers for additional help.
 
-This post focuses on onboarding and getting started with a cap table service. My criteria includes
+This post focuses on onboarding and getting started with a cap table service. My criteria includes:
 
 * Offers self sign up, so that you can start using a service without a compulsory call with a sales representative
 * Transparent, upfront, pricing
 * Knows about world currencies (Euro, Pound, others)
 
-Surprisingly, many of the listed services are very US centric and it was hard to find 
-
 Meet the cap table service competitors:
 
-<div id="toc"><!-- --></div>
+<ol id="toc"><!-- --></ol>
 
 ## Carta
 
@@ -73,13 +71,15 @@ EqVista pricing is $2 per shareholders - though they forget to mention if it is 
 
 However, looks like the deal breaker here is the lack of support for international currencies.
 
+<blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">6/ <a href="https://t.co/T5RHXZJdM1">https://t.co/T5RHXZJdM1</a> - <a href="https://twitter.com/eqvista?ref_src=twsrc%5Etfw">@eqvista</a><br><br>Dealbreaker: Supports only US Dollar nominated shares <a href="https://t.co/SLXTsvkSpV">pic.twitter.com/SLXTsvkSpV</a></p>&mdash; Mikko Ohtamaa (@moo9000) <a href="https://twitter.com/moo9000/status/1214502916205285377?ref_src=twsrc%5Etfw">January 7, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
 ## Vestd
 
 [Vestd](https://vestd.com/) is the UK only cap table management solution. The UK as a jurisdiction is a bit different, because you need to report full shareholder information to Companies House. As opposed to most of the other jurisdictions that let companies manage their own shareholder registries. Their specialisation is employee share schemes, or options.
 
 Vestd is a good solution if you are looking to incorporate in the UK. The UK offers EMI (Enterprise Management Incentive) tax schemes for startups making it very tax-efficient to have employee options or crowdfunded equity there.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">7/ <a href="https://t.co/9KtWMq2Mrv">https://t.co/9KtWMq2Mrv</a> - <a href="https://twitter.com/VestdHQ?ref_src=twsrc%5Etfw">@VestdHQ</a><br><br>Dealbreaker: Supports only UK companies, as they are integrated with Companies House <a href="https://t.co/BvjdMdcJTc">pic.twitter.com/BvjdMdcJTc</a></p>&mdash; Mikko Ohtamaa (@moo9000) <a href="https://twitter.com/moo9000/status/1214503434969374720?ref_src=twsrc%5Etfw">January 7, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">7/ <a href="https://t.co/9KtWMq2Mrv">https://t.co/9KtWMq2Mrv</a> - <a href="https://twitter.com/VestdHQ?ref_src=twsrc%5Etfw">@VestdHQ</a><br><br>Dealbreaker: Supports only UK companies, as they are integrated with Companies House <a href="https://t.co/BvjdMdcJTc">pic.twitter.com/BvjdMdcJTc</a></p>&mdash; Mikko Ohtamaa (@moo9000) <a href="https://twitter.com/moo9000/status/1214503434969374720?ref_src=twsrc%5Etfw">January 7, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 
 ## CapDesk
