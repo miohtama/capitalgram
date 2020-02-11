@@ -20,6 +20,8 @@ This is a corporate website and blog based on [Evelenty example](https://github.
 
 * Image optimisations and `<picture>` size sets with [Gulp based pipepline](https://github.com/idiazroncero/eleventy-netlify-cms) (ripped out from eleventy-netlify-cms)
 
+* [Table of Content generation for pages and posts](https://afeld.github.io/bootstrap-toc/)
+
 # How to develop
 
 As the site is very company-specific content, you mostly benefit about this repository
@@ -126,6 +128,14 @@ npm run images:resize
 
 This is also run part of 
 
+## Table of contents
+
+Table of Contents is generated in-fly from the page content by JavaScript. You need to place a marker element where you want the table of contents to appear.
+
+```html
+<ol id="toc"><!-- --></ol>
+```
+
 # Deploying in production on Netlify
 
 * Toggle all optimisation options in Netlify's *Postprocessing* so you do not need to minify JS, CSS and images by hand
@@ -159,7 +169,7 @@ We have some force pushed `node_modules` inside `src/functions` because Netlify 
 
 ## Logo
 
-The logo is this free clipart https://freesvg.org/paper-plane-silhouette
+[Capitalgram logo is based on the free clipart put under public domain](https://freesvg.org/paper-plane-silhouette).
 
 ## Fonts
 
@@ -201,6 +211,8 @@ Photographs from the following photographers were used on the website. All photo
 
 [Joao Silas](https://unsplash.com/@joaosilas?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
+[Giorgio Trovato](https://unsplash.com/@giorgiotrovato?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
 Photos are under [Unsplash license](https://unsplash.com/license).
 
 ## Bootstrap and theming links
@@ -218,5 +230,7 @@ Photos are under [Unsplash license](https://unsplash.com/license).
 [CORS with Netlify](https://alligator.io/nodejs/solve-cors-once-and-for-all-netlify-dev/)
 
 ## Other good Eleventy sites
+
+Look up for good examples.
 
 [Raymond Camden](https://www.raymondcamden.com)

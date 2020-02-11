@@ -102,26 +102,6 @@
 
     {% include "partials/footer.njk" %}
 
-    <!-- Current page: {{ page.url | url }} -->
-
-    <!-- JQuery -->
-    <script type="text/javascript" src="{{ '/static/js/jquery-3.4.1.min.js'|url }}"></script>
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="{{ '/static/js/popper.min.js'|url }}"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="{{ '/static/js/bootstrap.min.js'|url }}"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="{{ '/static/js/mdb.min.js'|url }}"></script>
-
-    <!-- Newsletter subscriber -->
-    <script type="text/javascript" src="{{ '/static/js/newsletter.js'|url }}"></script>
-
-    <!-- Initializations -->
-    <script type="text/javascript">
-      // Animations initialization
-      new WOW().init();
-
-    </script>
-
+    {% include "partials/script.njk" %}
   </body>
 </html>

@@ -36,6 +36,12 @@
 
 .card-about-the-author img {
   margin-right: 1rem;
+  max-width: 128px;
+}
+
+.card-about-the-author a {
+  color: #b68300;
+  font-weight: bold;
 }
 
 /*
@@ -68,7 +74,8 @@
 }
 
 .body-text .twitter-tweet {
-  margin: 0 auto;
+  margin: 0 auto; /* Twitter JS forces inline style on element */
+  padding: 60px 0;
 }
 
 .body-text h2 .direct-link {
@@ -78,6 +85,28 @@
 
 .body-text h2:hover .direct-link {
   color: rgba(238, 179,2, 0.8);
+}
+
+
+/**
+ * Table of contents
+ */
+
+#toc {
+  background: #fee;
+  padding: 20px;
+  margin: 20px 0;
+} 
+
+#toc ul {
+  list-style: disc;
+  list-style-type: "▸";
+  padding-left: 20px;
+}
+
+#toc li {
+  margin-bottom: 0;
+  padding-left: 10px;
 }
 
 

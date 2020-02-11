@@ -1,0 +1,35 @@
+{# All JS we share across pages #}
+
+<!-- JQuery -->
+<script type="text/javascript" src="{{ '/static/js/jquery-3.4.1.min.js'|url }}"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="{{ '/static/js/popper.min.js'|url }}"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="{{ '/static/js/bootstrap.min.js'|url }}"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="{{ '/static/js/mdb.min.js'|url }}"></script>
+
+<!-- Newsletter subscriber -->
+<script type="text/javascript" src="{{ '/static/js/newsletter.js'|url }}"></script>
+
+<script type="text/javascript" src="{{ '/static/js/toc.js'|url }}"></script>
+
+<!-- Initializations -->
+<script type="text/javascript">
+  // Animations initialization
+  new WOW().init();
+
+</script>
+
+<script type="text/javascript">
+  // Generate table of contents, e.g. What is a security article
+  // https://github.com/afeld/bootstrap-toc/
+  // have <ol id="tol"></ol> in view source
+  (function($) {
+    $(document).ready(function() {
+      var $nav = $("#toc");
+      Toc.init($nav);
+      //$("#toc").toc({content: ".body-text", headings: "h2,h3"});
+    });      
+  })(jQuery); 
+</script>

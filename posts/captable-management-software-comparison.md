@@ -1,6 +1,6 @@
 ---
-title: Comparing cap table services for an international company
-description: Solutions to manage your shareholders and investor communications
+title: Cap table services comparison
+description: Solutions to manage your shareholders and investor communications for an international company
 longDescription: A short benchmark on onboarding an international company for a different cap table management providers.
 date: 2020-02-10
 layout: layouts/post.njk
@@ -23,11 +23,17 @@ This post focuses on onboarding and getting started with a cap table service. My
 
 Surprisingly, many of the listed services are very US centric and it was hard to find 
 
+Meet the cap table service competitors:
+
+<div id="toc"><!-- --></div>
+
 ## Carta
 
 [Carta](https://carta.com)  is one of the most well-known cap table management brands with [a unicorn level $1.7B valuation](https://techcrunch.com/2019/05/06/carta-was-just-valued-at-1-7-billion-by-andreessen-horowitz-in-a-deal-some-see-as-rich/?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAC5U_2RdQCm7LwEBT-pJJIlA3MIPvRSPpn7o49sPQbeXfEinkxuzmpQq_vFFytCkeRF2oozOJeMRX2deiHJkpyekILWo178eNvEbW4OFIO0PQBYySTN6bbWaGxTRlGSONdfhsaey7hwui0D52vgKUWG38se7aA9ZM69B4zaKapPc).
 
 Unfortunately their "Plans & Pricing" is short of pricing, so it does not fill the criteria of transparent pricing. They, however, offer a free tier up to 25 shareholders "Talk to your lawyer". My gut feeling is that they want to ensure there is a legal involved and Carta wants to avoid possible association with a mess if people go and do their own securities issuances without a lawyer. It also sounds a good tactic to sell more Carta services through affiliate lawyers.
+
+In other news, [Carta acquired Kik blockchain team](https://betakit.com/carta-acquires-kik-team-as-part-of-canadian-expansion/), so one could assume they are also coming out with tokenised shares in the tureu.
 
 <blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">2/ <a href="https://t.co/INs2EaFFuZ">https://t.co/INs2EaFFuZ</a> - <a href="https://twitter.com/cartainc?ref_src=twsrc%5Etfw">@cartainc</a><a href="https://t.co/INs2EaFFuZ">https://t.co/INs2EaFFuZ</a> is one of the most well-known brands with unicorn valuation in billions.<br><br>Dealbreaker: No public pricing - not going to call you to get the price <a href="https://t.co/rvtxAPGc8e">pic.twitter.com/rvtxAPGc8e</a></p>&mdash; Mikko Ohtamaa (@moo9000) <a href="https://twitter.com/moo9000/status/1214501496190111744?ref_src=twsrc%5Etfw">January 7, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
@@ -53,7 +59,7 @@ However, you cannot decouple these services. One would need to buy in the full p
 
 ShareWorks is backed by no one else but the famous investment bank Morgan-Stanley. ShareWorks tout itself as "Equity Management Solutions" and they offer startup packages.
 
-[However their pricing is not transparent.](https://www.shareworks.com/shareworks-private-editions/). Might well call the page "Talk to sales" instead of "Pricing" if you are not displaying any prices.
+[However ShareWork pricing is not public.](https://www.shareworks.com/shareworks-private-editions/) Might well call the page "Talk to sales" instead of "Pricing" if you fail to display any actual prices.
 
 <blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">5/ <a href="https://t.co/vTnqOZ3vDq">https://t.co/vTnqOZ3vDq</a> by Morgan-Stanley - <a href="https://twitter.com/MorganStanley?ref_src=twsrc%5Etfw">@morganstanley</a><br><br>Dealbreaker: No self-service in. Not interested requesting a demo, when other services are offering direct self-service onboarding.</p>&mdash; Mikko Ohtamaa (@moo9000) <a href="https://twitter.com/moo9000/status/1214502566442258433?ref_src=twsrc%5Etfw">January 7, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
@@ -80,7 +86,7 @@ Vestd is a good solution if you are looking to incorporate in the UK. The UK off
 
 [CapDesk](https://capdesk.com) is Number One equity management solution in the UK and Europe, according to their own words. They offer competitive pricing for small enterprises. 
 
-<img src="{{ '/static/img/content/fixed-size/capdesk.png'|url }}" class="img-fluid" alt="Gust services">
+<img src="{{ '/static/img/content/fixed-size/capdesk.png'|url }}" class="img-fluid" alt="CapDesk services">
 
 However, a mandatory sales representative call is needed. No self sign up to explore the platform.
 
@@ -98,7 +104,33 @@ Though, I had some bad problems in their self sign-up process - I could not fini
 
 ## EquityEffect
 
-[EquityEffect](EquityEffect.com) 
+[EquityEffect](https://equityeffect.com) made me a happy. They offer a self sign-up, though takes [some effort to find it](https://www.equityeffect.com/free-sign-up/).
 
+> If you’re a private company with less than 50 equity owners, fill out the form below to start using EquityEffect for free. You’ll be directed to the EquityEffect app.
 
-https://twitter.com/moo9000/status/1214501091573993472
+The pricing page is "we’ll point you in the right direction", but at least they make it sound like it will be very competitive.
+
+<img src="{{ '/static/img/content/fixed-size/equityeffect.png'|url }}" class="img-fluid" alt="EquityEffect dashboard">
+
+You can manage different kind of securities: equity, options and warrants. You have a scenario tool that allows to model different future rounds. There are utilities for stock split, cap table backup. There is a function to create share certificates, though as far as I know, most jurisdictions do not need individual numbered certificates anymore and managing databased basd cap table is enough. Besides catering both investors and private companies, EquityEffect offers a whitelabel service for law firms.
+
+At, as the cherry on the top, the pricing settings offer multiple currencies.
+
+<blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">10/ <a href="https://t.co/EdIk1enmQS">https://t.co/EdIk1enmQS</a> - <a href="https://twitter.com/EquityEffect?ref_src=twsrc%5Etfw">@EquityEffect</a> - WE HAVE THE WINNER 🏆🏆🏆<br><br>I signed up, went in and created company shares. Not only they support multiple currencies, but they allow multiple currencies per company and cap table. <a href="https://t.co/nV1OAfANoz">pic.twitter.com/nV1OAfANoz</a></p>&mdash; Mikko Ohtamaa (@moo9000) <a href="https://twitter.com/moo9000/status/1214504802593464320?ref_src=twsrc%5Etfw">January 7, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+## Shoobx
+
+Somebody was watching Twitter. [Shoobx](https://www.shoobx.com/) reached out to me and asked to check their offer.
+
+> Shoobx is the only all-in-one solution for your company’s HR, equity, fundraising, and governance needs from incorporation to exit.
+
+ Shoobx aims for higher value added "the legal automation tool for your startup" category. Besides cap table services, they offer recruiting human resource and payroll tools - no need to get a separate systems for them. They also target seed level companies to raise easily with SAFE notes, with an integrated data room.
+
+ I could not self sign up, so I do not know whether there are settings for non-dollar and non-US companies.
+
+<blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">You should check out <a href="https://t.co/2EpHwcjhZ6">https://t.co/2EpHwcjhZ6</a>! We&#39;d be happy to schedule a demo to see if it fits your needs.</p>&mdash; Shoobx, Inc. (@ShoobxInc) <a href="https://twitter.com/ShoobxInc/status/1215007504431767552?ref_src=twsrc%5Etfw">January 8, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+## Conclusion
+
+It is the US centric world where the capital lives. It makes sense, as the US is still the country go for companies to grow and Delaware is the state where your stamp duties will be paid. On the other hand, it seems there is still no "Über of company legal services" platform which would have any significant global foothold.
+
