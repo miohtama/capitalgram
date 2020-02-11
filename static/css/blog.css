@@ -38,14 +38,48 @@
   margin-right: 1rem;
 }
 
+/*
+ * Content text
+ */
 
 .body-text {
+  font-size: 1.125rem;
 }
 
 .body-text p {
   line-height: 1.8;
   margin-bottom: 2rem;
 }
+
+.body-text a {
+  color: #b68300;
+  text-decoration: none;  
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.body-text a:hover {
+  text-decoration: underline;  
+  color: #eeb302;
+}
+
+.body-text li {
+  margin-bottom: 1.33rem;
+}
+
+.body-text .twitter-tweet {
+  margin: 0 auto;
+}
+
+.body-text h2 .direct-link {
+  color: rgba(0, 0, 0, 0);
+  transition: 0.3s;
+}
+
+.body-text h2:hover .direct-link {
+  color: rgba(238, 179,2, 0.8);
+}
+
 
 /*
  * Blog roll / post list
@@ -119,6 +153,7 @@
 * Different ways of aligning header image 
 */
 
+
 /* Background image too hard for dark text */
 .header-image-mode-inverse-heading  h1 {
   color: white;
@@ -160,10 +195,24 @@
   margin-bottom: 3rem;  
 }
 
+.header-image-mode-700 {
+  min-height: 700px;
+}
+
+.header-image-text-white h1 {
+  color: white;
+  background: #eeb302;
+  font-weight: 700;
+  font-size: 3.5rem;
+  padding: 1rem;
+  text-shadow: 0 0 2px rgba(0,0,0,0.8);
+}
+
 .post-list-image-cover {
   max-height: 150px;
   object-fit: cover;
 }
+
 
 
 
