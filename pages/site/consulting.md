@@ -1,7 +1,7 @@
 ---
 layout: layouts/page.njk
 title: Fintech and blockchain consulting
-description: Advisory for building fintech companies and investing in technology.
+description: Advisory for building tech companies and investing in technology.
 templateClass: tmpl-page
 eleventyNavigation:
   key: Consulting
@@ -33,13 +33,14 @@ permalinkBypassOutputDir: false
               <h5>Benefits</h5>
               <ul>
                 <li>Experienced cofounder</li>
-                <li>Process oriented working model</li>              
-                <li>Ready network and relationships to set up a tech development team</li>
+                <li>Ready networks and relationships to set up a tech development team</li>
+                <li>Tap into the network of technology experts around the world</li>
               </ul>            
-              <h5>The CTO service is an ideal for:</h5>
-              <ul>
-                <li>A company that has raised a seed funding</li>
-                <li>35% of more equity to allocate</li>
+              <h5>The CTO service is ideal for:</h5>
+              <ul> 
+                <li>A company that has raised a seed funding but lacks a technical cofounder</li>
+                <li>For an enterprise that is looking to automate their business and pivot its 
+                business model towards software-as-a-service</li>
               </ul>              
             </div>  
             <a href="mailto:hello@capitalgram.com"
@@ -62,7 +63,7 @@ permalinkBypassOutputDir: false
             <h5>Benefits</h5>
             <ul>
               <li>
-                Get an in-depth unfiltered analysis of the technology feasiblity
+                Get an in-depth unfiltered analysis of the technology feasibility
               </li>
               <li>
                 Compare with benchmarks on projects in the same space

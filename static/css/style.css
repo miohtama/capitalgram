@@ -103,6 +103,10 @@ a {
   flex-direction: column;
 }
 
+.card-deck-home .card-body strong {
+  color: #b78400;
+}
+
 .card-deck-home .card-body .card-text {
   flex: auto;
 }
