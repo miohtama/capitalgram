@@ -133,6 +133,8 @@ This is also run part of
 Table of Contents is generated in-fly from the page content by JavaScript. You need to place a marker element where you want the table of contents to appear.
 
 ```html
+<h2 data-toc-skip>Table of contents</h2>
+
 <ol id="toc"><!-- --></ol>
 ```
 

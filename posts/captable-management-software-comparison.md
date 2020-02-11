@@ -21,7 +21,7 @@ This post focuses on onboarding and getting started with a cap table service. My
 * Transparent, upfront, pricing
 * Knows about world currencies (Euro, Pound, others)
 
-Meet the cap table service competitors:
+<h2 data-toc-skip>Table of contents</h2>
 
 <ol id="toc"><!-- --></ol>
 

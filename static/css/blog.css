@@ -93,15 +93,15 @@
  */
 
 #toc {
-  background: #fee;
-  padding: 20px;
+  background: white;
+  padding: 0 20px;
   margin: 20px 0;
 } 
 
 #toc ul {
   list-style: disc;
   list-style-type: "▸";
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 #toc li {
