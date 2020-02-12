@@ -1,7 +1,7 @@
 ---
 title: Cap table service comparison
 description: Find solutions to manage your shareholder records and investor communications 
-longDescription: A short benchmark on different cap table service for on onboarding an international company. We looked onboarding experience, pricing transparency and international readiness.
+longDescription: A short benchmark on different cap table service for international companies. I looked onboarding experience, pricing transparency and international readiness.
 date: 2020-02-10
 layout: layouts/post.njk
 header: stock-certificate.jpg
