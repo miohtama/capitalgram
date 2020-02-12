@@ -24,23 +24,20 @@ permalinkBypassOutputDir: false
             <h4>CTO and advisory services</h5>
             <div class="card-middle">
               <p>
-                  <strong>Are you building a tech startup and need help to get your platform development kickstarted?</strong> 
+                  <strong>Are you building a tech startup and need help to get your platform development kick-started?</strong> 
               </p>    
-              <p>Contact us to get a CTO 
-                  who will write a technology roadmap and set up a 
-                  development team for you.
+              <p>Contact us to get a CTO who will write a technology roadmap and set up a development team for you.
               </p>
               <h5>Benefits</h5>
               <ul>
-                <li>Experienced cofounder</li>
+                <li>Experienced fintech and blockchain cofounder</li>
                 <li>Ready networks and relationships to set up a tech development team</li>
-                <li>Tap into the network of technology experts around the world</li>
+                <li>Tap into a network of technology experts around the world</li>
               </ul>            
               <h5>The CTO service is ideal for:</h5>
               <ul> 
-                <li>A company that has raised a seed funding but lacks a technical cofounder</li>
-                <li>For an enterprise that is looking to automate their business and pivot its 
-                business model towards software-as-a-service</li>
+                <li>Companies that have raised seed funding but lack a technical cofounder</li>
+                <li>Enterprises seeking to automate their business and pivot towards a software-as-a-service business model </li>
               </ul>              
             </div>  
             <a href="mailto:hello@capitalgram.com"
@@ -55,21 +52,21 @@ permalinkBypassOutputDir: false
         <div class="card-body">
             <h4>Technical due diligence</h5>
             <p>
-                <strong>Are you looking to invest in a technology company or a blockchain project?</strong>
+                <strong>Are you looking to invest in a technology company or blockchain project?</strong>
             <p>
             <p>    
-                Ask our experts to find out how solid is the pitch of the project.
+                Ask our experts to find out how solid the pitch of the project is.
             </p>              
             <h5>Benefits</h5>
             <ul>
               <li>
-                Get an in-depth unfiltered analysis of the technology feasibility
+                 Get an in-depth unfiltered analysis of the technology feasibility
               </li>
               <li>
-                Compare with benchmarks on projects in the same space
+                Compare with benchmarks of projects in the same space
               </li>
               <li>
-                Get an independent opinion on assumptions and cash flow analysis
+                an independent opinion on assumptions and cash flow analysis
               </li>              
             </ul>            
             <h5>The service is ideal for:</h5>

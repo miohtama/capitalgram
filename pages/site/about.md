@@ -31,8 +31,8 @@ permalinkBypassOutputDir: false
             </h3>
             <p class="gold-text mb-4 text-uppercase font-weight-bold">Founder, Capitalgram</p>
             <hr>
-            <p class="dark-grey-text mt-4 text-justify">Mikko has 25 years of experience in the software development industry. The last decade he has been acting as the CTO of various companies, both in Europe and the US. Mikko was the co-founder of TokenMarket - a blockchain fundraising platform that helped to raise over $350 million for its clients. Mikko  also was the co-founder and CTO of LocalBitcoins, a peer-to-peer cryptocurrency exchange. Mikko holds an MSc. in Industrial Engineering and Management from the University of Oulu.</p>
-            <p class="dark-grey-text text-justify">Mikko is now advising technology startups and helping them to supercharge their development efforts. He also serves the cryptocurrency fund industry by doing technical due diligence on different blockchain platforms.</p>
+            <p class="dark-grey-text mt-4 text-justify">Mikko has 25 years of experience in the software development industry. Over the past decade, he has been acting as the CTO of a host of companies, both in Europe and the US. Mikko was cofounder of TokenMarket – a blockchain fundraising platform that helped to raise over $350 million for its clients. Mikko was also co-founder and CTO of LocalBitcoins, a peer-to-peer cryptocurrency exchange. Mikko holds an MSc. in Industrial Engineering and Management from the University of Oulu.</p>
+            <p class="dark-grey-text text-justify">Mikko now advises technology startups, helping them to supercharge their development efforts. He also serves the cryptocurrency fund industry by performing technical due diligence for various blockchain platforms.</p>
             <ul class="follow-person text-right font-weight-bold dark-grey-text mt-5">
               <li><a href="https://linkedin/in/ohtis"><i class="fab fa-fw fa-linkedin"></i></a></li>
               <li><a href="https://twitter/moo9000"><i class="fab fa-fw fa-twitter"></i></a></li>
