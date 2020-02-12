@@ -1,6 +1,6 @@
 ---
 layout: layouts/page.njk
-title: Software-as-a-service solutions for investing 
+title: Software-as-a-service solutions for investing
 description: Modern online products for raising capital, investing and corporate governance.
 templateClass: tmpl-page
 eleventyNavigation:
@@ -27,16 +27,14 @@ permalinkBypassOutputDir: false
                 <strong>Do you want to raise capital and reach out to investors worldwide?</strong>
               </p>
               <p>
-                  On our online platform, you can 
-                  manage deal flow, onboard investors and 
-                  raise funds from few to thousands of investors in a scaleable manner.                  
+                  On our online platform, you can manage deal flow, onboard investors and raise funds from a few investors to thousands in a scalable manner.
               </p>
               <h5>Benefits</h5>
               <ul>
-                <li>Deal flow discovery for funds and private equity</li>              
-                <li>Reach out investors around the world easily</li>
+                <li>Deal-flow discovery for funds and private equity</li>              
+                <li>Reach out to investors around the world easily</li>
                 <li>Frictionless online investment process</li>
-                <li>Onboard large and small investors without hassle</li>
+                <li>Onboard large and small investors hassle-free</li>
                 <li>Automatic integration with global compliance databases</li>
               </ul>            
               <h5>The platform is ideal for:</h5>
@@ -62,24 +60,18 @@ permalinkBypassOutputDir: false
               </strong>
             </p>
             <p>
-                Investment Warden service safeguards investors' interest. 
-                Your investment is looked after by both an automated dashboard and 
-                a professional board member.                
-                Raised capital can be held on an escrow account and released to the company 
-                when growth milestones are reached.            
+                Our Investment Warden service safeguards investors interests. Your investment is looked after by both an automated dashboard and a professional board member. Raised capital can be held in an escrow account and released to the company when growth milestones are reached.         
             </p>              
             <h5>Benefits</h5>
             <ul>
               <li>
-                Automated Key Performance Index (KPI) monitoring for the investors
+                Automated Key Performance Index (KPI) monitoring for investors
               </li>
               <li>
-                A human board member with full information rights to keep entrepreneurs 
-                honest
+                 A human board member with full information rights to keep entrepreneurs honest
               </li>                     
               <li>
-                If the business plan fails, the unspent investment money can be 
-                reclaimed from the escrow account
+                If the business plan is unviable, any unspent investment funds can be reclaimed from escrow
               </li>       
             </ul>            
             <h5>The service is ideal for:</h5>
