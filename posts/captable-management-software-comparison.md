@@ -11,7 +11,7 @@ postListImageClass: post-list-image-cover
 author: Mikko Ohtamaa
 ---
 
-A cap table service is an online service that manages records of shareholdings in a company. Futhermore, these services often provide value adding features, like investor communications, agreement signing and share transfer services.  
+A cap table service is an online service that manages records of shareholdings in a company. Furthermore, these services often provide value adding features, like investor communications, agreement signing and share transfer services.  
 
 In this post, we take a look couple of well-known services and if they can be used for an international company. In this case, an international company means a company outside the US, having its shares nominated in some other currency that is not the United States Dollar (USD). Many of the services in this space focus on the US markets, so it is somewhat hard to find one for managing international or EU cap table. I did a quick onboarding test and also tweeted for the service providers for additional help.
 
@@ -31,7 +31,7 @@ This post focuses on onboarding and getting started with a cap table service. My
 
 Unfortunately their "Plans & Pricing" is short of pricing, so it does not fill the criteria of transparent pricing. They, however, offer a free tier up to 25 shareholders "Talk to your lawyer". My gut feeling is that they want to ensure there is a legal involved and Carta wants to avoid possible association with a mess if people go and do their own securities issuances without a lawyer. It also sounds a good tactic to sell more Carta services through affiliate lawyers.
 
-In other news, [Carta acquired Kik blockchain team](https://betakit.com/carta-acquires-kik-team-as-part-of-canadian-expansion/), so one could assume they are also coming out with tokenised shares in the tureu.
+In other news, [Carta acquired Kik blockchain team](https://betakit.com/carta-acquires-kik-team-as-part-of-canadian-expansion/), so one could assume they are also coming out with tokenised shares in the future.
 
 <blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">2/ <a href="https://t.co/INs2EaFFuZ">https://t.co/INs2EaFFuZ</a> - <a href="https://twitter.com/cartainc?ref_src=twsrc%5Etfw">@cartainc</a><a href="https://t.co/INs2EaFFuZ">https://t.co/INs2EaFFuZ</a> is one of the most well-known brands with unicorn valuation in billions.<br><br>Dealbreaker: No public pricing - not going to call you to get the price <a href="https://t.co/rvtxAPGc8e">pic.twitter.com/rvtxAPGc8e</a></p>&mdash; Mikko Ohtamaa (@moo9000) <a href="https://twitter.com/moo9000/status/1214501496190111744?ref_src=twsrc%5Etfw">January 7, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
@@ -55,7 +55,7 @@ However, you cannot decouple these services. One would need to buy in the full p
 
 ## ShareWorks
 
-ShareWorks is backed by no one else but the famous investment bank Morgan-Stanley. ShareWorks tout itself as "Equity Management Solutions" and they offer startup packages.
+ShareWorks is backed by no one else but the famous investment bank Morgan-Stanley. ShareWorks touts itself as "Equity Management Solutions" and they offer startup packages.
 
 [However ShareWork pricing is not public.](https://www.shareworks.com/shareworks-private-editions/) Might well call the page "Talk to sales" instead of "Pricing" if you fail to display any actual prices.
 
@@ -104,7 +104,7 @@ Though, I had some bad problems in their self sign-up process - I could not fini
 
 ## EquityEffect
 
-[EquityEffect](https://equityeffect.com) made me a happy. They offer a self sign-up, though takes [some effort to find it](https://www.equityeffect.com/free-sign-up/).
+[EquityEffect](https://equityeffect.com) made me happy. They offer a self sign-up, though takes [some effort to find it](https://www.equityeffect.com/free-sign-up/).
 
 > If you’re a private company with less than 50 equity owners, fill out the form below to start using EquityEffect for free. You’ll be directed to the EquityEffect app.
 
@@ -112,7 +112,7 @@ The pricing page is "we’ll point you in the right direction", but at least the
 
 <img src="{{ '/static/img/content/fixed-size/equityeffect.png'|url }}" class="img-fluid" alt="EquityEffect dashboard">
 
-You can manage different kind of securities: equity, options and warrants. You have a scenario tool that allows to model different future rounds. There are utilities for stock split, cap table backup. There is a function to create share certificates, though as far as I know, most jurisdictions do not need individual numbered certificates anymore and managing databased basd cap table is enough. Besides catering both investors and private companies, EquityEffect offers a whitelabel service for law firms.
+You can manage different kind of securities: equity, options and warrants. You have a scenario tool that allows to model different future rounds. There are utilities for a stock split, cap table backup. There is a function to create share certificates, though as far as I know, most jurisdictions do not need individually numbered certificates anymore and managing databased based cap table is enough. Besides catering to both investors and private companies, EquityEffect offers a white-label service for law firms.
 
 At, as the cherry on the top, the pricing settings offer multiple currencies.
 
@@ -124,7 +124,7 @@ Somebody was watching Twitter. [Shoobx](https://www.shoobx.com/) reached out to 
 
 > Shoobx is the only all-in-one solution for your company’s HR, equity, fundraising, and governance needs from incorporation to exit.
 
- Shoobx aims for higher value added "the legal automation tool for your startup" category. Besides cap table services, they offer recruiting human resource and payroll tools - no need to get a separate systems for them. They also target seed level companies to raise easily with SAFE notes, with an integrated data room.
+ Shoobx aims for higher value added "the legal automation tool for your startup" category. Besides cap table services, they offer recruiting and payroll tools - no need to get separate systems for them. They also target seed level companies to raise easily with SAFE notes, with an integrated data room.
 
  I could not self sign up, so I do not know whether there are settings for non-dollar and non-US companies.
 
