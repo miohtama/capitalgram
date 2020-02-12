@@ -1,8 +1,10 @@
-# Capitalgram blog
+# Capitalgram website source code
 
-This is a corporate website and blog based on [Evelenty example](https://github.com/11ty/eleventy-base-blog).
+This is a corporate website and blog for [Capitalgram.com](capitalgram.com/)
 
 # Features 
+
+* Based on [Eleventy framework](https://www.11ty.dev/)
 
 * A landing page, content pages and blog posts
 
