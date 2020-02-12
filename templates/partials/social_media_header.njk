@@ -8,12 +8,12 @@
 {% set page_description=description %}
 
 {% set page_organization_name=social.site_name %}
-{% set page_organization_logo=social.defaultLogo|url %}
-{% set page_organization_logo_width=446 %}
-{% set page_organization_logo_height=60 %}
+{% set page_organization_logo=social.default_logo|url %}
+{% set page_organization_logo_width=social.default_logo_width %}
+{% set page_organization_logo_height=social.default_logo_width %}
 
 {# Facebook #}
-{% set page_facebook_app_id="479123622297526" %}
+{% set page_facebook_app_id=social.facebook_app_id %}
 {% set page_facebook_name="TokenMarket" %}
 {% set page_facebook_type="article" %}
 {% if not page_facebook_image %}
