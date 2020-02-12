@@ -34,8 +34,8 @@ permalinkBypassOutputDir: false
             <p class="dark-grey-text mt-4 text-justify">Mikko has 25 years of experience in the software development industry. Over the past decade, he has been acting as the CTO of a host of companies, both in Europe and the US. Mikko was cofounder of TokenMarket – a blockchain fundraising platform that helped to raise over $350 million for its clients. Mikko was also co-founder and CTO of LocalBitcoins, a peer-to-peer cryptocurrency exchange. Mikko holds an MSc. in Industrial Engineering and Management from the University of Oulu.</p>
             <p class="dark-grey-text text-justify">Mikko now advises technology startups, helping them to supercharge their development efforts. He also serves the cryptocurrency fund industry by performing technical due diligence for various blockchain platforms.</p>
             <ul class="follow-person text-right font-weight-bold dark-grey-text mt-5">
-              <li><a href="https://linkedin/in/ohtis"><i class="fab fa-fw fa-linkedin"></i></a></li>
-              <li><a href="https://twitter/moo9000"><i class="fab fa-fw fa-twitter"></i></a></li>
+              <li><a href="https://linkedin.com/in/ohtis"><i class="fab fa-fw fa-linkedin"></i></a></li>
+              <li><a href="https://twitter.com/moo9000"><i class="fab fa-fw fa-twitter"></i></a></li>
             </ul>
         </div>
         <!--Grid column-->
