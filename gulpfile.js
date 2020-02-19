@@ -25,7 +25,7 @@ const debug = require('gulp-debug');
 
 // Require eleventy's metadata
 // Hardcoded for prod now
-const metadata = require ("@capitalgram/config/prod/metadata.json");
+const metadata = require ("@capitalgram/config/metadata.json");
 
 // Require Node.js utils
 const fs = require('fs');
