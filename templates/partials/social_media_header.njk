@@ -1,7 +1,6 @@
 {# 
     Information for Facebook, Twitter, LinkedIn and other social sharing.
 
-<<<<<<< HEAD
     Reads src/config/social.js
 #}
 
@@ -43,41 +42,12 @@
   {% set page_facebook_image_width=page_logo_width %}
   {% set page_facebook_image_height=page_logo_height %}
 {% endif %}
-=======
-    Reads src/config/social.json
-#}
 
-{% set page_title=title %}
-{% set page_description=description %}
-
-{% set page_organization_name=social.site_name %}
-{% set page_organization_logo=social.default_logo|url %}
-{% set page_organization_logo_width=social.default_logo_width %}
-{% set page_organization_logo_height=social.default_logo_width %}
-
-{# Facebook #}
-{% set page_facebook_app_id=social.facebook_app_id %}
-{% set page_facebook_name="TokenMarket" %}
-{% set page_facebook_type="article" %}
-{% if not page_facebook_image %}
-  {% set page_facebook_image=social.squareLogo|static_url %}
-  {% set page_facebook_image_width=1024 %}
-  {% set page_facebook_image_height=1024 %}
-{% endif %}
-
-{# Twitter #}
-{% set page_twitter_handle="@TokenMarket" %}
-{% if not page_twitter_image %}
-  {% set page_twitter_image='tokenmarket:static/img/TokenMarket_condensed2_square_white.png'|static_url %}
-{% endif %}
-
-{% set default_logo='tokenmarket:static/img/TokenMarket_condensed2_square_white.png'|static_url %}
 
 {# Use page specific logo or default to our logo #}
 {% set page_logo=page_logo|default(default_logo) %}
 {% set page_logo_width=512 %}
 {% set page_logo_height=512 %}
->>>>>>> c35471b6b20ed7b16c2955a8287908b0db4183ec
 
 {% if not page_twitter_image %}
   {% set page_twitter_image=page_logo %}
@@ -87,7 +57,6 @@
 <title>{{ page_title }}</title>
 <meta name="description" content="{{ page_description }}">
 
-<<<<<<< HEAD
 {# Facebook metadata, see social.js for debug instructions #}
 
 <meta property="og:site_name" content="{{ page_facebook_name }}">
@@ -112,8 +81,8 @@
 
 {% if page_author %}
   <meta property="og:author" content="{{ page_author }}" />
-{% endifif page_author %}
-=======
+{% endif %}
+
 {# Facebook metadata #}
 {% if page_facebook_app_id %}
   <meta property="og:site_name" content="{{ page_facebook_name }}">
@@ -121,6 +90,7 @@
   <meta property="og:url"  content="{{ request.path_url }}" />
   <meta property="og:description" content="{{ page_description }}" />
   <meta property="fb:app_id" content="{{ page_facebook_app_id }}" />
+
   {# 1200x630 preferred #}
   {% if page_facebook_image %}
     <meta property="og:image" content="{{ page_facebook_image }}" />
@@ -131,105 +101,3 @@
   <meta property="og:type" content="{{ page_facebook_type }}" />
 {% endif %}
 
-{# Twitter metadata #}
-{% if page_twitter_handle %}
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@TokenMarket" />
-  <meta name="twitter:title" content="{{ page_title }}" />
-  <meta name="twitter:description" content="{{ page_description }}" />
-  {% if page_twitter_image %}
-    <meta name="twitter:image" content="{{ page_twitter_image }}" />
-  {% endif %}
-{% endif %}
-
-<script type="application/ld+json" nonce="{{ request.csp_nonce }}">
-{
-    "@context": "http://schema.org",
-    "@type": "Organization",
-    "name": "TokenMarket",
-    "legalName": "TokenMarket Ltd.",
-    "url": "https://tokenmarket.net",
-    "logo": "https://tokenmarket.net/marketing-static/TokenMarket_condensed2_square.png",
-    "foundingDate": "March, 2017",
-    "founders": [ {
-      "@type": "Person", "name": "Mikko Ohtamaa"
-    }
-    ,
-    {
-      "@type": "Person", "name": "Ransu Salovaara"
-    }
-    ],
-    "address": {
-      "@type": "PostalAddress", "streetAddress": "5.04 World Trade Center", "addressCountry": "Gibraltar"
-    }
-    ,
-    "sameAs": [ "https://www.facebook.com/tokenmarket/",
-    "https://twitter.com/tokenmarket",
-    "https://telegram.me/tokenmarket",
-    "https://tokenmarket.net/blog/",
-    "https://www.linkedin.com/company/tokenmarket",
-    "https://github.com/TokenMarketNet"]
-}
-</script>
-
-{# Google Article #}
-{# https://search.google.com/structured-data/testing-tool #}
-{# https://developers.google.com/search/docs/data-types/articles #}
-
-{% if page_article %}
-  <script type="application/ld+json" nonce="{{ request.csp_nonce }}">
-  {
-    "@context": "http://schema.org",
-    "@type": "NewsArticle",
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://google.com/article"
-    },
-    "headline": "{{ page_title }}",
-    {% if page_logo %}
-      "image": {
-        "@type": "ImageObject",
-        "url": "{{ page_logo }}"
-        {#
-        ,
-        "width": {{ page_logo_width }},
-        "height": {{ page_logo_height }}
-        #}
-      },
-    {% endif %}
-    "author": {
-      "@type": "Person",
-      "name": "{{ page_author }}"
-    },
-    "datePublished": "{{ page_published_at }}",
-    "dateModified": "{{ page_modified_at }}",
-    "publisher": {
-      "@type": "Organization",
-      "name": "{{ page_organization_name }}",
-      {% if page_organization_logo %}
-        "logo": {
-          "@type": "ImageObject",
-          "url": "{{ page_organization_logo }}",
-          "width": {{ page_organization_logo_width }},
-          "height": {{ page_organization_logo_height }}
-        }
-      {% endif %}
-    },
-    "description": "{{ page_description }}"
-  }
-  </script>
-{% endif %}
-
-{# Site name #}
-{# https://developers.google.com/search/docs/data-types/sitename #}
-<script type="application/ld+json" nonce="{{ request.csp_nonce }}">
-  {
-    "@context": "http://schema.org",
-    "@type": "WebSite",
-    "name": "{{ site_name }}",
-    "url": "{{ site_url }}"
-  }
-</script>
-
-<link rel="canonical" href="{{ request.url }}" />
->>>>>>> c35471b6b20ed7b16c2955a8287908b0db4183ec
