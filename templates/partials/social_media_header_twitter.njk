@@ -1,0 +1,23 @@
+{# Twitter metadata 
+
+https://cards-dev.twitter.com/validator
+
+https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/summary-card-with-large-image
+#}
+
+<meta name="twitter:card" content="summary" />  
+<meta name="twitter:title" content="{{ page_title }}" />
+<meta name="twitter:description" content="{{ page_description }}" />
+
+{% if page_twitter_image %}
+<meta name="twitter:image" content="{{ page_twitter_image }}" />
+{% endif %}
+
+{% if page_twitter_site %}
+    <meta name="twitter:site" content="@{{ page_twitter_site }}" />
+{% endif %}
+
+{% if page_twitter_creator %}
+    <meta name="twitter:creator" content="@{{ page_twitter_creator }}" />
+{% endif %}
+

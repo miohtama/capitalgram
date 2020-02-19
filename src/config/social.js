@@ -50,20 +50,19 @@ module.exports = function() {
         logo_width: 1200, // or general.default_logo_width,
         logo_height: 630, // or general.default_logo_height,
         
-        // Name of the site
-        name: general.name,
-
         // One of https://ogp.me/?fbclid=IwAR0BAwLqqduH9pGKDGgLj7dpmokfXgVXcnEw0M6A4rTillc0q4L0qYpCJBk#types
         // We default to article
         type: "article",
-
-        // Set per page
-        author: undefined,
-
-        // Set per page - array 
-        tag: undefined,
     };
 
+    // https://cards-dev.twitter.com/validator
+    // https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/markup
+    const twitter = {
 
-    return {general, facebook, }
+        // Twitter username of the site. E.g. "nytimes"
+        // You can still have individual creators per article
+        siteHandle: undefined,
+    };
+
+    return {general, facebook, twitter}
   };

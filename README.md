@@ -267,6 +267,8 @@ I tried
 
 - PageKit: banned by Facebook
 
+- SSH tunneling to non-standard port does not work with [Twitter card debugger](https://cards-dev.twitter.com/validator)
+
 Eventually I had to revert to DigitalOcean VM and SSH port forward.
 
 [Enable GatewayPorts](https://www.ssh.com/ssh/tunneling/example#remote-forwarding) in `/etc/ssh/sshd_config`.

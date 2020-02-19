@@ -6,10 +6,14 @@ tags:
   - another-tag
 layout: layouts/post.njk
 header: world-squares.png
-page_logo: /static/img/content/src/world-squares.png
-page_facebook_type: article 
+# Generic
 author: Mikko Ohtamaa
 date: 2020-02-01
+page_logo: /static/img/content/src/world-squares.png
+# Facebook
+page_facebook_type: article 
+# Twitter
+page_twitter_creator: moo9000
 headerImageModeClass: header-image-mode-transparent
 headerImageBackgrondColor: #eeeeee
 postListImageClass: post-list-image-cover 
