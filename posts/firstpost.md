@@ -2,15 +2,17 @@
 title: A new dawn, a new company
 description: First post!
 longDescription: I am setting up the company website. If you managed to scroll this far down, you have seen all.
-date: 2020-02-01
 tags:
   - another-tag
 layout: layouts/post.njk
 header: world-squares.png
+page_logo: /static/img/content/src/world-squares.png
+page_facebook_type: article 
+author: Mikko Ohtamaa
+date: 2020-02-01
 headerImageModeClass: header-image-mode-transparent
 headerImageBackgrondColor: #eeeeee
 postListImageClass: post-list-image-cover 
-author: Mikko Ohtamaa
 ---
 
 There is nothing here yet, but a clean slate and excitement.

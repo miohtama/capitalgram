@@ -140,6 +140,30 @@ Table of Contents is generated in-fly from the page content by JavaScript. You n
 <ol id="toc"><!-- --></ol>
 ```
 
+## Social media sharing headers and images
+
+See `social.js` for default sharing tags and images. Pages and posts can provide their own tags.
+
+Change Facebook image on an individual page:
+
+```
+---
+title: Foobar
+page_logo: /static/img/header-services.jpg
+---
+```
+
+Add Facebook image and author information to your post:
+
+```
+title: A new dawn, a new company
+description: First post!
+page_logo: /static/img/content/src/world-squares.png
+page_facebook_type: article 
+author: Mikko Ohtamaa
+date: 2020-02-01
+```
+
 # Deploying in production on Netlify
 
 * Toggle all optimisation options in Netlify's *Postprocessing* so you do not need to minify JS, CSS and images by hand

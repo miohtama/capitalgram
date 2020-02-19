@@ -21,7 +21,7 @@ module.exports = function() {
     
     const general = {
 
-        site_name: "Capitalgram",
+        name: "Capitalgram",
 
         // This is the path 
         // We give 512 x 512 square logo as the default logo if the pages do not supply their own
@@ -34,8 +34,12 @@ module.exports = function() {
 
     // Facebook Sharing debugger is available to preview your sharings
     // https://developers.facebook.com/tools/debug
-    //
+    // https://developers.facebook.com/docs/sharing/webmasters/
+    // https://ogp.me/
     const facebook = {
+
+        name: general.name,
+                
         // If your Facebook has a page, you get its id here
         // 
         app_id: undefined,

@@ -7,6 +7,7 @@ eleventyNavigation:
   key: Services
   order: 3
 header: /static/img/header-services.jpg
+page_logo: /static/img/header-services.jpg
 headerImageModeClass: header-image-mode-cover-image-black
 headerImageBackgrondColor: #000000
 
