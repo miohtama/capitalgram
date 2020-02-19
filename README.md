@@ -14,6 +14,8 @@ This is a corporate website and blog for [Capitalgram.com](capitalgram.com/)
 
 * Theme based on [Material Design for Boostrap](https://mdbootstrap.com/freebies/jquery/blog/), uses [Wow.js](https://wowjs.uk/) for reveal animations
 
+* Media tags and images for Google search, Google news, Facebook sharing and Twitter sharing
+
 * Google Sitemaps support 
 
 * RSS feed 
@@ -153,15 +155,15 @@ page_logo: /static/img/header-services.jpg
 ---
 ```
 
-Add Facebook image and author information to your post:
+Add Facebook, Twitter, Google image and author information to your post:
 
 ```
-title: A new dawn, a new company
-description: First post!
-page_logo: /static/img/content/src/world-squares.png
-page_facebook_type: article 
 author: Mikko Ohtamaa
 date: 2020-02-01
+page_logo: /static/img/content/src/world-squares.png
+page_facebook_type: article 
+page_twitter_creator: moo9000
+
 ```
 
 # Deploying in production on Netlify

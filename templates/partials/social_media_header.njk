@@ -45,6 +45,9 @@
   {% set page_twitter_image=page_logo %}
 {% endif %}
 
+
+
+
 {# Use page specific logo or default to our logo #}
 {% set page_logo=page_logo or social.general.default_logo %}
 {% set page_logo_width=page_logo_width or social.general.default_logo_width %}
@@ -55,11 +58,19 @@
 {% set page_logo_width=512 %}
 {% set page_logo_height=512 %}
 
-
 {% set page_twitter_site=social.twitter.siteHandle %}
+
+{# For Google articles - logo and name are required fields #}
+{% set page_google_organisation_name=social.google.organisation_name %}
+{% set page_google_site_image=social.google.site_logo %}
+{% set page_google_site_image_width=social.google.site_logo_width %}
+{% set page_google_site_image_height=social.google.site_logo_height %}
+
 
 {# HTML metadata for Google, Facebook and Twitter #}
 <title>{{ page_title }}</title>
 <meta name="description" content="{{ page_description }}">
+
 {% include "partials/social_media_header_facebook.njk" %}
 {% include "partials/social_media_header_twitter.njk" %}
+{% include "partials/social_media_header_google.njk" %}

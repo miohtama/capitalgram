@@ -64,5 +64,13 @@ module.exports = function() {
         siteHandle: undefined,
     };
 
-    return {general, facebook, twitter}
+    // For Google search engine and news
+    const google = {
+        organisation_name: general.name,
+        site_logo: general.default_logo,
+        site_logo_width: general.default_logo_width,
+        site_logo_height: general.default_logo_height
+    };
+
+    return {general, facebook, twitter, google }
   };

@@ -1,0 +1,57 @@
+{# 
+    Google Article #   
+    
+    https://search.google.com/structured-data/testing-tool 
+    
+    https://developers.google.com/search/docs/data-types/articles 
+
+    https://developers.google.com/search/docs/data-types/article#non-amp
+
+#}   
+
+{% if author %}
+    {# Assume it is an article if we have author set #}
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "NewsArticle",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://google.com/article"
+        },
+        "headline": "{{ page_title }}",
+
+        {% if page_logo %}
+        "image": {
+        "@type": "ImageObject",
+        "url": "{{ page_logo }}"
+        },
+        {% endif %}
+
+        {% if author %}
+        "author": {
+            "@type": "Person",
+            "name": "{{ author }}"
+        },
+        {% endif %}
+
+        {% if date %}
+            "datePublished": "{{ date.toISOString() }}",
+            {# Eleventy lacks modified date mechanism #}
+            "dateModified": "{{ date.toISOString() }}",
+        {% endif %}    
+        "publisher": {
+            {# Logo Required by Google #}
+            "logo": {
+                "@type": "ImageObject",
+                "url": "{{ page_google_site_image }}",
+                "width": {{ page_google_site_image_width }},
+                "height": {{ page_google_site_image_height }}
+            },
+            "@type": "Organization",
+            "name": "{{ page_google_organisation_name }}"
+        },
+        "description": "{{ page_description }}"
+    }
+    </script>
+{% endif %}
