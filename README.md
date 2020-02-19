@@ -193,6 +193,28 @@ page_twitter_creator: moo9000
 
 ```
 
+For more information see [social.js](https://github.com/miohtama/capitalgram/blob/master/src/config/social.js) and [social_media_header.njk](https://github.com/miohtama/capitalgram/blob/master/templates/partials/social_media_header.njk).
+
+### Social media share debuggers and port forwarding
+
+I tried
+
+- ngrok: Dashboard was down
+
+- serveo: Did not connect
+
+- PageKit: banned by Facebook
+
+Eventually, I had to revert to DigitalOcean VM and SSH port forward.
+
+[Enable GatewayPorts](https://www.ssh.com/ssh/tunneling/example#remote-forwarding) in `/etc/ssh/sshd_config`.
+
+Then forward the port 8888 from your DigitalOcean droplet to your local dev machine:
+
+```
+ssh -vv -R8888:localhost:8888 root@mydroplet.com
+```
+
 # Deploying in production on Netlify
 
 * Toggle all optimisation options in Netlify's *Postprocessing* so you do not need to minify JS, CSS and images by hand
@@ -287,26 +309,6 @@ Photos are under [Unsplash license](https://unsplash.com/license).
 [PushBullet](https://www.pushbullet.com/channels)
 
 [CORS with Netlify](https://alligator.io/nodejs/solve-cors-once-and-for-all-netlify-dev/)
-
-## Social media share debuggers and port forwarding
-
-I tried
-
-- ngrok: Dashboard was down
-
-- serveo: Did not connect
-
-- PageKit: banned by Facebook
-
-Eventually, I had to revert to DigitalOcean VM and SSH port forward.
-
-[Enable GatewayPorts](https://www.ssh.com/ssh/tunneling/example#remote-forwarding) in `/etc/ssh/sshd_config`.
-
-Then forward the port 8888 from your DigitalOcean droplet to your local dev machine:
-
-```
-ssh -vv -R8888:localhost:8888 root@mydroplet.com
-```
 
 ## Other good Eleventy sites
 

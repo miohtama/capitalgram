@@ -35,7 +35,7 @@
   {% set page_facebook_image_width=social.facebook.logo_width %}
   {% set page_facebook_image_height=social.facebook.logo_height %}
 
-  {% set page_twitter_image=social.logo %}
+  {% set page_twitter_image=social.twitter.logo %}
 
 {% else %}
   {# Use page settings #}
@@ -44,8 +44,6 @@
   {% set page_facebook_image_height=page_logo_height %}
   {% set page_twitter_image=page_logo %}
 {% endif %}
-
-
 
 
 {# Use page specific logo or default to our logo #}

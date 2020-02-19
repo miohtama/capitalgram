@@ -58,6 +58,7 @@ module.exports = function() {
     // https://cards-dev.twitter.com/validator
     // https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/markup
     const twitter = {
+        logo: general.default_logo,
 
         // Twitter username of the site. E.g. "nytimes"
         // You can still have individual creators per article
