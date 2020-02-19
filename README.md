@@ -195,6 +195,8 @@ page_twitter_creator: moo9000
 
 For more information see [social.js](https://github.com/miohtama/capitalgram/blob/master/src/config/social.js) and [social_media_header.njk](https://github.com/miohtama/capitalgram/blob/master/templates/partials/social_media_header.njk).
 
+Social media images **must have absolute URLs**. Eleventy does not provide absolute URL functionality built-in, so you need to configure your site deployment URL in `social.js`. [More information about this](https://stackoverflow.com/questions/45915720/relative-image-paths-for-twitter-cards-in-blogdown)
+
 ### Social media share debuggers and port forwarding
 
 I tried
