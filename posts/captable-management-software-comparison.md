@@ -2,13 +2,19 @@
 title: Cap table service comparison
 description: Find solutions to manage your shareholder records and investor communications 
 longDescription: A short benchmark on different cap table service for international companies. I looked onboarding experience, pricing transparency and international readiness.
+
+## Sharing info ##
+author: Mikko Ohtamaa
 date: 2020-02-10
+page_logo: /static/img/content/src/stock-certificate.jpg
+page_facebook_type: article 
+page_twitter_creator: moo9000
+
 layout: layouts/post.njk
 header: stock-certificate.jpg
 headerImageModeClass: header-image-mode-cover-image header-image-mode-700 header-image-text-white
 headerImageBackgrondColor: #eeeeee
 postListImageClass: post-list-image-cover 
-author: Mikko Ohtamaa
 ---
 
 A cap table service is an online service that manages records of shareholdings in a company. Furthermore, these services often provide value adding features, like investor communications, agreement signing and share transfer services.  
