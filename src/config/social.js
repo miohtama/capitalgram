@@ -30,6 +30,9 @@ module.exports = function() {
         default_logo_width: 512,
 
         default_logo_height: 512,
+
+        // Needed by Facebook sharing images, others... cannot have relative URLs
+        base_url: "https://capitalgram/com"
     };
 
     // Facebook Sharing debugger is available to preview your sharings
