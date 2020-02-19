@@ -2,6 +2,33 @@
 
 This is a corporate website and blog for [Capitalgram.com](capitalgram.com/)
 
+- [Capitalgram website source code](#capitalgram-website-source-code)
+- [Features](#features)
+- [How to develop](#how-to-develop)
+  * [Getting Started](#getting-started)
+    + [1. Clone this Repository](#1-clone-this-repository)
+    + [2. Navigate to the directory](#2-navigate-to-the-directory)
+    + [3. Install dependencies](#3-install-dependencies)
+    + [4. Run Eleventy with Netlify helper](#4-run-eleventy-with-netlify-helper)
+  * [Testing MailerLite client](#testing-mailerlite-client)
+  * [Testing Netlify server-side functions](#testing-netlify-server-side-functions)
+  * [Image processing pipeline](#image-processing-pipeline)
+  * [Table of contents](#table-of-contents)
+  * [Social media sharing headers and images](#social-media-sharing-headers-and-images)
+- [Deploying in production on Netlify](#deploying-in-production-on-netlify)
+- [Lessons learned](#lessons-learned)
+- [Links](#links)
+  * [Netlify](#netlify)
+  * [Logo](#logo)
+  * [Fonts](#fonts)
+  * [Colors](#colors)
+  * [Photos](#photos)
+  * [Bootstrap and theming links](#bootstrap-and-theming-links)
+  * [Push](#push)
+  * [Social media share debuggers and port forwarding](#social-media-share-debuggers-and-port-forwarding)
+  * [Other good Eleventy sites](#other-good-eleventy-sites)
+
+
 # Features 
 
 * Based on [Eleventy framework](https://www.11ty.dev/)
@@ -213,13 +240,15 @@ Body: [Roboto](https://fonts.google.com/specimen/Roboto)
 
 As given by Material palette generator
 
-Primary #eeb302
+* Primary `#eeb302`
 
-P - light #ffe54c
+* Primary light `#ffe54c`
 
-P - dark #b78400
+* Primary dark #`b78400`
 
-![Material palette](screenshots/material_palette.png)
+![Material palette preview](screenshots/material_palette.png)
+
+Use Material palette generation tools:
 
 https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=eeb302&secondary.color=80DEEA
 
@@ -269,9 +298,7 @@ I tried
 
 - PageKit: banned by Facebook
 
-- SSH tunneling to non-standard port does not work with [Twitter card debugger](https://cards-dev.twitter.com/validator)
-
-Eventually I had to revert to DigitalOcean VM and SSH port forward.
+Eventually, I had to revert to DigitalOcean VM and SSH port forward.
 
 [Enable GatewayPorts](https://www.ssh.com/ssh/tunneling/example#remote-forwarding) in `/etc/ssh/sshd_config`.
 
@@ -281,9 +308,12 @@ Then forward the port 8888 from your DigitalOcean droplet to your local dev mach
 ssh -vv -R8888:localhost:8888 root@mydroplet.com
 ```
 
-
 ## Other good Eleventy sites
 
 Look up for good examples.
 
 [Raymond Camden](https://www.raymondcamden.com)
+
+## Markdown TOC for this README
+
+https://ecotrust-canada.github.io/markdown-toc/
