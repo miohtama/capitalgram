@@ -29,7 +29,7 @@ This is a corporate website and blog for [Capitalgram.com](capitalgram.com/)
   * [Other good Eleventy sites](#other-good-eleventy-sites)
 
 
-# Features 
+# Features
 
 * Based on [Eleventy framework](https://www.11ty.dev/)
 
@@ -41,11 +41,13 @@ This is a corporate website and blog for [Capitalgram.com](capitalgram.com/)
 
 * Theme based on [Material Design for Boostrap](https://mdbootstrap.com/freebies/jquery/blog/), uses [Wow.js](https://wowjs.uk/) for reveal animations
 
+* Discussion support by Twitter links and embeds
+
 * Media tags and images for Google search, Google news, Facebook sharing and Twitter sharing
 
-* Google Sitemaps support 
+* Google Sitemaps support
 
-* RSS feed 
+* RSS feed
 
 * Clean source tree by using  [Node.js module aliases](https://www.npmjs.com/package/module-alias) to create a `@capitalgram` namespace
 
@@ -115,7 +117,7 @@ Then you can export it as following:
 ```sh
 export MAILERLITE_API_KEY=`cat secrets/mailerlite-api-key.txt`
 npx netlify dev
-```    
+```
 
 Then you can go directly to a function URL with your browser:
 
@@ -134,7 +136,7 @@ curl --header "Content-Type: application/json" \
   --request POST \
   --data '{"email":"foo@bar.com"}' \
   http://localhost:8888/api/newsletter
-```  
+```
 
 Then you can proceed to try to do the newsletter subscription with a browser, on the webserver,
 from the subscription form in the footer.
@@ -154,10 +156,10 @@ You can manually process images locally.
 To run processing manually:
 
 ```
-npm run images:resize 
+npm run images:resize
 ```
 
-This is also run part of 
+This is also run part of
 
 ## Table of contents
 
@@ -188,7 +190,7 @@ Add Facebook, Twitter, Google image and author information to your post:
 author: Mikko Ohtamaa
 date: 2020-02-01
 page_logo: /static/img/content/src/world-squares.png
-page_facebook_type: article 
+page_facebook_type: article
 page_twitter_creator: moo9000
 
 ```
@@ -217,6 +219,26 @@ Then forward the port 8888 from your DigitalOcean droplet to your local dev mach
 ssh -vv -R8888:localhost:8888 root@mydroplet.com
 ```
 
+## Twitter discussion
+
+Instead of hosting a crappy comment system, each blog post will have a dedicated tweet. Commenters are
+instructed to reply to this tweet and Twitter thread for discussion. (Anybody who wants to comment
+have their voices heard is probably already on Twitter.)
+
+Example how to set it up in a post
+
+```
+---
+title: Cap table service comparison
+
+# ...
+
+# Discussion
+twitterDiscussionLink: https://twitter.com/moo9000/status/1235307994830835715
+---
+
+```
+
 # Deploying in production on Netlify
 
 * Toggle all optimisation options in Netlify's *Postprocessing* so you do not need to minify JS, CSS and images by hand
@@ -225,7 +247,7 @@ ssh -vv -R8888:localhost:8888 root@mydroplet.com
 
 ![Netlify environment](screenshots/netlify_environment.png)
 
-# Lessons learned 
+# Lessons learned
 
 * The used [MDB - Material Design for Bootstrap](https://mdbootstrap.com/freebies/jquery/blog/) stylesheets are not that high quality - a lot of `!important` statements. Next time I will go with alternative [Material Design for Boostrap](https://fezvrasta.github.io/bootstrap-material-design/)
 

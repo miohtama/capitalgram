@@ -29,6 +29,15 @@
   font-weight: 500;
 }
 
+.card-comments {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.card-comments twitter-widget {
+  margin: 10px auto;
+}
+
 .card-about-the-author {
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -59,13 +68,13 @@
 
 .body-text a {
   color: #b68300;
-  text-decoration: none;  
+  text-decoration: none;
   font-weight: bold;
   transition: 0.3s;
 }
 
 .body-text a:hover {
-  text-decoration: underline;  
+  text-decoration: underline;
   color: #eeb302;
 }
 
@@ -96,7 +105,7 @@
   background: white;
   padding: 0 20px;
   margin: 20px 0;
-} 
+}
 
 #toc ul {
   list-style: disc;
@@ -116,14 +125,14 @@
 
 .body-text blockquote {
   padding: 0.5rem 1rem;
-  border-left: .25rem solid #eceeef; 
+  border-left: .25rem solid #eceeef;
   font-style: italic;
   color: #888;
 }
 
 .body-text blockquote p {
     padding: 1rem 0;
-    font-size: 1.1rem; } 
+    font-size: 1.1rem; }
 
 
 /*
@@ -185,7 +194,7 @@
 .latest-posts-item {
   display: block;
   margin-bottom: 1rem;
-  color: black; 
+  color: black;
 }
 
 .latest-posts-date {
@@ -194,8 +203,8 @@
 }
 
 
-/* 
-* Different ways of aligning header image 
+/*
+* Different ways of aligning header image
 */
 
 
@@ -237,7 +246,7 @@
   background-position-x: center;
   background-position-y: center;
   min-height: 400px;
-  margin-bottom: 3rem;  
+  margin-bottom: 3rem;
 }
 
 .header-image-mode-700 {

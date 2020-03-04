@@ -27,20 +27,12 @@
 
     </div>
 
+    {% if twitterDiscussionLink %}
+        {% include "partials/discussion.njk" %}
+    {% endif %}
+
     <div class="about-author">
         {% include "partials/author.njk" %}
     </div>
-
-    {% if commentLink %}
-        <div class="about-comments">
-            <div class="card">
-                <div class="card-body">
-                    <h4>Comments</h4>
-
-                    <a href="https://twitter.com/moo9000" class="btn  btn-primary">Send any feedback on Twitter</a>
-                </div>
-            </div>
-        </div>
-    {% endif %}
 
 </section>
