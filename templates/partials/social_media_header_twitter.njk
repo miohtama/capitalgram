@@ -1,17 +1,17 @@
-{# Twitter metadata 
+{# Twitter metadata
 
 https://cards-dev.twitter.com/validator
 
 https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/summary-card-with-large-image
 #}
 
-<meta name="twitter:card" content="summary" />  
+<meta name="twitter:card" content="summary" />
 <meta name="twitter:title" content="{{ page_title }}" />
 <meta name="twitter:description" content="{{ page_description }}" />
 
 {% if page_twitter_image %}
-{# page_twitter_image is a site root relative path to the image #}
-<meta name="twitter:image" content="{{ site_base_url }}{{ page_twitter_image }}" />
+    {# page_twitter_image is a site root relative path to the image #}
+    <meta name="twitter:image" content="{{ site_base_url }}{{ page_twitter_image }}" />
 {% endif %}
 
 {% if page_twitter_site %}
