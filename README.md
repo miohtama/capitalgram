@@ -97,6 +97,10 @@ Or in debug mode:
 npx debug
 ```
 
+### 5. Publish
+
+Netlify automatically rebuilds the site on push to master.
+
 ## Testing MailerLite client
 
 A small JavaScript lib is included to interact with MailerLite from Netlify server-side functions.
