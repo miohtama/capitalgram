@@ -1,7 +1,7 @@
 ---
 layout: layouts/page.njk
-title: Software-as-a-service solutions for investing
-description: Modern online products for raising capital, investing and corporate governance.
+title: DeFi security and analysis
+description: Professional services to help you to safely invest in decentralised protocols
 templateClass: tmpl-page
 eleventyNavigation:
   key: Services
@@ -11,7 +11,7 @@ page_logo: /static/img/header-services.jpg
 headerImageModeClass: header-image-mode-cover-image-black
 headerImageBackgrondColor: #000000
 
-permalink: "investor-software-as-a-service/"
+permalink: "defi-decentralised-finance-service/"
 permalinkBypassOutputDir: false
 ---
 
@@ -22,31 +22,27 @@ permalinkBypassOutputDir: false
           <img src="{{ '/static/img/service-equity-crowdfunding.jpg'|url }}" class="card-img-top" alt="">
         </div>
         <div class="card-body">
-            <h4>Crowdfunding and securities platform</h5>
+            <h4>Security advisory</h5>
             <div class="card-middle">
               <p>
-                <strong>Do you want to raise capital and reach out to investors worldwide?</strong>
+                <strong>Do you want to sleep safely your digital asset investments?</strong>
               </p>
               <p>
-                  On our online platform, you can manage deal flow, onboard investors and raise funds from a few investors to thousands in a scalable manner.
+                  We help you to set up a infrastructure and processes for active trading
+                  and passive holding of cryptocurrencies and tokens.
               </p>
-              <h5>Benefits</h5>
               <ul>
-                <li>Deal-flow discovery for funds and private equity</li>              
-                <li>Reach out to investors around the world easily</li>
-                <li>Frictionless online investment process</li>
-                <li>Onboard large and small investors hassle-free</li>
-                <li>Automatic integration with global compliance databases</li>
-              </ul>            
-              <h5>The platform is ideal for:</h5>
-              <ul>
-                <li>Regional investment advisors who want to start building crowdfunding</li>
-                <li>Private equity funds looking to automate their processes</li>
-              </ul>              
-            </div>  
+                <li>Set up and training of multisignature wallets</li>
+                <li>Auditing the best practices</li>
+                <li>Setting up trading processes for DeFi protocols</li>
+                <li>Trading bots and automation</li>
+                <li>Alerts on radical market movements</li>
+                <li>All out emergency exit planning</li>
+              </ul>
+            </div>
             <a href="mailto:hello@capitalgram.com"
-              class="btn btn-primary btn-md">Contact us<i class="fas fa-envelope ml-2"></i> 
-            </a>            
+              class="btn btn-primary btn-md">Contact us<i class="fas fa-envelope ml-2"></i>
+            </a>
         </div>
     </div>
     <div class="card">
@@ -54,38 +50,38 @@ permalinkBypassOutputDir: false
           <img src="{{ '/static/img/service-investment-warden.jpg'|url }}" class="card-img-top" alt="">
         </div>
         <div class="card-body">
-            <h4>Investment Warden</h5>
+            <h4>Technical due diligence</h5>
             <p>
               <strong>
-              Do you want to improve investment follow up and ensure a good relationship with investors?
+              Are you looking to invest in DeFi protocols or yield farming?
               </strong>
             </p>
             <p>
-                Our Investment Warden service safeguards investors interests. Your investment is looked after by both an automated dashboard and a professional board member. Raised capital can be held in an escrow account and released to the company when growth milestones are reached.         
-            </p>              
-            <h5>Benefits</h5>
+              We will help you to analyse the risk of project and
+              adjust your allocation accordingly.
+            </p>
             <ul>
               <li>
-                Automated Key Performance Index (KPI) monitoring for investors
+                Team reputation check
               </li>
               <li>
-                 A human board member with full information rights to keep entrepreneurs honest
-              </li>                     
+                Technical risk mapping
+              </li>
               <li>
-                If the business plan is unviable, any unspent investment funds can be reclaimed from escrow
-              </li>       
-            </ul>            
-            <h5>The service is ideal for:</h5>
-            <ul>
-              <li>Crowdfunded companies</li>
-              <li>Private companies with a high number of shareholders</li>
-              <li>Investments in developing countries where institutions and legal frameworks may be weak</li>
-            </ul>              
+                Smart contract security review
+              </li>
+              <li>
+                Market and liquidity risk overview
+              </li>
+              <li>
+                Deep insight and chain analytics
+              </li>
+            </ul>
             <a href="mailto:hello@capitalgram.com"
-              class="btn btn-primary btn-md">Contact us<i class="fas fa-envelope ml-2"></i> 
-            </a>            
+              class="btn btn-primary btn-md">Contact us<i class="fas fa-envelope ml-2"></i>
+            </a>
         </div>
       </div>
-    </div>    
-  </div>  
+    </div>
+  </div>
 </section>

@@ -1,7 +1,7 @@
 ---
 layout: layouts/plain.njk
 title: About us
-description: Capitalgram is a finance technology advisor with 25 years experience in software development.
+description: Capitalgram is a fintech advisor with 25 years experience in software technology.
 templateClass: tmpl-plain
 eleventyNavigation:
   key: About

@@ -9,11 +9,11 @@
         <div class="card-body">
 
             <p>
-                Capitalgram is a technology and service and investment consultancy.
+                Capitalgram is a DeFi advisory company.
             </p>
 
             <p>
-                In our blog, we write about technology development, investment opportunities, and the blockchain and finance industries more broadly.
+                In our blog, we write about DeFi protocol development and investing
             </p>
 
             <p>
@@ -26,10 +26,10 @@
                     <li><a href="https://twitter.com/moo9000"><i class="fab fa-fw fa-twitter"></i></a></li>
                     <li><a href="{{ '/feed/feed.xml'|url }}"><i class="fas fa-fw fa-rss"></i></a></li>
                 </ul>
-            </p>    
-        </div>    
+            </p>
+        </div>
 
-    </div>    
+    </div>
 
 
     <div class="card card-subscribe pb-0">
@@ -47,7 +47,7 @@
             {% include "partials/newsletter-sidebar.njk" %}
         </div>
 
-    </div>    
+    </div>
 
     <div class="card card-latest-posts pb-0">
 
@@ -59,13 +59,13 @@
             <ul class="latest-posts-list">
                 {%- for post in collections.posts|reverse|head(3) -%}
                     <a href="{{ post.url }}" class="latest-posts-item">
-                        <li>                        
+                        <li>
                             <div class="latest-posts-title">{{ post.data.title }}</span>
                             <div class="latest-posts-date"> {{ post.data.date | readableDate }}</span>
-                        </li>    
-                    </a>                     
+                        </li>
+                    </a>
                 {%- endfor -%}
             </ul>
         </div>
-    </div>    
-</div>    
+    </div>
+</div>

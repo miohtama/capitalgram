@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ renderData.title or title or metadata.title }}</title>
     <meta name="Description" content="{{ renderData.description or description or metadata.description }}">
-    
+
     <!-- Font Awesome -->
     {# <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"> #}
     <script src="https://kit.fontawesome.com/d71689699d.js" crossorigin="anonymous"></script>
 
-    <link href="https://fonts.googleapis.com/css?family=Exo+2|Roboto&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Exo+2|Roboto&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="{{ '/static/css/bootstrap.min.css' | url }}">
     <link rel="stylesheet" href="{{ '/static/css/mdb.css' | url }}">
@@ -23,7 +23,7 @@
 
     {% include "partials/favicon.njk" %}
     {% include "partials/social_media_header.njk" %}
-  
+
     {# RSS feed inegration #}
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
 
@@ -62,16 +62,18 @@
 
               <!-- Right -->
               <ul class="navbar-nav nav-flex-icons">
-              
+
+                {#
                 <li class="nav-item">
                   <a href="https://linkedin.com/in/ohtis" class="nav-link waves-effect" target="_blank">
-                    <i class="fab fa-linkedin"></i>                    
+                    <i class="fab fa-linkedin"></i>
                   </a>
                 </li>
+                #}
 
                 <li class="nav-item">
                   <a href="https://twitter.com/moo9000" class="nav-link waves-effect" target="_blank">
-                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-twitter"></i> Twitter
                   </a>
                 </li>
               </ul>
@@ -84,10 +86,10 @@
 
       </header>
       <!--Main Navigation-->
-    
+
     <main {% if templateClass %} class="{{ templateClass }} mt-5 pt-5"{% endif %}>
       {{ content | safe }}
-      {# 
+      {#
       <div class="warning">
         <ol>
           <li>Edit the <code>_data/metadata.json</code> with your blog’s information.</li>
