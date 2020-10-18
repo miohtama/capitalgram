@@ -11,7 +11,7 @@ extraCSS: /static/css/blog.css
 
       <div class="header-text text-center">
         <div class="container">
-          
+
           <h1 class="mb-4">
             {{ title }}
           </h1>
@@ -19,18 +19,18 @@ extraCSS: /static/css/blog.css
           <p class="lead">
             {{ description }}
           </p>
-        </div>  
+        </div>
       </div>
     </div>
   </section>
-{% else %}  
+{% else %}
   {# Plain boring background #}
   <section class="section-header-image wow fadeIn">
     <div class="header-image-wrapper header-image-missing {{ headerImageModeClass }}">
 
       <div class="header-text text-center">
         <div class="container">
-          
+
           <h1 class="mb-4">
             {{ title }}
           </h1>
@@ -38,7 +38,7 @@ extraCSS: /static/css/blog.css
           <p class="lead">
             {{ description }}
           </p>
-        </div>  
+        </div>
       </div>
     </div>
   </section>
@@ -49,16 +49,16 @@ extraCSS: /static/css/blog.css
   <div class="container">
 
     <div class="row">
-      <div class="col-md-9">
+      <div class="col-lg-9">
         {% include "partials/post_content.njk" %}
       </div>
 
-      <div class="col-md-3">
+      <div class="col-lg-3">
         {% include "partials/sidebar.njk" %}
       </div>
     </div>
   </div>
-</section>  
+</section>
 
 
 
