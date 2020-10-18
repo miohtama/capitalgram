@@ -34,8 +34,10 @@
   margin-bottom: 3rem;
 }
 
-.card-comments twitter-widget {
+.card-comments twitter-widget,
+.card-comments .twitter-embed {
   margin: 10px auto;
+  display: inline-block;
 }
 
 .card-about-the-author {
