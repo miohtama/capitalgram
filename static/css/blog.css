@@ -89,12 +89,14 @@
   padding: 60px 0;
 }
 
-.body-text h2 .direct-link {
+.body-text h2 .direct-link,
+.body-text h3 .direct-link {
   color: rgba(0, 0, 0, 0);
   transition: 0.3s;
 }
 
-.body-text h2:hover .direct-link {
+.body-text h2:hover .direct-link,
+.body-text h3:hover .direct-link {
   color: rgba(238, 179,2, 0.8);
 }
 
@@ -222,6 +224,14 @@
   margin-bottom: 3rem;
 }
 
+.header-image-mode-center-image {
+    background-size: contain;
+    min-height: 400px;
+    margin-bottom: 3rem;
+    background-position: center center;
+    background-repeat: no-repeat
+  }
+
 .header-image-mode-cover-image,
 .header-image-mode-cover-image-black {
   background-size: cover;
@@ -274,6 +284,13 @@
 
 .slate-resizable-image-embed img {
     max-width: 100%;
+}
+
+/* Misc images */
+
+.img-600 {
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 

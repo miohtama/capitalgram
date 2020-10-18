@@ -7,7 +7,7 @@ extraCSS: /static/css/blog.css
 {# Run only if a header image has been specified #}
 {% if header %}
   <section class="section-header-image wow fadeIn">
-    <div class="header-image-wrapper {{ headerImageModeClass }}" style="background-image: url({{ header|bgimage }});{% if headerImageBackgroundColor %}backgrond-color: {{headerImageBackgroundColor}} {% endif %}">
+    <div class="header-image-wrapper {{ headerImageModeClass }}" style="background-image: url({{ header|bgimage }});{% if headerImageBackgroundColor %}background-color: {{headerImageBackgroundColor}} {% endif %}">
 
       <div class="header-text text-center">
         <div class="container">
