@@ -1,9 +1,9 @@
 ---
-title: What is the right price for FileCoin and is it worth of mining
-description: An analysis how FileCoin price will be formed
+title: What is the right price for Filecoin and is it worth of mining
+description: An analysis how Filecoin price will be formed
 longDescription: >
     This week, after three years of waiting, a decentralised storage project Filecoin launched their mainnet.
-    FileCoin price is in free fall on cryptocurrency exchanges, but still multiple 10x of their ICO price.
+    Filecoin price is in free fall on cryptocurrency exchanges, but still multiple 10x of their ICO price.
 
 ## Sharing info ##
 author: Mikko Ohtamaa
@@ -26,13 +26,13 @@ postListImageClass: post-list-image-cover
 
 ## Preface
 
-Filecoin raised $200M for their $FIL token in an ICO back in 2017. The team has been diligently working to bring the dream of decentralised storage alive since then and they delivered the mainnet last week. FileCoin is live, so let's look at what goes into the storage business and if there is a play for decentralisation there.
+Filecoin raised $200M for their $FIL token in an ICO back in 2017. The team has been diligently working to bring the dream of decentralised storage alive since then and they delivered the mainnet last week. Filecoin is live, so let's look at what goes into the storage business and if there is a play for decentralisation there.
 
 <ol id="toc"><!-- --></ol>
 
 ## Value promise
 
-FileCoin wants to be the decentralise storage, ultimately meaning that all (business-to-business) file saves and publications could be run over their protocols. The users of the service are unlikely to be consumers themselves, but it competes against business offerings like Amazon S3 and Google Cloud. This is my assumption, FileCoin might find some use cases outside a backbone for storage infrastructure, like censorship-resistant publications, but I will skip the future use cases in this post and focus only on the competition against centralised storage.
+Filecoin wants to be the decentralise storage, ultimately meaning that all (business-to-business) file saves and publications could be run over their protocols. The users of the service are unlikely to be consumers themselves, but it competes against business offerings like Amazon S3 and Google Cloud. This is my assumption, Filecoin might find some use cases outside a backbone for storage infrastructure, like censorship-resistant publications, but I will skip the future use cases in this post and focus only on the competition against centralised storage.
 
 There also exist well-established decentralised storage solutions,
 like [Storj Tardigrade](https://tardigrade.io/) and [SIA](https://sia.tech/) but I do not divulge deeper in the competition in this post.
@@ -44,7 +44,7 @@ there are mainly three use cases for storage.
 
 ###  Databases of business applications
 
-A lot of small read/write transactions. I will skip this use case and assume FileCoin cannot do this kind of IO pattern today. Usually this kind of IO pattern requires locally mounted storage and decentralisation is done on the application level, not on a storage level.
+A lot of small read/write transactions. I will skip this use case and assume Filecoin cannot do this kind of IO pattern today. Usually this kind of IO pattern requires locally mounted storage and decentralisation is done on the application level, not on a storage level.
 
 [In this category there was a non-trustless product called BigChainDB](https://www.bigchaindb.com/), but looks like their blog has gone quiet.
 
@@ -61,7 +61,7 @@ For this use case, we also have [Edge Network](https://edge.network/) (Disclaime
 
 This is writing big chunks of data times, reading a few times IO pattern. Websites internally store uploaded files somewhere, and often they do it  in AWS S3, the market leader of storage services since 2006.
 
-Internal storage users care only about price, speed and latency (and data privacy, but you can encrypt everything). Offering a drop-in replacement for S3 is a no-brainer if FileCoin can match in speed and latency categories.
+Internal storage users care only about price, speed and latency (and data privacy, but you can encrypt everything). Offering a drop-in replacement for S3 is a no-brainer if Filecoin can match in speed and latency categories.
 
 It should be possible, as [Storj already does this](https://tardigrade.io/).
 
@@ -71,11 +71,11 @@ So-called "cold data" features backups and other archives. This is write once, k
 
 Cold data is a niche. It is usually backed up by specialised hardware, like Blueray disc stacking robots or magnetic tapes. Offering competing prices without unique hardware is tough.
 
-We can safely assume FileCoin cannot compete in the cold data use case, because it would need to a lot of redesigning of the protocol around the fact that miners use specialised, slow, hardware. For example, [Proof of Spacetime](https://docs.filecoin.io/about-filecoin/how-filecoin-works/#proofs) would be impossible.
+We can safely assume Filecoin cannot compete in the cold data use case, because it would need to a lot of redesigning of the protocol around the fact that miners use specialised, slow, hardware. For example, [Proof of Spacetime](https://docs.filecoin.io/about-filecoin/how-filecoin-works/#proofs) would be impossible.
 
 ## Production vs. sales price
 
-Hopefully the readers are with me on the same page on what FileCoin can solve: B2B file storage backbone for a software system.
+Hopefully the readers are with me on the same page on what Filecoin can solve: B2B file storage backbone for a software system.
 
 Let's breakdown this market a bit:
 
@@ -85,14 +85,14 @@ Let's breakdown this market a bit:
 
 ### What do customers pay for such storage
 
-Assuming your business is willing to migrate away from one of the big three clouds, then you can look options like FileCoin. But in this case, the competition is also in other niche storage businesses, like [Wasabi](https://wasabi.com/) or [Backblaze](https://www.backblaze.com/).
+Assuming your business is willing to migrate away from one of the big three clouds, then you can look options like Filecoin. But in this case, the competition is also in other niche storage businesses, like [Wasabi](https://wasabi.com/) or [Backblaze](https://www.backblaze.com/).
 
 For example, here we have Wasabi:
 
 > Wasabi is the hot cloud storage company delivering disruptive storage technology that is 1/5th the price of Amazon S3 and faster than the competition with no fees for egress or API requests.
 
 Wasabi touts the figure of [$.0059 per GB/month, $0.0708 per GB/year](https://wasabi.com/cloud-storage-pricing/#three-info)
-so let's assume FileCoin must match that price.
+so let's assume Filecoin must match that price.
 
 ### What does it cost to produce a gigabyte of storage?
 
@@ -108,19 +108,19 @@ Unfortunately you cannot do create an efficient storage network node out from yo
 
 * To scale you need data centers with specialised equipment, cheap electricity, blue-collar staff, etc.
 
-* In this economies-of-scale business, FileCoin's $200M raise suddenly does not feel big at all
+* In this economies-of-scale business, Filecoin's $200M raise suddenly does not feel big at all
 
-### What does this mean for FileCoin miners?
+### What does this mean for Filecoin miners?
 
-Unless you have spare $10M and an existing team of data center professionals, you cannot produce competitive storage. [This is regardless if your computer has 256 GB RAM](https://docs.filecoin.io/mine/hardware-requirements/). Maybe some Bitcoin miners could transform into FileCoin mining facilities if they can somehow, like with free electricity, can match professional data centers.
+Unless you have spare $10M and an existing team of data center professionals, you cannot produce competitive storage. [This is regardless if your computer has 256 GB RAM](https://docs.filecoin.io/mine/hardware-requirements/). Maybe some Bitcoin miners could transform into Filecoin mining facilities if they can somehow, like with free electricity, can match professional data centers.
 
-## How FileCoin can success?
+## How Filecoin can success?
 
-So far it does not look very bright for FileCoin. We also need to add the complication that FileCoin is trustless - it does not trust the miners can keep their systems running. FileCoin does this by [various proofs](https://docs.filecoin.io/about-filecoin/how-filecoin-works/#proofs) and these proofs will cost bandwidth and CPU time for both miners and validators. On the other tip of the scale is that FileCoin is trustless and decentralised, so there is less need to invest in data center security and stability.
+So far it does not look very bright for Filecoin. We also need to add the complication that Filecoin is trustless - it does not trust the miners can keep their systems running. Filecoin does this by [various proofs](https://docs.filecoin.io/about-filecoin/how-filecoin-works/#proofs) and these proofs will cost bandwidth and CPU time for both miners and validators. On the other tip of the scale is that Filecoin is trustless and decentralised, so there is less need to invest in data center security and stability.
 
-A successful FileCoin operation would probably look like
+A successful Filecoin operation would probably look like
 
-* A miner has hardware operations/data center knowledge but no experience in international marketing (FileCoin does the marketing)
+* A miner has hardware operations/data center knowledge but no experience in international marketing (Filecoin does the marketing)
 
 * A miner has an existing data center and storage capacity under-utilised
 
@@ -132,21 +132,21 @@ Some arguments I do not know if they work
 
 * Serving some niche censorship-resistance use case, like the resistance movement in Belarus and other countries, Chinese porn industry, criminal forums
 
-This is today. I feel there is less demand for decentralised storage than there is for decentralised finance. The Internet will evolve, but this will happen slowly over the timespans of years. For example, FileCoin might be super successful in the CDN use case if IPFS support arrives in web browsers. Can FileCoin hold that long? It took four years from Bitcoin holders to make a meaningful impact and Bitcoin is multiple orders of magnitudes simpler than FileCoin.
+This is today. I feel there is less demand for decentralised storage than there is for decentralised finance. The Internet will evolve, but this will happen slowly over the timespans of years. For example, Filecoin might be super successful in the CDN use case if IPFS support arrives in web browsers. Can Filecoin hold that long? It took four years from Bitcoin holders to make a meaningful impact and Bitcoin is multiple orders of magnitudes simpler than Filecoin.
 
-What comes to trustlessness and decentralisation, FileCoin is now tuning down this with [Verified Clients program](https://github.com/filecoin-project/FIPs/blob/master/FIPS/fip-0003.md). The program reads like "we subsidise network users who reveal their real-world identities, so we have less headache with law enforcement."
+What comes to trustlessness and decentralisation, Filecoin is now tuning down this with [Verified Clients program](https://github.com/filecoin-project/FIPs/blob/master/FIPS/fip-0003.md). The program reads like "we subsidise network users who reveal their real-world identities, so we have less headache with law enforcement."
 
 ## What will be $FIL price?
 
-[The FileCoin price is -80% from CoinGecko all-time high $200](https://www.coingecko.com/en/coins/filecoin). Looks like the bought top was around $70 / $FIL.
+[The Filecoin price is -80% from CoinGecko all-time high $200](https://www.coingecko.com/en/coins/filecoin). Looks like the bought top was around $70 / $FIL.
 
 <img src="{{ '/static/img/content/fixed-size/filecoin-price.png'|url }}" class="img-fluid" alt="Filecoin price, October 2020">
 
-As we see, it is expensive to run a storage business and you are likely to have a lot of fiat nominated expenses. [There is already a FileCoin Improvement Proposal FIP-4 to decrease vesting in the miner revenues](https://github.com/filecoin-project/FIPs/blob/master/FIPS/fip-0004.md). As if it is not bad enough to sell a product in a tough market, having your cash flows locked for six months for the [slashing condition](https://docs.filecoin.io/mine/slashing/) is outright crazy.
+As we see, it is expensive to run a storage business and you are likely to have a lot of fiat nominated expenses. [There is already a Filecoin Improvement Proposal FIP-4 to decrease vesting in the miner revenues](https://github.com/filecoin-project/FIPs/blob/master/FIPS/fip-0004.md). As if it is not bad enough to sell a product in a tough market, having your cash flows locked for six months for the [slashing condition](https://docs.filecoin.io/mine/slashing/) is outright crazy.
 
 I feel this is one of the "VC shitcoin" and "dumpenomics" arguments where people see that ICO participants can sell some of their coins for a nice 20x profit, while miners with capital cost take the hit. Though not sure who is buying in these prices. Usually in this kind of deals you pay dearly to exchanges like Binance or their "consultants" a lot to have some support for the price. When the prepaid= "market-making" money comes to end, the price will go down even faster.
 
-There exist no relationship between $FIL price and the price of storage byte in the network: No 1 $FIL = 1 gigabyte. Currently, FileCoin seems to operate somewhat as an auction market. [Miners post different "deals" and customers choose one to buy one](https://docs.filecoin.io/mine/how-mining-works/#deals). [You can browse deals in FilFox, FileCoin explorer](https://filfox.info/en/deal).
+There exist no relationship between $FIL price and the price of storage byte in the network: No 1 $FIL = 1 gigabyte. Currently, Filecoin seems to operate somewhat as an auction market. [Miners post different "deals" and customers choose one to buy one](https://docs.filecoin.io/mine/how-mining-works/#deals). [You can browse deals in FilFox, Filecoin explorer](https://filfox.info/en/deal).
 
 I assume the business flow looks something akin like this
 
@@ -161,9 +161,9 @@ I assume the business flow looks something akin like this
 
 ### From scarcity economics to revenue sharing
 
-Unlike with Bitcoin, FileCoin does not have artificial scarcity. Customers can always switch to Wasabi or another centralised cloud storage provider. Thus, with the current $FIL mechanics I do not see factors that would pressure the price to go up. This does not change if there is 1000 or 1,000,000 $FIL tokens in the existence.
+Unlike with Bitcoin, Filecoin does not have artificial scarcity. Customers can always switch to Wasabi or another centralised cloud storage provider. Thus, with the current $FIL mechanics I do not see factors that would pressure the price to go up. This does not change if there is 1000 or 1,000,000 $FIL tokens in the existence.
 
-Potential game changes would be when FileCoin does a revenue sharing to token holders, similar to [Curve CIV-13](https://gov.curve.fi/t/cip-13-implement-an-admin-fee-of-50-0-02-across-all-pools-to-be-distributed-to-vecrv-holders/690) or [SushiSwap](https://sushiswap.fi/) and this would set the floor price for $FIL. This might be a tough pill to swallow for the FileCoin team. They are heavily based in the US and the SEC is notorious for going after anything that looks like an investment even a bit, not to mention gigabit.
+Potential game changes would be when Filecoin does a revenue sharing to token holders, similar to [Curve CIV-13](https://gov.curve.fi/t/cip-13-implement-an-admin-fee-of-50-0-02-across-all-pools-to-be-distributed-to-vecrv-holders/690) or [SushiSwap](https://sushiswap.fi/) and this would set the floor price for $FIL. This might be a tough pill to swallow for the Filecoin team. They are heavily based in the US and the SEC is notorious for going after anything that looks like an investment even a bit, not to mention gigabit.
 
 
 
