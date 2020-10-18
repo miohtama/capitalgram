@@ -1,9 +1,9 @@
 {
   "title": "Capitalgram",
-  "url": "https://capitalgram.net/",
-  "description": "Building services for smarter and sustainanble investing",
+  "url": "https://capitalgram.com/",
+  "description": "Professional advise for DeFi investors",
   "feed": {
-    "subtitle": "Stories about the future of investing",
+    "subtitle": "DeFi investing and protocol analysis",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://capitalgram.net/"
