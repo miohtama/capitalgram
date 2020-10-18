@@ -161,7 +161,7 @@ I assume the business flow looks something akin like this
 
 ### From scarcity economics to revenue sharing
 
-Unlike with Bitcoin, Filecoin does not have artificial scarcity. Customers can always switch to Wasabi or another centralised cloud storage provider. Thus, with the current $FIL mechanics I do not see factors that would pressure the price to go up. This does not change if there is 1000 or 1,000,000 $FIL tokens in the existence.
+ As far as I see, locking up $FIL into the storage contracts and [reducing the velocity of the token](https://medium.com/newtown-partners/velocity-of-tokens-26b313303b77) is the only factor driving up the price. But unlike with Bitcoin and Ethereum, Filecoin does not have similar artificial scarcity as in DeFi. Even in this case, $FIL storage contracts should follow per dollar storage price of Amazon, others. Customers can always switch to Wasabi or another cloud storage provider more easily than it would take to switch from a DeFi service to a bank and paper contracts. Thus, with the current $FIL mechanics the upwards price pressure may stay weak for a long time.
 
 Potential game changes would be when Filecoin does a revenue sharing to token holders, similar to [Curve CIV-13](https://gov.curve.fi/t/cip-13-implement-an-admin-fee-of-50-0-02-across-all-pools-to-be-distributed-to-vecrv-holders/690) or [SushiSwap](https://sushiswap.fi/) and this would set the floor price for $FIL. This might be a tough pill to swallow for the Filecoin team. They are heavily based in the US and the SEC is notorious for going after anything that looks like an investment even a bit, not to mention gigabit.
 
