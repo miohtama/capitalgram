@@ -142,11 +142,11 @@ What comes to trustlessness and decentralisation, FileCoin is now tuning down th
 
 <img src="{{ '/static/img/content/fixed-size/filecoin-price.png'|url }}" class="img-fluid" alt="Filecoin price, October 2020">
 
-As we see, it is expensive to run a storage business and you are likely to have a lot of fiat nominated expenses. [There is already a FileCoin Improvement Proposal FIP-4 to decrease vesting in the miner revenues](https://github.com/filecoin-project/FIPs/blob/master/FIPS/fip-0004.md). As if it is not bad enough to sell a product in a tough market, having your cash flows locked for six months is outright crazy, which is a requirement to be able to operate in a trustless network and [be slashed](https://docs.filecoin.io/mine/slashing/).
+As we see, it is expensive to run a storage business and you are likely to have a lot of fiat nominated expenses. [There is already a FileCoin Improvement Proposal FIP-4 to decrease vesting in the miner revenues](https://github.com/filecoin-project/FIPs/blob/master/FIPS/fip-0004.md). As if it is not bad enough to sell a product in a tough market, having your cash flows locked for six months for the [slashing condition](https://docs.filecoin.io/mine/slashing/) is outright crazy.
 
 I feel this is one of the "VC shitcoin" and "dumpenomics" arguments where people see that ICO participants can sell some of their coins for a nice 20x profit, while miners with capital cost take the hit. Though not sure who is buying in these prices. Usually in this kind of deals you pay dearly to exchanges like Binance or their "consultants" a lot to have some support for the price. When the prepaid= "market-making" money comes to end, the price will go down even faster.
 
-There is no relationships between $FIL price and the price of storage byte in the network: No 1 $FIL = 1 gigabyte. Currently FileCoin seems to operate somewhat as an auction market. [Miners post different "deals" and customers choose one to buy one](https://docs.filecoin.io/mine/how-mining-works/#deals). [You can browse deals in FilFox, FileCoin explorer](https://filfox.info/en/deal).
+There exist no relationship between $FIL price and the price of storage byte in the network: No 1 $FIL = 1 gigabyte. Currently, FileCoin seems to operate somewhat as an auction market. [Miners post different "deals" and customers choose one to buy one](https://docs.filecoin.io/mine/how-mining-works/#deals). [You can browse deals in FilFox, FileCoin explorer](https://filfox.info/en/deal).
 
 I assume the business flow looks something akin like this
 
@@ -159,9 +159,11 @@ I assume the business flow looks something akin like this
 
 * A miner cash outs $FIL as soon as possible to cover the expenses
 
-Unlike with Bitcoin, FileCoin does not have artificial scarcity. Customers can always switch to Wasabi or another cloud storage provider. Thus, with the current $FIL mechanics I do not see factors that would pressure the price to go up.
+### From scarcity economics to revenue sharing
 
-Potential game changes would be when FileCoin does a revenue sharing to token holders, similar to [Curve CIV-13](https://gov.curve.fi/t/cip-13-implement-an-admin-fee-of-50-0-02-across-all-pools-to-be-distributed-to-vecrv-holders/690) or [SushiSwap](https://sushiswap.fi/) and this would set the floor price for $FIL.
+Unlike with Bitcoin, FileCoin does not have artificial scarcity. Customers can always switch to Wasabi or another centralised cloud storage provider. Thus, with the current $FIL mechanics I do not see factors that would pressure the price to go up. This does not change if there is 1000 or 1,000,000 $FIL tokens in the existence.
+
+Potential game changes would be when FileCoin does a revenue sharing to token holders, similar to [Curve CIV-13](https://gov.curve.fi/t/cip-13-implement-an-admin-fee-of-50-0-02-across-all-pools-to-be-distributed-to-vecrv-holders/690) or [SushiSwap](https://sushiswap.fi/) and this would set the floor price for $FIL. This might be a tough pill to swallow for the FileCoin team. They are heavily based in the US and the SEC is notorious for going after anything that looks like an investment even a bit, not to mention gigabit.
 
 
 
