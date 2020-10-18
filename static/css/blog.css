@@ -268,8 +268,14 @@
 }
 
 
+/* LinkedIn imports */
+
+.slate-resizable-image-embed img {
+    max-width: 100%;
+}
 
 
+/* Mobile adjustments */
 
 @media (max-width: 767px) {
   .header-image-mode-contain-image {

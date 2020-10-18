@@ -73,12 +73,14 @@ The project has been only built on OSX, though Windows should work in theory.
 ### 3. Install dependencies
 
 ```
+# Node version v10 needed
 npm install
 ```
 
 ### 4. Run Eleventy with Netlify helper
 
 ```
+# Any changes to image thumbs and you need to rerun npm run images:resize
 npx netlify dev
 ```
 
