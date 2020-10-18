@@ -128,7 +128,7 @@ Some arguments I do not know if they work
 
 * A miner in specific geolocation (China) serving only local traffic (latency benefit) - not sure how Filecoin replicates data for local latency if a particular local miner breaks down
 
-* Seeding BitTorrent and other copyright infringement material (may a partnership with Justin Sun)
+* Seeding BitTorrent and other copyright infringement material (maybe a partnership with Justin Sun)
 
 * Serving some niche censorship-resistance use case, like the resistance movement in Belarus and other countries, Chinese porn industry, criminal forums
 
