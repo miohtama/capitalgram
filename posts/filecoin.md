@@ -114,7 +114,7 @@ Unfortunately you cannot do create an efficient storage network node out from yo
 
 Unless you have spare $10M and an existing team of data center professionals, you cannot produce competitive storage. [This is regardless if your computer has 256 GB RAM](https://docs.filecoin.io/mine/hardware-requirements/). Maybe some Bitcoin miners could transform into Filecoin mining facilities if they can somehow, like with free electricity, can match professional data centers.
 
-## How Filecoin can success?
+## How Filecoin can succeed?
 
 So far it does not look very bright for Filecoin. We also need to add the complication that Filecoin is trustless - it does not trust the miners can keep their systems running. Filecoin does this by [various proofs](https://docs.filecoin.io/about-filecoin/how-filecoin-works/#proofs) and these proofs will cost bandwidth and CPU time for both miners and validators. On the other tip of the scale is that Filecoin is trustless and decentralised, so there is less need to invest in data center security and stability.
 
