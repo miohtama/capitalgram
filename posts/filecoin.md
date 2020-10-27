@@ -20,7 +20,7 @@ postListImageClass: post-list-image-cover
 
 
 # Discussion
-# twitterDiscussionLink: https://twitter.com/moo9000/status/1300384143839240193
+twitterDiscussionLink: https://twitter.com/moo9000/status/1318110112507191296
 
 ---
 
