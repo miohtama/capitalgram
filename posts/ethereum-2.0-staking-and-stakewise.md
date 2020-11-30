@@ -20,7 +20,7 @@ postListImageClass: post-list-image-cover
 
 
 # Discussion
-# twitterDiscussionLink: https://twitter.com/moo9000/status/1318110112507191296
+twitterDiscussionLink: https://twitter.com/moo9000/status/1333385922600177664
 
 ---
 In this blog post, we will look in detail Ethereum 2.0 staking, staking pools and how they operate. As an example, I feature the StakeWise staking pool service and then explore the return on investment, risks and technical aspects of staking.
