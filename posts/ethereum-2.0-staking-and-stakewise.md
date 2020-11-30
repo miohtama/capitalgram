@@ -14,7 +14,7 @@ page_twitter_creator: moo9000
 
 layout: layouts/post.njk
 header: ethereum-staking.jpg
-headerImageModeClass: header-image-mode-center-image header-image-text-white
+headerImageModeClass: header-image-mode-cover-image header-image-mode-700 header-image-text-white
 headerImageBackgroundColor: "#0090ff"
 postListImageClass: post-list-image-cover
 
