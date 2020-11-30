@@ -13,7 +13,7 @@ page_facebook_type: article
 page_twitter_creator: moo9000
 
 layout: layouts/post.njk
-header: filecoin-header.jpg
+header: ethereum-staking.jpg
 headerImageModeClass: header-image-mode-center-image header-image-text-white
 headerImageBackgroundColor: "#0090ff"
 postListImageClass: post-list-image-cover
@@ -25,13 +25,13 @@ postListImageClass: post-list-image-cover
 ---
 In this blog post, we will look in detail Ethereum 2.0 staking, staking pools and how they operate. As an example, I feature the StakeWise staking pool service and then explore the return on investment, risks and technical aspects of staking.
 
-Ethereum 2.0 phase 0 beacon chain launch is imminent. I expect the popularity of staking pools to increase quickly, as they are a convenient way for non-technical users to put their ETH capital in productive use.
+Ethereum 2.0 phase 0 chain launch is imminent. I expect the popularity of staking pools to increase quickly, as they are a convenient way for non-technical users to put their ETH capital in productive use.
 
 <ol id="toc"><!-- --></ol>
 
 ## What is Proof of Stake?
 
-Ethereum 2.0 is a long term upgrade plan for Ethereum 1.0, the most popular blockchain at the moment. Ethereum 2.0 will be a Proof of Stake blockchain. In a Proof of Stake [consensus model](https://www.investopedia.com/terms/c/consensus-mechanism-cryptocurrency.asp) the validators who ensure the blockchain gets new blocks and moves forward, stake some capital (ETH) to receive [block production rewards](https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/eth-2.0-economics/#staking-rewards). Validators take turns.
+Ethereum 2.0 is a long term upgrade plan for Ethereum 1.0, the most popular blockchain at the moment. Ethereum 2.0 will be a Proof of Stake blockchain. In a Proof of Stake [consensus model](https://www.investopedia.com/terms/c/consensus-mechanism-cryptocurrency.asp) the validators who ensure the blockchain gets new blocks and moves forward, stake some capital (ETH) to receive [block production rewards](https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/eth-2.0-economics/#staking-rewards).
 
 Validator clients stake some capital (min 32 ETH), but the actual hardware can be modest. This is opposite to Bitcoin and Ethereum 1.0 where miners need to buy specialised physical mining devices and burn vast amounts of electricity to receive block rewards. In this sense, the Ethereum 2.0 network will be much more secure as there is going to be more operators ensuring the network security.
 
@@ -54,7 +54,7 @@ Instead of directly staking, it is more capital safe to own shares through a sta
 
 StakeWise team is based in Estonia, known for its crypto friendliness. StakeWise founding team is likewise Estonians, Dmitri Tsumak and Kirill Kutakov.
 
-<img src="{{ '/static/img/content/fixed-size/stakewise.png'|url }}" class="img-600" alt="How does Ethereum 2.0 staking work">
+<img src="{{ '/static/img/content/fixed-size/stakewise.png'|url }}" class="img-400" alt="StakeWise staking pool for Ethereum 2.0">
 
 StakeWise is a smart contract-based service. The staking pool launches as a custodial pool but later plans to migrate to be completely [non-custodial](https://stackoverflow.com/questions/65009246/what-does-non-custodial-mean). Unlike centralised staking services like cryptocurrency exchanges, the tokenized shares in Stakewise pool are publicly tradable as ERC-20 tokens. This allows you to enter and exit otherwise illiquid ETH 2.0 staking positions. Furthermore, smart contracts ensure 100% transparency towards the service users making it harder for the operators to hide any issues.
 
@@ -74,7 +74,7 @@ As discussed previously, those who stake are rewarded with block rewards that co
 
 Staking rewards for Ethereum 2.0 will depend on how much Ethereum is locked for staking. The max theoretical annual interest for your Ethereum will be between 1.8% - 22.9%. To achieve the theoretical interest your Ethereum 2.0 node must operate flawlessly. It is reasonable to expect some Ethereum 2.0 development hiccups, problems with the Internet and problems with server hardware that may cause this number to go down.
 
-<img src="{{ '/static/img/content/fixed-size/ethereum-staking-profitability.png'|url }}" class="img-600" alt="How profitable is Ethereum staking">
+<img src="{{ '/static/img/content/fixed-size/ethereum-staking-profitability.png'|url }}" class="img-400" alt="How profitable is Ethereum staking">
 
 [Ethereum 2.0 staking rewards table courtesy of EthHub](https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/eth-2.0-economics/).
 
@@ -84,7 +84,7 @@ For the clarity, this is not free interest - there has to be a server somewhere 
 
 In Ethereum 2.0 network operation is divided between beacon nodes and validator clients. [A detailed overview can be found in EthHub documentation](https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/eth-2.0-client-architecture/).
 
-<img src="{{ '/static/img/content/fixed-size/ethereum-staking.png'|url }}" class="img-600" alt="How does Ethereum 2.0 staking work">
+<img src="{{ '/static/img/content/fixed-size/ethereum-2-staking.png'|url }}" class="img-600" alt="How does Ethereum 2.0 staking work">
 
 *   Beacon nodes are somewhat similar to Ethereum 1.0 full nodes and are responsible for forming the peer-to-peer network of transactions. Beacon nodes also process attestations from validator clients. Beacon nodes do not do staking themselves.
 *   Validator clients are a little bit like miners. One validator client connects to a single beacon node. A validator client needs to have a minimum of 32 ETH assigned to it to participate in the block creation process and receive block rewards.
@@ -110,11 +110,13 @@ StakeWise offers two staking modes: pool and solo.
 
 In [a pool mode](https://docs.stakewise.io/stakewise-pool), you contribute your ETH towards a StakeWise staking pool that stakes with all pooled ETH.
 
+<img src="{{ '/static/img/content/fixed-size/pool-staking.png'|url }}" class="img-600" alt="How does Ethereum 2.0 staking pool work">
+
 You [deposit](https://docs.stakewise.io/stakewise-pool#depositing) into the pool smart contract and receive pool shares as ERC-20 tokens in return. The pool then will deposit this ETH to [Ethereum 2.0 Deposit Contract](https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/deposit-contract/).
 
 There are two tokens.
 
-*   **Staked ETH (stETH) **reflect 1:1 ETH pool deposited in Ethereum 2.0 Deposit contract.
+*   **Staked ETH (stETH)** reflect 1:1 ETH pool deposited in Ethereum 2.0 Deposit contract.
 *   **Reward ETH (rwETH)** reflects accrued staking rewards and will be proportionally distributed to the pool members.
 
 For each new 32 ETH deposited to the pool contract, StakeWise allocates a new validator client key and then may also spin up a new validator client in their cloud service infrastructure.
@@ -122,8 +124,6 @@ For each new 32 ETH deposited to the pool contract, StakeWise allocates a new va
 StakeWise the corporation takes a 10% cut on staking rewards for maintaining its service, that consists of a website (frontend), cloud service infrastructure (backend) and smart contracts. There are no fees on deposits.
 
 Though the pool service is smart contract based, you still rely on StakeWise to run the server infrastructure to generate profits for the pool. Any losses due to validation client errors during the staking will be absorbed by the pool as a whole.
-
-<img src="{{ '/static/img/content/fixed-size/pool-staking.png'|url }}" class="img-600" alt="How does Ethereum 2.0 staking pool work">
 
 ### Solo mode
 
@@ -164,12 +164,12 @@ In this section, I dissect StakeWise smart contracts and infrastructure more in 
 For the simplification, we discuss only the pooled mode of StakeWise staking. Note that the risks here are not specific to StakeWise business model, but shared between all Ethereum 2.0 staking pool operators.
 
 
-### How do StakeWise validator client and beacon node infrastructure operate?
+#### How do StakeWise validator client and beacon node infrastructure operate?
 
 StakeWise use a Kubernetes cluster that hosts multiple beacon nodes for Ethereum 2.0 for redundancy and validator clients that connect to the beacon nodes for getting tasks from them. All of them run in docker containers.
 
 
-### How are deposits handled?
+#### How are deposits handled?
 
 1. The [user deposits ETH to Pool](https://github.com/stakewise/contracts/blob/9560cf40d1cc4c6fee342e0e396fd8d0d17e2ce1/contracts/collectors/Pool.sol#L70)
 2. The user receives an equal amount of [stETH in return](https://github.com/stakewise/contracts/blob/9560cf40d1cc4c6fee342e0e396fd8d0d17e2ce1/contracts/collectors/Pool.sol#L79)
@@ -181,7 +181,7 @@ Then later
 3. [The ETH is forwarded from the pool contract to ETH 2.0 deposit contract](https://github.com/ethereum/eth2.0-specs/blob/cd3a39a84a9080fd1be4c6ec0ad5dfc67eceb5cb/solidity_deposit_contract/deposit_contract.sol#L101)
 
 
-### How are withdrawals handled?
+#### How are withdrawals handled?
 
 ETH 2.0 withdrawals won’t be available until the far future.
 
@@ -191,11 +191,11 @@ ETH 2.0 withdrawals won’t be available until the far future.
 [Ethereum community is working to have a safer way to address ETH 2.0 withdrawals](https://github.com/ethereum/eth2.0-specs/issues/2040) and support withdrawals to ETH 1.0 addresses (smart contracts and normal ones).
 
 
-### How are validator clients and StakeWise smart contracts connected?
+#### How are validator clients and StakeWise smart contracts connected?
 
-1. The operator generates new validator keys for each 32 ETH assigned to the pool (withdrawal credentials are the same for the whole pool)
+The operator generates new validator keys for each 32 ETH assigned to the pool - withdrawal credentials are the same for the whole pool.
 
-### What centralised control StakeWise has over smart contracts?
+#### What centralised control StakeWise has over smart contracts?
 
 StakeWise includes some master keys for the smart contracts. These include
 
@@ -205,33 +205,33 @@ StakeWise includes some master keys for the smart contracts. These include
 *   [Centralised withdrawal credentials](https://docs.stakewise.io/smart-contracts/pool#register-validator)
 
 
-### Can StakeWise steal or lose deposited ETH?
+#### Can StakeWise steal or lose deposited ETH?
 
 Currently, there is no visibility of withdrawal credential handling process. StakeWise could lose withdrawal credential keys to an external attacker or there could be an insider fraud.
 
 This can be mitigated in the future by having more diverse and robust base of keyholders and cosigners, as discussed later.
 
-### Can StakeWise manipulate staked ETH (stETH) shares?
+#### Can StakeWise manipulate staked ETH (stETH) shares?
 
 StakeWise can unilaterally upgrade the token contract and thus manipulate balances. However this would be immediately obvious to everyone.
 
-### Risks of having validator keys exposed
+#### Risks of having validator keys exposed
 
 Currently Ethereum 2.0 does not allow cycling the validator keys. This may be changed in the future versions.
 
 If StakeWise has the validator keys compromised, for example through a malicious cloud service operator, then an attacker can force slashing of validators, leading to the loss and burning of the staked ETH. Though destroying capital itself is not that interesting, the attacker could blackmail StakeWise for ransom or start slashing validators. But validators clients can exit from the staking process in 1-2 days, so the risk for doing harm through validator keys is quite small.
 
-### Risks of having issues running validator clients
+#### Risks of having issues running validator clients
 
 Validator nodes should stay online, although Ethereum 2.0 staking contracts are very flexible. In the case of StakeWise, risks include infrastructure problems by StakeWise cloud server provider, StakeWise human errors or problems with the Ethereum 2.0 itself. However, the risk of losing capital this way is small, because only new block rewards can be lost.
 
-### Risks of the resiliency of the beacon node network
+#### Risks of the resiliency of the beacon node network
 
 Any beacon node needs to accept TCP/IP traffic. There is a raw IP denial-of-service attack scenario where the attacked can try to take StakeWise beacon nodes offline.
 
 In this case, StakeWise validator clients would stop validating, but no stETH is lost. If validators are offline for a long time, pool earnings are affected. This risk is quite easily migrated by having multiple spare cloud operators ready to go.
 
-### Risks of StakeWise becoming non-operational
+#### Risks of StakeWise becoming non-operational
 
 There are few scenarios that would be very harmful for StakeWise users
 

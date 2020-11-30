@@ -68,6 +68,11 @@
   margin-bottom: 2rem;
 }
 
+.body-text strong {
+    font-weight: bold;
+}
+
+
 .body-text a {
   color: #b68300;
   text-decoration: none;
@@ -90,13 +95,15 @@
 }
 
 .body-text h2 .direct-link,
-.body-text h3 .direct-link {
+.body-text h3 .direct-link,
+.body-text h4 .direct-link {
   color: rgba(0, 0, 0, 0);
   transition: 0.3s;
 }
 
 .body-text h2:hover .direct-link,
-.body-text h3:hover .direct-link {
+.body-text h3:hover .direct-link,
+.body-text h4:hover .direct-link {
   color: rgba(238, 179,2, 0.8);
 }
 
@@ -280,6 +287,7 @@
 }
 
 
+
 /* LinkedIn imports */
 
 .slate-resizable-image-embed img {
@@ -291,7 +299,15 @@
 .img-600 {
     max-width: 600px;
     margin: 0 auto;
+    display: block;
 }
+
+.img-400 {
+    max-width: 400px;
+    margin: 0 auto;
+    display: block;
+}
+
 
 
 /* Mobile adjustments */
