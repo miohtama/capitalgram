@@ -130,6 +130,18 @@
 }
 
 /**
+ * Captions
+ */
+
+.img-caption {
+  text-align: center;
+  font-style: italic;
+  color: grey;
+  font-size: 80%;
+  padding-bottom: 40px;
+}
+
+/**
  * Markdown generated blockquotes
  */
 
@@ -306,6 +318,12 @@
     max-width: 400px;
     margin: 0 auto;
     display: block;
+}
+
+.img-h-400 {
+  max-height: 400px;
+  margin: 0 auto;
+  display: block;
 }
 
 
