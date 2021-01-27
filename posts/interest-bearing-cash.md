@@ -1,5 +1,5 @@
 ---
-title: The raise of interest-bearing cash
+title: The rise of interest-bearing cash
 description: How interest-bearing tokenised dollars and euros are revolutionising corporate financing
 longDescription: >
     Blockchain has enabled bearer dollars which gain interest in real-time.
