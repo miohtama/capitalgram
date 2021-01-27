@@ -19,7 +19,7 @@ headerImageBackgroundColor: white
 postListImageClass: post-list-image-cover
 
 # Discussion
-# twitterDiscussionLink: https://twitter.com/moo9000/status/1333385922600177664
+twitterDiscussionLink: https://twitter.com/moo9000/status/1354433302078369793
 
 ---
 
