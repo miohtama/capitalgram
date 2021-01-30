@@ -1,7 +1,7 @@
 ---
 layout: layouts/page.njk
-title: DeFi security and analysis
-description: Professional services to help you to safely invest in decentralised protocols
+title: DeFi research and security
+description: Top insight for investment funds and decentralised projects
 templateClass: tmpl-page
 eleventyNavigation:
   key: Services
@@ -40,9 +40,6 @@ permalinkBypassOutputDir: false
                 <li>All out emergency exit planning</li>
               </ul>
             </div>
-            <a href="mailto:hello@capitalgram.com"
-              class="btn btn-primary btn-md">Contact us<i class="fas fa-envelope ml-2"></i>
-            </a>
         </div>
     </div>
     <div class="card">
@@ -77,9 +74,6 @@ permalinkBypassOutputDir: false
                 Deep insight and chain analytics
               </li>
             </ul>
-            <a href="mailto:hello@capitalgram.com"
-              class="btn btn-primary btn-md">Contact us<i class="fas fa-envelope ml-2"></i>
-            </a>
         </div>
       </div>
     </div>
