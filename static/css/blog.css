@@ -193,6 +193,10 @@
    margin-bottom: 3rem;
  }
 
+ .sidebar .btn-primary {
+   background: black !important;
+ }
+
  .card-follow ul {
    list-style: none;
    padding: 0;
