@@ -26,6 +26,10 @@
       <link rel="stylesheet" href="{{ extraCSS | url }}">
     {% endif %}
 
+    {% if extraCSS2 %}
+      <link rel="stylesheet" href="{{ extraCSS2 | url }}">
+    {% endif %}
+
     {% include "partials/favicon.njk" %}
     {% include "partials/social_media_header.njk" %}
 
