@@ -16,13 +16,13 @@
 
   // https://getbootstrap.com/docs/4.0/layout/media-object/
   // https://stackoverflow.com/a/66092253/315168
-  const MEDIA_OBJECT_TEMPLATE = $ => `
-  <a class="link-preview" href="{data.url}">
+  const MEDIA_OBJECT_TEMPLATE = data => `
+  <a class="link-preview" href="${data.url}">
     <div class="media">
-      <img class="mr-3" src="#{data.image}" alt="#{data.description}">
+      <img class="mr-3" src="${data.image}" alt="">
       <div class="media-body">
-        <h5 class="mt-0">#{data.title}</h5>
-        #{data.description}
+        <h5 class="mt-0">${data.title}</h5>
+        ${data.description}
       </div>
     </div>
   </a>
@@ -34,12 +34,12 @@
     let cachedData = localStorage.getItem(key);
     // Allow force refresfh using #disable-cache in the location bar
     // for the development
-    if(cachedData && !window.location.hash.contains("disable-cache")) {
+    if(cachedData && !window.location.hash.includes("disable-cache")) {
       return JSON.parse(cachedData);
     }
 
     const resp = await $.getJSON(url);
-    localStorage.set(key, JSON.stringify(resp));
+    localStorage.setItem(key, JSON.stringify(resp));
     return resp;
   }
 
@@ -63,9 +63,12 @@
       const $this = $(this);
       const url = $this.attr("href");
       const previewData = await getLinkPreviewData(url);
-      const html = MEDIA_OBJECT_TEMPLATE(previewData);
-      const elem = $(html);
-      $this.replaceWith(elem);
+      if(previewData.title) {
+        // Only replace if we got something to preview
+        const html = MEDIA_OBJECT_TEMPLATE(previewData);
+        const elem = $(html);
+        $this.replaceWith(elem);
+      }
     });
   }
 

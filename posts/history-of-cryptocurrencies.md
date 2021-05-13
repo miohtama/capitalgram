@@ -1,27 +1,30 @@
 ---
 title: The history and future of cryptocurrencies
-description: The development of cryptocurrencies in 1990-2020 and what happens next
+description: The development of cryptocurrencies in 1990-2020 and what will happen next for blockchains
 longDescription: >
-    How cryptocurrencies developed 1990-2020? What are the main lines of development for the future?
-    Examine the history of crypto from technological, cultural and monetary policy perspectives.
+    How cryptocurrencies developed from 1990 to 2020? How cryptocurrencies will evolve in the future?
+    In this post, I examine the history of cryptocurrencies from technological, cultural and monetary policy perspectives.
 
 ## Sharing info ##
 author: Mikko Ohtamaa
 date: 2021-05-12
-page_logo: /static/img/content/src/cash.jpg
+page_logo: /static/img/content/src/bitcoin.jpg
 page_facebook_type: article
 page_twitter_creator: moo9000
 
 layout: layouts/post.njk
-header: cash.jpg
+header: bitcoin.jpg
 headerImageModeClass: header-image-mode-cover-image header-image-mode-700 header-image-text-white
 headerImageBackgroundColor: white
 postListImageClass: post-list-image-cover
 
 # Discussion
-# twitterDiscussionLink: https://twitter.com/moo9000/status/1354433302078369793
+twitterDiscussionLink: https://twitter.com/moo9000/status/1389571466002325510
 
 ---
+
+This blog post is based on the guest presentation at the <i>Blockchain in Digital Business</i> course at University of Jyvaskyla, later also made available as a [Twitter thread](https://twitter.com/moo9000/status/1389571466002325510).
+
 <div class="tweetstorm">
                             <!-- Tweet 1-->
     <div id="tweet_1" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389571466002325510" dir="auto">
@@ -156,16 +159,10 @@ postListImageClass: post-list-image-cover
     </div>
     <!-- Tweet 16-->
     <div id="tweet_16" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389573019312562179" dir="auto">
-    <span class="nop nop-start">16/ </span> There was an early failed attempt called Digicash in the 1990s. In Digicash, each coin is what we nowadays call "NFT". <br>
-    <br>
-    Digicash did not have P2P elements and its accounting model was not very scalable.<br>
-    <br>
-    It still lives as GNU Taler<br>
-    <br>
-    <a class="entity-url" data-preview="true" href="https://taler.net/en/index.html">taler.net/en/index.html</a>
-    <sup class="tw-permalink"><a href="https://twitter.com/web/status/1389573019312562179">
+    <span class="nop nop-start">16/ </span> There was an early failed attempt called Digicash in the 1990s. In Digicash, each coin is what we nowadays call "NFT". <sup class="tw-permalink"><a href="https://twitter.com/web/status/1389573019312562179">
                             <i class="fas fa-link" aria-hidden="true"></i>
                         </a></sup>
+    <a class="entity-url" data-preview="true" href="https://taler.net/en/index.html">taler.net/en/index.html</a>
     </div>
     <!-- Tweet 17-->
     <div id="tweet_17" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389573107912953861" dir="auto">
@@ -194,13 +191,11 @@ postListImageClass: post-list-image-cover
     </div>
     <!-- Tweet 20-->
     <div id="tweet_20" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389573450491174912" dir="auto">
-    <span class="nop nop-start">20/ </span> Please see:<br>
-    <br>
-    <a class="entity-url" data-preview="true" href="http://www.hashcash.org/">hashcash.org</a> by <a class="entity-mention" href="https://twitter.com/adam3us">@adam3us</a>
+    <span class="nop nop-start">20/ </span> Please see:<a class="entity-mention" href="https://twitter.com/adam3us">@adam3us</a>
     <sup class="tw-permalink"><a href="https://twitter.com/web/status/1389573450491174912">
                             <i class="fas fa-link" aria-hidden="true"></i>
                         </a></sup>
-    </div>
+    <a class="entity-url" data-preview="true" href="http://www.hashcash.org/">hashcash.org</a> by </div>
     <!-- Tweet 21-->
     <div id="tweet_21" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389573524252241921" dir="auto">
     <span class="nop nop-start">21/ </span> Sadly, proof-of-work as spam prevention never took off. We ended up with a broken email delivery system where few big ones (Google, Outlook) dominate which email gets delivered or not. There are no fair rules for spam and it is very difficult to run your own email server.
@@ -226,14 +221,10 @@ postListImageClass: post-list-image-cover
     </div>
     <!-- Tweet 24-->
     <div id="tweet_24" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389573751176638464" dir="auto">
-    <span class="nop nop-start">24/ </span> Bitcoin was soon followed by <a class="entity-mention" href="https://twitter.com/Ripple">@Ripple</a>. Ripple follows a separate evolution path.<br>
-    <br>
-    Ripple's consensus idea is that you have a chosen trusted member nodes for the consensus, instead of an organic P2P network. ""Little trust goes long way."<br>
-    <br>
-    <a class="entity-url" data-preview="true" href="https://ripple.com/files/ripple_consensus_whitepaper.pdf">ripple.com/files/ripple_c…</a>"
-    <sup class="tw-permalink"><a href="https://twitter.com/web/status/1389573751176638464">
+    <span class="nop nop-start">24/ </span> Bitcoin was soon followed by <a class="entity-mention" href="https://twitter.com/Ripple">@Ripple</a>. Ripple follows a separate evolution path.<sup class="tw-permalink"><a href="https://twitter.com/web/status/1389573751176638464">
                             <i class="fas fa-link" aria-hidden="true"></i>
                         </a></sup>
+    <a class="entity-url" data-preview="true" href="https://ripple.com/files/ripple_consensus_whitepaper.pdf">ripple.com/files/ripple_c…</a>"
     </div>
     <!-- Tweet 25-->
     <div id="tweet_25" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389573901815066627" dir="auto">
@@ -267,17 +258,17 @@ postListImageClass: post-list-image-cover
     <span class="nop nop-start">28/ </span> <a class="entity-mention" href="https://twitter.com/BitSharesOrg">@bitsharesorg</a> by <a class="entity-mention" href="https://twitter.com/bytemaster7">@bytemaster7</a> was the first blockchain using delegated proof-of-stake in 2014.<br>
     <br>
     Today, all modern blockchains follow a variation DPoS model. An active smaller set of block producers are chosen by delegating votes. This makes consensus decisions faster.
-      <sup class="tw-permalink"><a href="https://twitter.com/web/status/1389574230736621573">
+    <sup class="tw-permalink"><a href="https://twitter.com/web/status/1389574230736621573">
                             <i class="fas fa-link" aria-hidden="true"></i>
                         </a></sup>
     </div>
     <!-- Tweet 29-->
     <div id="tweet_29" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389574319274176513" dir="auto">
-    <span class="nop nop-start">29/ </span> The difference between proof-of-stake and delegated proof-of-stake is explained in this excellent post <a class="entity-url" data-preview="true" href="https://hackernoon.com/the-difference-between-traditional-and-delegated-proof-of-stake-36a3e3f25f7d">hackernoon.com/the-difference…</a> by <a class="entity-mention" href="https://twitter.com/ShaanRay">@ShaanRay</a>
+    <span class="nop nop-start">29/ </span> The difference between proof-of-stake and delegated proof-of-stake is explained in this excellent post <a class="entity-mention" href="https://twitter.com/ShaanRay">@ShaanRay</a>
     <sup class="tw-permalink"><a href="https://twitter.com/web/status/1389574319274176513">
                             <i class="fas fa-link" aria-hidden="true"></i>
                         </a></sup>
-    </div>
+    <a class="entity-url" data-preview="true" href="https://hackernoon.com/the-difference-between-traditional-and-delegated-proof-of-stake-36a3e3f25f7d">hackernoon.com/the-difference…</a> by </div>
     <!-- Tweet 30-->
     <div id="tweet_30" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389574413599793157" dir="auto">
     <span class="entity-image"><a href="https://pbs.twimg.com/media/E0jCjmBX0AAlNE2.jpg" target="_blank"><img alt="" src="/static/img/content/fixed-size/history-of-cryptocurrencies/E0jCjmBX0AAlNE2.jpg"></a></span>
@@ -289,12 +280,10 @@ postListImageClass: post-list-image-cover
     <div id="tweet_31" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389574522454659074" dir="auto">
     <span class="nop nop-start">31/ </span> <a class="entity-hashtag" href="/hashtag/Bitcoin">#Bitcoin</a> itself has a programming language called "Script". You can "program" transactions in Bitcoin, but it is very limited what you can do with Script.<br>
     <br>
-    This is why there is no <a class="entity-hashtag" href="/hashtag/DeFi">#DeFi</a> on Bitcoin.<br>
-    <br>
-    <a class="entity-url" data-preview="true" href="https://en.bitcoin.it/wiki/Script">en.bitcoin.it/wiki/Script</a>
-    <sup class="tw-permalink"><a href="https://twitter.com/web/status/1389574522454659074">
+    This is why there is no <a class="entity-hashtag" href="/hashtag/DeFi">#DeFi</a> on Bitcoin.<sup class="tw-permalink"><a href="https://twitter.com/web/status/1389574522454659074">
                             <i class="fas fa-link" aria-hidden="true"></i>
                         </a></sup>
+    <a class="entity-url" data-preview="true" href="https://en.bitcoin.it/wiki/Script">en.bitcoin.it/wiki/Script</a>
     </div>
     <!-- Tweet 32-->
     <div id="tweet_32" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389574596681158659" dir="auto">
@@ -448,12 +437,10 @@ postListImageClass: post-list-image-cover
     </div>
     <!-- Tweet 50-->
     <div id="tweet_50" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389577298572201985" dir="auto">
-    <span class="nop nop-start">50/ </span> Litecoin essentially took all the source code of Bitcoin, search and replaced name, changed the hashing algorithm from SHA-256 to scrypt, changed block time and inflation<br>
-    <br>
-    <a class="entity-url" data-preview="true" href="https://en.wikipedia.org/wiki/Litecoin">en.wikipedia.org/wiki/Litecoin</a>
-    <sup class="tw-permalink"><a href="https://twitter.com/web/status/1389577298572201985">
+    <span class="nop nop-start">50/ </span> Litecoin essentially took all the source code of Bitcoin, search and replaced name, changed the hashing algorithm from SHA-256 to scrypt, changed block time and inflation<sup class="tw-permalink"><a href="https://twitter.com/web/status/1389577298572201985">
                             <i class="fas fa-link" aria-hidden="true"></i>
                         </a></sup>
+    <a class="entity-url" data-preview="true" href="https://en.wikipedia.org/wiki/Litecoin">en.wikipedia.org/wiki/Litecoin</a>
     </div>
     <!-- Tweet 51-->
     <div id="tweet_51" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389577379023147016" dir="auto">
@@ -515,12 +502,10 @@ postListImageClass: post-list-image-cover
     </div>
     <!-- Tweet 57-->
     <div id="tweet_57" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389578019879243776" dir="auto">
-    <span class="nop nop-start">57/ </span> The famous sound money proponent <a class="entity-mention" href="https://twitter.com/maxkeiser">@maxkeiser</a> was the first one to create a personally branded blockchain "MaxCoin" in 2014, though it is unclear for me how involved he was in the project.<br>
-    <br>
-    <a class="entity-url" data-preview="true" href="https://www.coindesk.com/max-keiser-altcoin-maxcoin-makes-debut">coindesk.com/max-keiser-alt…</a>
-    <sup class="tw-permalink"><a href="https://twitter.com/web/status/1389578019879243776">
+    <span class="nop nop-start">57/ </span> The famous sound money proponent <a class="entity-mention" href="https://twitter.com/maxkeiser">@maxkeiser</a> was the first one to create a personally branded blockchain "MaxCoin" in 2014, though it is unclear for me how involved he was in the project.<sup class="tw-permalink"><a href="https://twitter.com/web/status/1389578019879243776">
                             <i class="fas fa-link" aria-hidden="true"></i>
                         </a></sup>
+    <a class="entity-url" data-preview="true" href="https://www.coindesk.com/max-keiser-altcoin-maxcoin-makes-debut">coindesk.com/max-keiser-alt…</a>
     </div>
     <!-- Tweet 58-->
     <div id="tweet_58" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389578300700250112" dir="auto">
@@ -562,14 +547,10 @@ postListImageClass: post-list-image-cover
     </div>
     <!-- Tweet 62-->
     <div id="tweet_62" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389579036880523264" dir="auto">
-    <span class="nop nop-start">62/ </span> The early token example evolved to ERC-20 standard. <br>
-    <br>
-    Note that "standard" is very loose - it is some interface definition and rough consensus on how a token should behave. A lot relies on manual inspection and acceptance (audits).<br>
-    <br>
-    Discussion here: <a class="entity-url" data-preview="true" href="https://github.com/ethereum/EIPs/issues/20">github.com/ethereum/EIPs/…</a>
-    <sup class="tw-permalink"><a href="https://twitter.com/web/status/1389579036880523264">
+    <span class="nop nop-start">62/ </span> The early token example evolved to ERC-20 standard. <sup class="tw-permalink"><a href="https://twitter.com/web/status/1389579036880523264">
                             <i class="fas fa-link" aria-hidden="true"></i>
                         </a></sup>
+    <a class="entity-url" data-preview="true" href="https://github.com/ethereum/EIPs/issues/20">github.com/ethereum/EIPs/…</a>
     </div>
     <!-- Tweet 63-->
     <div id="tweet_63" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389579194808606721" dir="auto">
@@ -587,12 +568,10 @@ postListImageClass: post-list-image-cover
     </div>
     <!-- Tweet 65-->
     <div id="tweet_65" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389579470370189317" dir="auto">
-    <span class="nop nop-start">64/ </span> The infamous TheDAO was the second one during the early summer of 2016. It was the original "DAO as a venture capital fund" model. More about the infamous bit later.<br>
-    <br>
-    <a class="entity-url" data-preview="true" href="https://en.wikipedia.org/wiki/The_DAO_(organization)">en.wikipedia.org/wiki/The_DAO_(…</a>
-    <sup class="tw-permalink"><a href="https://twitter.com/web/status/1389579470370189317">
+    <span class="nop nop-start">64/ </span> The infamous TheDAO was the second one during the early summer of 2016. It was the original "DAO as a venture capital fund" model. More about the infamous bit later.<sup class="tw-permalink"><a href="https://twitter.com/web/status/1389579470370189317">
                             <i class="fas fa-link" aria-hidden="true"></i>
                         </a></sup>
+    <a class="entity-url" data-preview="true" href="https://en.wikipedia.org/wiki/The_DAO_(organization)">en.wikipedia.org/wiki/The_DAO_(…</a>
     </div>
     <!-- Tweet 66-->
     <div id="tweet_66" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389579632945532931" dir="auto">
@@ -619,12 +598,10 @@ postListImageClass: post-list-image-cover
     </div>
     <!-- Tweet 69-->
     <div id="tweet_69" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389580066208759808" dir="auto">
-    <span class="nop nop-start">68/ </span> But 2016 was not an easy year. Ethereum smart contract execution parameters, or so-called opcodes, were not yet finely tuned. This resulted in the network being under constant Denial-of-Service "Shanghai" attacks in Autumn 2016. <br>
-    <br>
-    <a class="entity-url" data-preview="true" href="https://www.coindesk.com/so-ethereums-blockchain-is-still-under-attack">coindesk.com/so-ethereums-b…</a>"
-    <sup class="tw-permalink"><a href="https://twitter.com/web/status/1389580066208759808">
+    <span class="nop nop-start">68/ </span> But 2016 was not an easy year. Ethereum smart contract execution parameters, or so-called opcodes, were not yet finely tuned. This resulted in the network being under constant Denial-of-Service "Shanghai" attacks in Autumn 2016. <sup class="tw-permalink"><a href="https://twitter.com/web/status/1389580066208759808">
                             <i class="fas fa-link" aria-hidden="true"></i>
                         </a></sup>
+    <a class="entity-url" data-preview="true" href="https://www.coindesk.com/so-ethereums-blockchain-is-still-under-attack">coindesk.com/so-ethereums-b…</a>"
     </div>
     <!-- Tweet 70-->
     <div id="tweet_70" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389580172152786946" dir="auto">
@@ -792,32 +769,26 @@ postListImageClass: post-list-image-cover
     </div>
     <!-- Tweet 88-->
     <div id="tweet_88" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389583148057497600" dir="auto">
-    <span class="nop nop-start">86/ </span> But turns out, Tron's dictator founder, <a class="entity-mention" href="https://twitter.com/justinsuntron">@justinsuntron</a>, is not a very good executive. Lack of formal education in management, lack of integrity and lack of technical knowledge does not make a good leader.<br>
-    <br>
-    <a class="entity-url" data-preview="true" href="https://www.theverge.com/21459906/bittorrent-tron-acquisition-justin-sun-us-china">theverge.com/21459906/bitto…</a>"
-    <sup class="tw-permalink"><a href="https://twitter.com/web/status/1389583148057497600">
+    <span class="nop nop-start">86/ </span> But turns out, Tron's dictator founder, <a class="entity-mention" href="https://twitter.com/justinsuntron">@justinsuntron</a>, is not a very good executive. Lack of formal education in management, lack of integrity and lack of technical knowledge does not make a good leader.<sup class="tw-permalink"><a href="https://twitter.com/web/status/1389583148057497600">
                             <i class="fas fa-link" aria-hidden="true"></i>
                         </a></sup>
+    <a class="entity-url" data-preview="true" href="https://www.theverge.com/21459906/bittorrent-tron-acquisition-justin-sun-us-china">theverge.com/21459906/bitto…</a>"
     </div>
     <!-- Tweet 89-->
     <div id="tweet_89" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389583241238167553" dir="auto">
-    <span class="nop nop-start">87/ </span> Copy-pasting the Ethereum whitepaper and raising billions from Chinese might have had better success if Justin had understood his own shortcomings and hired a capable management team and stepped down. But this is not what narcissists do.<br>
-    <br>
-    <a class="entity-url" data-preview="true" href="https://coincentral.com/community-accuses-tron-plagiarizing-whitepaper/">coincentral.com/community-accu…</a>"
-    <sup class="tw-permalink"><a href="https://twitter.com/web/status/1389583241238167553">
+    <span class="nop nop-start">87/ </span> Copy-pasting the Ethereum whitepaper and raising billions from Chinese might have had better success if Justin had understood his own shortcomings and hired a capable management team and stepped down. But this is not what narcissists do.<sup class="tw-permalink"><a href="https://twitter.com/web/status/1389583241238167553">
                             <i class="fas fa-link" aria-hidden="true"></i>
                         </a></sup>
+    <a class="entity-url" data-preview="true" href="https://coincentral.com/community-accuses-tron-plagiarizing-whitepaper/">coincentral.com/community-accu…</a>"
     </div>
     <!-- Tweet 90-->
     <div id="tweet_90" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389583360171941901" dir="auto">
     <span class="nop nop-start">88/ </span> Then we had ICOs that just do not make sense and it does not take a Master of Business Administration degree to tell it.<br>
     <br>
-    <a class="entity-mention" href="https://twitter.com/dentacoin">@dentacoin</a> - let's create money for dentist services.<br>
-    <br>
-    <a class="entity-url" data-preview="true" href="https://www.coingecko.com/en/coins/dentacoin">coingecko.com/en/coins/denta…</a>
-    <sup class="tw-permalink"><a href="https://twitter.com/web/status/1389583360171941901">
+    <a class="entity-mention" href="https://twitter.com/dentacoin">@dentacoin</a> - let's create money for dentist services.<sup class="tw-permalink"><a href="https://twitter.com/web/status/1389583360171941901">
                             <i class="fas fa-link" aria-hidden="true"></i>
                         </a></sup>
+    <a class="entity-url" data-preview="true" href="https://www.coingecko.com/en/coins/dentacoin">coingecko.com/en/coins/denta…</a>
     </div>
     <!-- Tweet 91-->
     <div id="tweet_91" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389583462978424838" dir="auto">
@@ -828,21 +799,17 @@ postListImageClass: post-list-image-cover
     </div>
     <!-- Tweet 92-->
     <div id="tweet_92" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389583648580583426" dir="auto">
-    <span class="nop nop-start">90/ </span> The most notable one is <a class="entity-mention" href="https://twitter.com/Kik">@Kik</a> messenger, known for its dirty self destructing video messages, serving exhibitionist audiences.<br>
-    <br>
-    <a class="entity-url" data-preview="true" href="https://www.theverge.com/2019/6/5/18653575/kik-messaging-app-kin-ico-cryptocurrency-sec-security">theverge.com/2019/6/5/18653…</a>
-    <sup class="tw-permalink"><a href="https://twitter.com/web/status/1389583648580583426">
+    <span class="nop nop-start">90/ </span> The most notable one is <a class="entity-mention" href="https://twitter.com/Kik">@Kik</a> messenger, known for its dirty self destructing video messages, serving exhibitionist audiences.<sup class="tw-permalink"><a href="https://twitter.com/web/status/1389583648580583426">
                             <i class="fas fa-link" aria-hidden="true"></i>
                         </a></sup>
+    <a class="entity-url" data-preview="true" href="https://www.theverge.com/2019/6/5/18653575/kik-messaging-app-kin-ico-cryptocurrency-sec-security">theverge.com/2019/6/5/18653…</a>
     </div>
     <!-- Tweet 93-->
     <div id="tweet_93" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389583780634038272" dir="auto">
-    <span class="nop nop-start">91/ </span> (In other notes, looks like <a class="entity-mention" href="https://twitter.com/Kin_Ecosystem">@Kin_Ecosystem</a> is doing ok and have survived even through its battle with The SEC. I would not have bet on this outcome, but I am happy for it.)<br>
-    <br>
-    <a class="entity-url" data-preview="true" href="https://www.coingecko.com/en/coins/kin">coingecko.com/en/coins/kin</a>
-    <sup class="tw-permalink"><a href="https://twitter.com/web/status/1389583780634038272">
+    <span class="nop nop-start">91/ </span> (In other notes, looks like <a class="entity-mention" href="https://twitter.com/Kin_Ecosystem">@Kin_Ecosystem</a> is doing ok and have survived even through its battle with The SEC. I would not have bet on this outcome, but I am happy for it.)<sup class="tw-permalink"><a href="https://twitter.com/web/status/1389583780634038272">
                             <i class="fas fa-link" aria-hidden="true"></i>
                         </a></sup>
+    <a class="entity-url" data-preview="true" href="https://www.coingecko.com/en/coins/kin">coingecko.com/en/coins/kin</a>
     </div>
     <!-- Tweet 94-->
     <div id="tweet_94" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389583900368941058" dir="auto">
@@ -855,12 +822,10 @@ postListImageClass: post-list-image-cover
     </div>
     <!-- Tweet 95-->
     <div id="tweet_95" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389584069512544266" dir="auto">
-    <span class="nop nop-start">93/ </span> One of the more well-known is <a class="entity-mention" href="https://twitter.com/etherparty_com">@etherparty_com</a>. The founders put up a good show of showing that something would be delivered but it looks like the raised money ended up on personal accounts and in Canadian real estate.<br>
-    <br>
-    <a class="entity-url" data-preview="true" href="https://thenextweb.com/news/vanbex-cryptocurrency-fuel-etherparty">thenextweb.com/news/vanbex-cr…</a>
-    <sup class="tw-permalink"><a href="https://twitter.com/web/status/1389584069512544266">
+    <span class="nop nop-start">93/ </span> One of the more well-known is <a class="entity-mention" href="https://twitter.com/etherparty_com">@etherparty_com</a>. The founders put up a good show of showing that something would be delivered but it looks like the raised money ended up on personal accounts and in Canadian real estate.<sup class="tw-permalink"><a href="https://twitter.com/web/status/1389584069512544266">
                             <i class="fas fa-link" aria-hidden="true"></i>
                         </a></sup>
+    <a class="entity-url" data-preview="true" href="https://thenextweb.com/news/vanbex-cryptocurrency-fuel-etherparty">thenextweb.com/news/vanbex-cr…</a>
     </div>
     <!-- Tweet 96-->
     <div id="tweet_96" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389584142401167361" dir="auto">
@@ -889,23 +854,17 @@ postListImageClass: post-list-image-cover
     </div>
     <!-- Tweet 99-->
     <div id="tweet_99" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389584460178460673" dir="auto">
-    <a class="entity-mention entity-mention-first" href="https://twitter.com/AriseBank">@arisebank</a> did not make it, due to efficient US law enforcement.<br>
-    <br>
-    The founder now sits in jail, up to 120 years.<br>
-    <br>
-    <a class="entity-url" data-preview="true" href="https://www.coindesk.com/fbi-arrests-arisebank-ceo-over-4-million-crypto-fraud">coindesk.com/fbi-arrests-ar…</a>"
-    <sup class="tw-permalink"><a href="https://twitter.com/web/status/1389584460178460673">
+    <a class="entity-mention entity-mention-first" href="https://twitter.com/AriseBank">@arisebank</a> did not make it, due to efficient US law enforcement.<sup class="tw-permalink"><a href="https://twitter.com/web/status/1389584460178460673">
                             <i class="fas fa-link" aria-hidden="true"></i>
                         </a></sup>
+    <a class="entity-url" data-preview="true" href="https://www.coindesk.com/fbi-arrests-arisebank-ceo-over-4-million-crypto-fraud">coindesk.com/fbi-arrests-ar…</a>"
     </div>
     <!-- Tweet 100-->
     <div id="tweet_100" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389584521197236227" dir="auto">
-    But some investors were not that lucky. One of the infamous cases is OneCoin which goes as far as back 2014, raised $4B and founders managed to disappear with the money in 2017<br>
-    <br>
-    <a class="entity-url" data-preview="true" href="https://www.investopedia.com/terms/o/onecoin.asp">investopedia.com/terms/o/onecoi…</a>
-    <sup class="tw-permalink"><a href="https://twitter.com/web/status/1389584521197236227">
+    But some investors were not that lucky. One of the infamous cases is OneCoin which goes as far as back 2014, raised $4B and founders managed to disappear with the money in 2017<sup class="tw-permalink"><a href="https://twitter.com/web/status/1389584521197236227">
                             <i class="fas fa-link" aria-hidden="true"></i>
                         </a></sup>
+    <a class="entity-url" data-preview="true" href="https://www.investopedia.com/terms/o/onecoin.asp">investopedia.com/terms/o/onecoi…</a>
     </div>
     <!-- Tweet 101-->
     <div id="tweet_101" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389584647496032261" dir="auto">
@@ -916,12 +875,10 @@ postListImageClass: post-list-image-cover
     </div>
     <!-- Tweet 102-->
     <div id="tweet_102" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389584784477851653" dir="auto">
-    <span class="nop nop-start">100/ </span> Though the Chinese news says that "money was seized" we do not have any on-chain evidence for this. I personally believe at least some ringleaders managed to make it out with some stash.<br>
-    <br>
-    <a class="entity-url" data-preview="true" href="https://coingeek.com/plustoken-scam-top-operators-jailed-for-up-to-11-years/">coingeek.com/plustoken-scam…</a>"
-    <sup class="tw-permalink"><a href="https://twitter.com/web/status/1389584784477851653">
+    <span class="nop nop-start">100/ </span> Though the Chinese news says that "money was seized" we do not have any on-chain evidence for this. I personally believe at least some ringleaders managed to make it out with some stash.<sup class="tw-permalink"><a href="https://twitter.com/web/status/1389584784477851653">
                             <i class="fas fa-link" aria-hidden="true"></i>
                         </a></sup>
+    <a class="entity-url" data-preview="true" href="https://coingeek.com/plustoken-scam-top-operators-jailed-for-up-to-11-years/">coingeek.com/plustoken-scam…</a>"
     </div>
     <!-- Tweet 103-->
     <div id="tweet_103" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389584946017210369" dir="auto">
@@ -1122,14 +1079,10 @@ postListImageClass: post-list-image-cover
     </div>
     <!-- Tweet 126-->
     <div id="tweet_126" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389588856287150080" dir="auto">
-    <span class="nop nop-start">124/ </span> A counter-example of not transparent risk is Archegos.<br>
-    <br>
-    Boomers do leverage. <br>
-    <br>
-    <a class="entity-url" data-preview="true" href="https://fortune.com/2021/04/27/heres-how-much-big-banks-have-lost-so-far-from-the-archegos-collapse/">fortune.com/2021/04/27/her…</a>
-    <sup class="tw-permalink"><a href="https://twitter.com/web/status/1389588856287150080">
+    <span class="nop nop-start">124/ </span> A counter-example of not transparent risk is Archegos.<sup class="tw-permalink"><a href="https://twitter.com/web/status/1389588856287150080">
                             <i class="fas fa-link" aria-hidden="true"></i>
                         </a></sup>
+    <a class="entity-url" data-preview="true" href="https://fortune.com/2021/04/27/heres-how-much-big-banks-have-lost-so-far-from-the-archegos-collapse/">fortune.com/2021/04/27/her…</a>
     </div>
     <!-- Tweet 127-->
     <div id="tweet_127" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389589061917192198" dir="auto">
@@ -1174,12 +1127,10 @@ postListImageClass: post-list-image-cover
     </div>
     <!-- Tweet 132-->
     <div id="tweet_132" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389589859199856642" dir="auto">
-    <span class="nop nop-start">130/ </span> <a class="entity-mention" href="https://twitter.com/SushiSwap">@sushiswap</a> executed its famous "vampire attack" on <a class="entity-mention" href="https://twitter.com/Uniswap">@uniswap</a> and started the wave of Uniswap clones, which then popped up like mushrooms in rain.<br>
-    <br>
-    <a class="entity-url" data-preview="true" href="https://capitalgram.com/posts/uniswap-vs-sushiswap-game-decentralised-exchange-thrones/">capitalgram.com/posts/uniswap-…</a>
-    <sup class="tw-permalink"><a href="https://twitter.com/web/status/1389589859199856642">
+    <span class="nop nop-start">130/ </span> <a class="entity-mention" href="https://twitter.com/SushiSwap">@sushiswap</a> executed its famous "vampire attack" on <a class="entity-mention" href="https://twitter.com/Uniswap">@uniswap</a> and started the wave of Uniswap clones, which then popped up like mushrooms in rain.<sup class="tw-permalink"><a href="https://twitter.com/web/status/1389589859199856642">
                             <i class="fas fa-link" aria-hidden="true"></i>
                         </a></sup>
+    <a class="entity-url" data-preview="true" href="https://capitalgram.com/posts/uniswap-vs-sushiswap-game-decentralised-exchange-thrones/">capitalgram.com/posts/uniswap-…</a>
     </div>
     <!-- Tweet 133-->
     <div id="tweet_133" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389589966527807488" dir="auto">
@@ -1192,12 +1143,10 @@ postListImageClass: post-list-image-cover
     </div>
     <!-- Tweet 134-->
     <div id="tweet_134" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389590115396333569" dir="auto">
-    <span class="nop nop-start">132/ </span> <a class="entity-mention" href="https://twitter.com/AragonProject">@AragonProject</a> was an early 2017 project that builds governance tools for DAOs. It was followed by Snapshot, a spin-off from <a class="entity-mention" href="https://twitter.com/BalancerLabs">@BalancerLabs</a>, becoming the de facto governance and voting portal for <a class="entity-hashtag" href="/hashtag/DeFi">#DeFi</a>.<br>
-    <br>
-    <a class="entity-url" data-preview="true" href="https://snapshot.org">snapshot.org</a>
-    <sup class="tw-permalink"><a href="https://twitter.com/web/status/1389590115396333569">
+    <span class="nop nop-start">132/ </span> <a class="entity-mention" href="https://twitter.com/AragonProject">@AragonProject</a> was an early 2017 project that builds governance tools for DAOs. It was followed by Snapshot, a spin-off from <a class="entity-mention" href="https://twitter.com/BalancerLabs">@BalancerLabs</a>, becoming the de facto governance and voting portal for <a class="entity-hashtag" href="/hashtag/DeFi">#DeFi</a>.<sup class="tw-permalink"><a href="https://twitter.com/web/status/1389590115396333569">
                             <i class="fas fa-link" aria-hidden="true"></i>
                         </a></sup>
+    <a class="entity-url" data-preview="true" href="https://snapshot.org">snapshot.org</a>
     </div>
     <!-- Tweet 135-->
     <div id="tweet_135" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389590276482686981" dir="auto">
@@ -1359,12 +1308,10 @@ postListImageClass: post-list-image-cover
     </div>
     <!-- Tweet 153-->
     <div id="tweet_153" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389592947075817479" dir="auto">
-    <span class="nop nop-start">151/ </span> "Inflation is tax on poor." I could not find if anyone has ever said these exact a words, but Wolfgang Fengler from Worldbank comes close enough.<br>
-    <br>
-    <a class="entity-url" data-preview="true" href="https://blogs.worldbank.org/africacan/taxing-the-poor-through-inflation">blogs.worldbank.org/africacan/taxi…</a>"
-    <sup class="tw-permalink"><a href="https://twitter.com/web/status/1389592947075817479">
+    <span class="nop nop-start">151/ </span> "Inflation is tax on poor." I could not find if anyone has ever said these exact a words, but Wolfgang Fengler from Worldbank comes close enough.<sup class="tw-permalink"><a href="https://twitter.com/web/status/1389592947075817479">
                             <i class="fas fa-link" aria-hidden="true"></i>
                         </a></sup>
+    <a class="entity-url" data-preview="true" href="https://blogs.worldbank.org/africacan/taxing-the-poor-through-inflation">blogs.worldbank.org/africacan/taxi…</a>"
     </div>
     <!-- Tweet 154-->
     <div id="tweet_154" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389593075777933314" dir="auto">
@@ -1397,12 +1344,10 @@ postListImageClass: post-list-image-cover
     <div id="tweet_157" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389593416246366208" dir="auto">
     <span class="nop nop-start">155/ </span> Valuations have been inflated by quantitative easing or money printing.<br>
     <br>
-    A friendly, and easy to read, introduction to the topic can be found in this newsletter by <a class="entity-mention" href="https://twitter.com/LynAldenContact">@LynAldenContact</a><br>
-    <br>
-    <a class="entity-url" data-preview="true" href="https://www.lynalden.com/quantitative-easing-mmt-inflation/">lynalden.com/quantitative-e…</a>
-    <sup class="tw-permalink"><a href="https://twitter.com/web/status/1389593416246366208">
+    A friendly, and easy to read, introduction to the topic can be found in this newsletter by <a class="entity-mention" href="https://twitter.com/LynAldenContact">@LynAldenContact</a><sup class="tw-permalink"><a href="https://twitter.com/web/status/1389593416246366208">
                             <i class="fas fa-link" aria-hidden="true"></i>
                         </a></sup>
+    <a class="entity-url" data-preview="true" href="https://www.lynalden.com/quantitative-easing-mmt-inflation/">lynalden.com/quantitative-e…</a>
     </div>
     <!-- Tweet 158-->
     <div id="tweet_158" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389593553597255680" dir="auto">
@@ -1421,14 +1366,10 @@ postListImageClass: post-list-image-cover
     <!-- Tweet 160-->
     <div id="tweet_160" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389593795172474881" dir="auto">
     <span class="entity-image"><a href="https://pbs.twimg.com/media/E0jUKbKXMAIcyPj.jpg" target="_blank"><img alt="" src="/static/img/content/fixed-size/history-of-cryptocurrencies/E0jUKbKXMAIcyPj.jpg"></a></span>
-    <span class="nop nop-start">158/ </span> The most notable ponzi is pension funds all around the world. This is called the pension gap. <br>
-    <br>
-    It is going to be $400T in 2050 (a figure from the pension industry itself.)<br>
-    <br>
-    <a class="entity-url" data-preview="true" href="https://www.swissre.com/dam/jcr:133032aa-30b9-4100-9aff-eb633c67056b/EI_201901_Pension%2520FINAL%2520jan%252010.pdf">swissre.com/dam/jcr:133032…</a> <sup class="tw-permalink"><a href="https://twitter.com/web/status/1389593795172474881">
+    <span class="nop nop-start">158/ </span> The most notable ponzi is pension funds all around the world. This is called the pension gap. <sup class="tw-permalink"><a href="https://twitter.com/web/status/1389593795172474881">
                             <i class="fas fa-link" aria-hidden="true"></i>
                         </a></sup>
-    </div>
+    <a class="entity-url" data-preview="true" href="https://www.swissre.com/dam/jcr:133032aa-30b9-4100-9aff-eb633c67056b/EI_201901_Pension%2520FINAL%2520jan%252010.pdf">swissre.com/dam/jcr:133032…</a> </div>
     <!-- Tweet 161-->
     <div id="tweet_161" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389593972830613506" dir="auto">
     <span class="nop nop-start">159/ </span> Effectively, our parent generation, or the boomers, have not saved enough money to retire. They need new money constantly flow in to bail out the holders of pensions.
@@ -1461,14 +1402,10 @@ postListImageClass: post-list-image-cover
     </div>
     <!-- Tweet 165-->
     <div id="tweet_165" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389594419691769857" dir="auto">
-    <span class="nop nop-start">163/ </span> And how large the pension deficit number of $400T is? The wealth of the whole world was $360T in 2019.<br>
-    <br>
-    There isn't simply an equation where these numbers would work.<br>
-    <br>
-    <a class="entity-url" data-preview="true" href="https://www.visualcapitalist.com/all-of-the-worlds-wealth-in-one-visualization/">visualcapitalist.com/all-of-the-wor…</a>
-    <sup class="tw-permalink"><a href="https://twitter.com/web/status/1389594419691769857">
+    <span class="nop nop-start">163/ </span> And how large the pension deficit number of $400T is? The wealth of the whole world was $360T in 2019.<sup class="tw-permalink"><a href="https://twitter.com/web/status/1389594419691769857">
                             <i class="fas fa-link" aria-hidden="true"></i>
                         </a></sup>
+    <a class="entity-url" data-preview="true" href="https://www.visualcapitalist.com/all-of-the-worlds-wealth-in-one-visualization/">visualcapitalist.com/all-of-the-wor…</a>
     </div>
     <!-- Tweet 166-->
     <div id="tweet_166" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389594510762590214" dir="auto">
@@ -1497,12 +1434,10 @@ postListImageClass: post-list-image-cover
     </div>
     <!-- Tweet 169-->
     <div id="tweet_169" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389594970802249736" dir="auto">
-    <span class="nop nop-start">167/ </span> You can solve some issue by "haircut", like in Cyprus in 2012: “No insured deposit of €100,000 or less would be affected, though 47.5% of all bank deposits above €100,000 were seized”<br>
-    <br>
-    <a class="entity-url" data-preview="true" href="https://en.wikipedia.org/wiki/2012%E2%80%932013_Cypriot_financial_crisis">en.wikipedia.org/wiki/2012%E2%8…</a>
-    <sup class="tw-permalink"><a href="https://twitter.com/web/status/1389594970802249736">
+    <span class="nop nop-start">167/ </span> You can solve some issue by "haircut", like in Cyprus in 2012: “No insured deposit of €100,000 or less would be affected, though 47.5% of all bank deposits above €100,000 were seized”<sup class="tw-permalink"><a href="https://twitter.com/web/status/1389594970802249736">
                             <i class="fas fa-link" aria-hidden="true"></i>
                         </a></sup>
+    <a class="entity-url" data-preview="true" href="https://en.wikipedia.org/wiki/2012%E2%80%932013_Cypriot_financial_crisis">en.wikipedia.org/wiki/2012%E2%8…</a>
     </div>
     <!-- Tweet 170-->
     <div id="tweet_170" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389595049046982657" dir="auto">
@@ -1522,12 +1457,10 @@ postListImageClass: post-list-image-cover
     </div>
     <!-- Tweet 172-->
     <div id="tweet_172" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389595384851410945" dir="auto">
-    <span class="nop nop-start">170/ </span> It's quite bad when you cannot buy food, fuel and streets are filled out with riots and robber gangs.<br>
-    <br>
-    <a class="entity-url" data-preview="true" href="https://en.wikipedia.org/wiki/Lebanese_liquidity_crisis">en.wikipedia.org/wiki/Lebanese_…</a>
-    <sup class="tw-permalink"><a href="https://twitter.com/web/status/1389595384851410945">
+    <span class="nop nop-start">170/ </span> It's quite bad when you cannot buy food, fuel and streets are filled out with riots and robber gangs.<sup class="tw-permalink"><a href="https://twitter.com/web/status/1389595384851410945">
                             <i class="fas fa-link" aria-hidden="true"></i>
                         </a></sup>
+    <a class="entity-url" data-preview="true" href="https://en.wikipedia.org/wiki/Lebanese_liquidity_crisis">en.wikipedia.org/wiki/Lebanese_…</a>
     </div>
     <!-- Tweet 173-->
     <div id="tweet_173" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389595508851855366" dir="auto">
@@ -1547,14 +1480,10 @@ postListImageClass: post-list-image-cover
     </div>
     <!-- Tweet 175-->
     <div id="tweet_175" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389595846140956677" dir="auto">
-    <span class="nop nop-start">173/ </span> The <a class="entity-hashtag" href="/hashtag/DeFi">#DeFi</a> movement will give a boom to novel, never seen before, instruments like interest-bearing cash.<br>
-    <br>
-    These may become "blockchain shadow banking" especially if the economic crisis starts to deepen.<br>
-    <br>
-    <a class="entity-url" data-preview="true" href="https://capitalgram.com/posts/interest-bearing-cash/">capitalgram.com/posts/interest…</a>
-    <sup class="tw-permalink"><a href="https://twitter.com/web/status/1389595846140956677">
+    <span class="nop nop-start">173/ </span> The <a class="entity-hashtag" href="/hashtag/DeFi">#DeFi</a> movement will give a boom to novel, never seen before, instruments like interest-bearing cash.<sup class="tw-permalink"><a href="https://twitter.com/web/status/1389595846140956677">
                             <i class="fas fa-link" aria-hidden="true"></i>
                         </a></sup>
+    <a class="entity-url" data-preview="true" href="https://capitalgram.com/posts/interest-bearing-cash/">capitalgram.com/posts/interest…</a>
     </div>
     <!-- Tweet 176-->
     <div id="tweet_176" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389595993956626441" dir="auto">
@@ -1589,12 +1518,10 @@ postListImageClass: post-list-image-cover
     </div>
     <!-- Tweet 179-->
     <div id="tweet_179" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389596486544076808" dir="auto">
-    <span class="nop nop-start">177/ </span> That's all this time folks!<br>
-    <br>
-    Remember to subscribe to my newsletter at <a class="entity-url" data-preview="true" href="https://newsletter.capitalgram.com/">newsletter.capitalgram.com</a>
-    <sup class="tw-permalink"><a href="https://twitter.com/web/status/1389596486544076808">
+    <span class="nop nop-start">177/ </span> That's all this time folks!<sup class="tw-permalink"><a href="https://twitter.com/web/status/1389596486544076808">
                             <i class="fas fa-link" aria-hidden="true"></i>
                         </a></sup>
+    <a class="entity-url" data-preview="true" href="https://newsletter.capitalgram.com/">newsletter.capitalgram.com</a>
     </div>
     <!-- Tweet 180-->
     <div id="tweet_180" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1389596623848808452" dir="auto">
@@ -1604,4 +1531,3 @@ postListImageClass: post-list-image-cover
                         </a></sup>
     </div>
 </div>
-
