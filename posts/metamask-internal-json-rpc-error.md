@@ -45,9 +45,9 @@ You should also use Firefox as your overall browser, as it is much better than G
 
 [Install Ledger Live](https://www.ledger.com/ledger-live/download).
 
-## Update Ledger Live and all your apps on Ledger to the latest versions
+## Update Ledger firmware and all your apps on Ledger to the latest versions
 
-Otherwise Firefox cannot connect to your Ledger wallet.
+Update to the latest Ledger apps version on your device using Ledger Live manager - Otherwise Firefox cannot connect to your Ledger wallet.
 
 <img  class="img-600" src="/static/img/content/fixed-size/metamask-and-ledger-error/5.png" alt="">
 <br>
@@ -62,6 +62,8 @@ Otherwise Firefox cannot connect to your Ledger wallet.
 Start Ethereum application on your wallet.
 
 Now Ledger should be able to connect to your Firefox without issues.
+
+Make sure *Contract data is allowed* in Ethereum app settings on the device, because this option is reset by the update.
 
 <img class="img-600" src="/static/img/content/fixed-size/metamask-and-ledger-error/8.png" alt="">
 
