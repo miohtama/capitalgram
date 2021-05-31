@@ -52,14 +52,9 @@ Otherwise Firefox cannot connect to your Ledger wallet.
 <img  class="img-600" src="/static/img/content/fixed-size/metamask-and-ledger-error/5.png" alt="">
 <br>
 
-## Run Ledger Live and import your wallet
+## Run Ledger Live and import your wallet, add Ethereum account.
 
 <img  class="img-600" src="/static/img/content/fixed-size/metamask-and-ledger-error/4.png" alt="">
-<br>
-
-Add Ethereum wallet.
-
-<img  class="img-600" src="/static/img/content/fixed-size/metamask-and-ledger-error/2.png" alt="">
 <br>
 
 ## Connect to Firefox
