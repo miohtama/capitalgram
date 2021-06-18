@@ -22,7 +22,7 @@ twitterDiscussionLink: https://twitter.com/moo9000/status/1405513271768190982
 
 ---
 
-<i>This is a re-post of earlier <a href="https://twitter.com/moo9000/status/1405513271768190982">Twitter thhread of this week</a></i>.
+<i>This is a re-post of earlier <a href="https://twitter.com/moo9000/status/1405513271768190982">Twitter thread of this week</a></i>.
 
 
 <div class="tweetstorm">
