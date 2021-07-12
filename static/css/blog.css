@@ -157,6 +157,13 @@
     padding: 1rem 0;
     font-size: 1.1rem; }
 
+.body-text table {
+  margin: 20px 0;
+  padding: 10px 0;
+  width: 100%;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
 
 /*
  * Blog roll / post list
