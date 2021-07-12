@@ -1,6 +1,6 @@
 ---
 title: Scaling EVM (Ethereum Virtual Machine)
-description: How far can the EVM based blockchain architecture still take us
+description: How fast and far can the EVM based blockchain architecture still take us
 longDescription: >
     In this post, we discuss Ethereum Virtual Machine (EVM) scalability and “how fast EVM blockchains can be”. At the moment, EVM powers most of the actively used and popular blockchains. As the popularity of decentralised finance grows, the EVM architecture starts to hit more and more limitations and cannot grow much more. The audience for this post should have a basic understanding of decentralised finance and some of the competing blockchain infrastructure efforts.
 
@@ -164,15 +164,15 @@ The EVM performance can be measured as “gas used by transactions” because th
 
 Here is his benchmark on Igor’s local machine (assumes zero network latency, or infinite light speed):
 
-_> With a warm cache the current implementation could run a transaction that uses 819M gas within 1 second on my machine but all the state we read/write is in RAM_
+> With a warm cache the current implementation could run a transaction that uses 819M gas within 1 second on my machine but all the state we read/write is in RAM
 
-_> I tried 1000M and that is around 1s but sometimes more. we considered “safe” block execution something that is less than 1 second always_
+> I tried 1000M and that is around 1s but sometimes more. we considered “safe” block execution something that is less than 1 second always
 
-_> on a machine with a 4ghz Xeon and with all current state in RAM_
+> on a machine with a 4ghz Xeon and with all current state in RAM
 
-_> very theoretical though not sure what more realistic transactions will look like_
+> very theoretical though not sure what more realistic transactions will look like
 
-This benchmark was performed on a synthetic code and data, similar to “JUMPDEST GAS PUSH1 0x01 SHA3 EXTCODEHASH POP PUSH1 0x0 JUMP”.
+This benchmark was performed on a synthetic code and data, similar to `JUMPDEST GAS PUSH1 0x01 SHA3 EXTCODEHASH POP PUSH1 0x0 JUMP`.
 
 The 800M gas blocks are 8x what Binance Smart Chain is having currently. The Binance Smart Chain has [hit 80% utilization on a good day](https://bscscan.com/chart/networkutilization), with problems. With some insight, we can make an assumption that the EVM model practical performance limit is somewhere between 100M gas and 800M gas blocks. With the 3 seconds / block this is 33M gas / second.
 

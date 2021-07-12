@@ -9,3 +9,4 @@ secrets/*
 # Local Netlify folder
 .netlify
 .Ulysses-Settings.plist
+.Ulysses-Group.plist
