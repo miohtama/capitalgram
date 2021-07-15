@@ -20,9 +20,11 @@ postListImageClass: post-list-image-cover
 unsplashLink: https://unsplash.com/photos/o1C-K02cpP0
 
 # Discussion
-# twitterDiscussionLink: https://twitter.com/moo9000/status/1399323342004539395
+twitterDiscussionLink: https://twitter.com/moo9000/status/1415320921821388809
 
 ---
+
+*For discussion, this [post is also available on Twitter](https://twitter.com/moo9000/status/1415320921821388809)*
 
 ## Introduction
 
