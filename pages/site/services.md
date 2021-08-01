@@ -3,9 +3,9 @@ layout: layouts/page.njk
 title: DeFi research and security
 description: Top insight for investment funds and decentralised projects
 templateClass: tmpl-page
-eleventyNavigation:
-  key: Services
-  order: 3
+#eleventyNavigation:
+#  key: Services
+#  order: 3
 header: /static/img/header-services.jpg
 page_logo: /static/img/header-services.jpg
 headerImageModeClass: header-image-mode-cover-image-black

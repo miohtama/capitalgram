@@ -62,6 +62,16 @@
 
               <!-- Left -->
               <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item">
+                  <a class="nav-link waves-effect" href="https://mightyeagle.capitalgram.com/datasets">DeFi datasets</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link waves-effect" href="https://docs.capitalgram.com">Documentation</a>
+                </li>
+
+
                 {%- for entry in collections.all | eleventyNavigation %}
                   <li class="nav-item {% if entry.url == page.url %} nav-item-active active{% endif %}">
                     <a class="nav-link waves-effect" href="{{ entry.url | url }}">{{ entry.title }}</a>
