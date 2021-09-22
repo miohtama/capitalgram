@@ -24,6 +24,15 @@
   margin-top: 10px;
 }
 
+.entity-image img, .entity-video video, .entity-video-gif video {
+  margin: 10px auto;
+  max-height: 400px;
+  max-width: 80%;
+  width: auto;
+  display: block;
+}
+
+
 .entity-url-preview {
   border: 1px #e1e8ed solid;
   border-radius: 8px;
