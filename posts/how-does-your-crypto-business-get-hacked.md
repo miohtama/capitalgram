@@ -31,7 +31,7 @@ twitterDiscussionLink: https://twitter.com/moo9000/status/1448967076698333192
   <div class="tweetstorm">
                               <!-- Tweet 1-->
       <div id="tweet_1" class="content-tweet allow-preview" data-controller="thread" data-action="click-&gt;thread#showTweet" data-screenname="moo9000" data-tweet="1448967076698333192" dir="auto">
-      <span class="nop nop-start">1/ </span> HOW YOUR CRYPTO FUND OR EXCHANGE GETS HACKED<br>
+      <span class="nop nop-start">1/ </span> HOW DOES YOUR CRYPTO FUND OR EXCHANGE GETS HACKED<br>
       <br>
       In the light of the recent event of a prop trading firm losing big monies in an old-fashioned Microsoft Word attachment attack, let me sip my tea and try to remember what kind of hacks I have seen over the years.<br>
       <br>
