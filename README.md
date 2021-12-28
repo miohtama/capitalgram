@@ -2,7 +2,6 @@
 
 This is the company website and blog for [Capitalgram.com](capitalgram.com/). 
 
-
 - [Capitalgram website source code](#capitalgram-website-source-code)
 - [Features](#features)
 - [How to develop](#how-to-develop)
