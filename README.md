@@ -1,6 +1,6 @@
 # Capitalgram website source code
 
-This is the company website and blog for [Capitalgram.com](capitalgram.com/). 
+This is the company website and blog for [Capitalgram.com](capitalgram.com/).
 
 - [Capitalgram website source code](#capitalgram-website-source-code)
 - [Features](#features)
@@ -81,7 +81,7 @@ npm install
 
 ```
 # Any changes to image thumbs and you need to rerun npm run images:resize
-npx netlify dev
+npm run start
 ```
 
 Or build and host locally for local development
