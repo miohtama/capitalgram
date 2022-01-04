@@ -6,19 +6,21 @@ longDescription: >
 
 ## Sharing info ##
 author: Mikko Ohtamaa
-date: 2022-04-01
-page_logo: /static/img/content/src/cash.jpg
+date: 2022-01-04
+page_logo: /static/img/content/src/estonia.jpg
 page_facebook_type: article
 page_twitter_creator: moo9000
 
 layout: layouts/post.njk
-header: cash.jpg
+header: estonia.jpg
 headerImageModeClass: header-image-mode-cover-image header-image-mode-700 header-image-text-white
 headerImageBackgroundColor: white
 postListImageClass: post-list-image-cover
 
 # Discussion
 twitterDiscussionLink: https://twitter.com/moo9000/status/1476827340940455939
+
+# Photo by Nikola Jonny https://unsplash.com/photos/ZyR5arRDq6U
 
 ---
 
@@ -57,7 +59,7 @@ I do not hold any shares in Estonian companies, but I own tokens issued out by E
 
 [I tweeted my honest opinion about the legislation](https://twitter.com/moo9000/status/1476827340940455939) based on this information before the New Year and I got the desired reaction. People started to talk about the matter. Although a lot of online discussion lacks understanding of the underlying nuances, the discussion participants correctly understand that Estonia is moving against cryptocurrencies and P2P transactions, to a degree what a lot of people could interpret as a business-killing move to some of the local Estonian cryptocurrency and DeFi projects. It is [an open secret that FATF is slowly looking to kill any self-hosted, non-custodial, wallets and P2P transactions by making interaction with them overly difficult](https://cointelegraph.com/news/authorities-are-looking-to-close-the-gap-on-unhosted-wallets).
 
-Whether or not the ministers themselves understand what they are deciding on is still to be seen. [This was the first time I saw someone writing a knee-jerk reaction Bloomberg article to my tweet](https://news.bloomberglaw.com/securities-law/estonia-moves-to-reassure-crypto-sector-amid-new-rules). Despite the statements issued out be the Estonian government, nothing has really changed yet, so please keep reading this blog post to understand the crux of the issue better. At least for now people are talking about the matter, thus increasinging the chances for the draft legislation to be changed to be more Estonian business-friendly.
+Whether or not the ministers themselves understand what they are deciding on is still to be seen. [This was the first time I saw someone writing a reaction Bloomberg article to my tweet](https://news.bloomberglaw.com/securities-law/estonia-moves-to-reassure-crypto-sector-amid-new-rules). Despite the statements issued out be the Estonian government, nothing has really changed yet, so please keep reading this blog post to understand the crux of the issue better. At least for now people are talking about the matter, thus increasinging the chances for the draft legislation to be changed to be more Estonian business-friendly.
 
 
 ## Why the proposed Estonian legislation is bad and will eventually kill cryptocurrencies?
