@@ -126,7 +126,7 @@ Estonians can only buy and sell Bitcoin in SEB bank because no real cryptocurren
 
 <img src="{{ '/static/img/content/fixed-size/estonia-cryptocurrency-ban/image4.png'|url }}" class="img-600">
 
-[Keith Pentus-Rosimannus](https://en.wikipedia.org/wiki/Keit_Pentus-Rosimannus), the minister of finance, goes down to history as the European person who started banned cryptocurrencies. She is not re-elected because of the political uproar. When her successor takes her seat she can take “this is good - there is no way I could do worse than my predecessor, now let’s fix this mess.”
+[Keit Pentus-Rosimannus](https://en.wikipedia.org/wiki/Keit_Pentus-Rosimannus), the minister of finance, goes down to history as the European person who started banned cryptocurrencies. She is not re-elected because of the political uproar. When her successor takes her seat she can take “this is good - there is no way I could do worse than my predecessor, now let’s fix this mess.”
 
 ## The Ugly
 
