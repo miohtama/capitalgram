@@ -73,6 +73,7 @@ The project has been only built on OSX, though Windows should work in theory.
 ### 3. Install dependencies
 
 ```
+# TODO: Apple M1 not supported
 # Node version v10 needed
 nvm use v10
 brew install libvips libjpeg
@@ -81,8 +82,11 @@ npm install
 
 ### 4. Run Eleventy with Netlify helper
 
+Start dev server:
+
 ```
 # Any changes to image thumbs and you need to rerun npm run images:resize
+npm run images:resize
 npm run start
 ```
 
