@@ -74,6 +74,8 @@ The project has been only built on OSX, though Windows should work in theory.
 
 ```
 # Node version v10 needed
+nvm use v10
+brew install libvips libjpeg
 npm install
 ```
 
@@ -349,3 +351,32 @@ Look up for good examples.
 ## Markdown TOC for this README
 
 https://ecotrust-canada.github.io/markdown-toc/
+
+## Ghost post extraction
+
+Ghost API version v4 (v5 is the latest).
+
+### Get all posts
+
+```shell
+curl \
+  -H "Accept-Version: v4.48" \
+  "https://trading-strategy.ghost.io/ghost/api/content/posts/?key=4f54e499a627473f560945d524&"
+```
+
+### Get a particular post
+
+```shell
+curl \
+  "https://trading-strategy.ghost.io/ghost/api/v3/content/posts/slug/most-efficient-market-is-on-a-public-blockchain-and-decentralised/?key=4f54e499a627473f560945d524&slug=most-efficient-market-is-on-a-public-blockchain-and-decentralised&formats=html" \
+  | jq .
+``` 
+
+### Extract post HTML from Ghost using Curl and jq 
+
+```shell
+curl \
+  "https://trading-strategy.ghost.io/ghost/api/v3/content/posts/slug/most-efficient-market-is-on-a-public-blockchain-and-decentralised/?key=4f54e499a627473f560945d524&slug=most-efficient-market-is-on-a-public-blockchain-and-decentralised&formats=html" \
+  | jq ".posts[0] .html" > post.html
+```
+
