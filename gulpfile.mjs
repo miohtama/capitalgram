@@ -1,36 +1,28 @@
-// This will do src/ folder remap as @capitalgram for imports
-// https://gist.github.com/branneman/8048520
-require('module-alias/register');
 
-'use strict';
 
 // ------
 // SETUP, CONFIG, IMPORTS AND GLOBALS
 // ------
 
-
-
 // Import the image handling config values from our custom config js file.
-const { lfs, sizes, sizeNames, sourceDir } = require('@capitalgram/config/images.config'); 
+import imageConfig from './src/config/images.config.js'; 
+//import { title as _title, metatags, author, mobileColor, url as _url } from "./src/config/metadata.js";
+import metadata from "./src/config/metadata.js";
 
 // Require gulp core utils and all gulp plugins
-const {dest, src, series } = require('gulp');
-const imagemin = require('gulp-imagemin');
-const webp = require('gulp-webp');
-const responsive = require('gulp-responsive');
-const del = require('del');
-const favicons = require("gulp-favicons");
-const changed = require('gulp-changed');
-const debug = require('gulp-debug');
+import gulp from 'gulp';
+import imagemin from 'gulp-imagemin';
+import webp from 'gulp-webp';
+import responsive from 'gulp-responsive';
+import { deleteSync as del } from 'del';
+import favicons from "gulp-favicons";
+import debug from 'gulp-debug';
 
 // Require eleventy's metadata
 // Hardcoded for prod now
-const metadata = require ("@capitalgram/config/metadata.json");
-
 // Require Node.js utils
-const fs = require('fs');
-const path = require('path');
-
+import { rename as _rename } from 'fs';
+import { basename, resolve } from 'path';
 
 
 // ------
@@ -40,10 +32,10 @@ const path = require('path');
 // Move a file
 function moveFile(file, dir2) {
     //gets file name and adds it to dir2
-    var f = path.basename(file);
-    var dest = path.resolve(dir2, f);
+    var f = basename(file);
+    var dest = resolve(dir2, f);
 
-    fs.rename(file, dest, (err)=>{
+    _rename(file, dest, (err)=>{
         if(err) throw err;
         else console.log('Successfully moved');
     });
@@ -77,13 +69,13 @@ function createWebp() {
 function generatePwaFavicons() {
     return src("src/assets/img/favicon.jpg")
         .pipe(favicons({
-            appName: metadata.title,
-            appDescription: metadata.metatags.description,
-            developerName: metadata.author.name,
-            developerURL: metadata.author.github,
-            background: metadata.mobileColor,
+            appName: _title,
+            appDescription: metatags.description,
+            developerName: author.name,
+            developerURL: author.github,
+            background: mobileColor,
             path: "/assets/pwa",
-            url: metadata.url,
+            url: _url,
             display: "standalone",
             orientation: "portrait",
             scope: "/",
@@ -179,11 +171,16 @@ function resizeImages() {
 // Define publicly available tasks
 // ------
 
-exports.cleanImages = cleanImages;
-exports.resizeImages = resizeImages;
-exports.minifyImages = minifyImages;
-exports.createWebp = createWebp;
-exports.generatePwaFavicons = series(generatePwaFavicons, moveFaviconHtml);
+const _cleanImages = cleanImages;
+export { _cleanImages as cleanImages };
+const _resizeImages = resizeImages;
+export { _resizeImages as resizeImages };
+const _minifyImages = minifyImages;
+export { _minifyImages as minifyImages };
+const _createWebp = createWebp;
+export { _createWebp as createWebp };
+const _generatePwaFavicons = series(generatePwaFavicons, moveFaviconHtml);
+export { _generatePwaFavicons as generatePwaFavicons };
 
 // Set the correct processImages task
 if(lfs) {

@@ -3,7 +3,6 @@
   "version": "5.0.2",
   "description": "A corporate site based on eleventy-base-blog",
   "scripts": {
-    "start": "npm run dev",
     "build": "cross-env ELEVENTY_ENV=prod eleventy && npm run images:resize",
     "watch": "eleventy --watch",
     "dev": "cross-env ELEVENTY_ENV=dev eleventy --serve",
@@ -13,11 +12,13 @@
     "images:clean": "yarn gulp cleanImages",
     "images:resize": "gulp resizeImages",
     "images:minify": "yarn gulp minifyImages",
-    "images:favicons": "yarn gulp generatePwaFavicons"
+    "images:favicons": "yarn gulp generatePwaFavicons",
+    "gulp": "gulp"
   },
-  "_moduleAliases": {
-    "@capitalgram": "src"
+  "aliases": {
+    "@capitalgram/config": "src/config"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git://github.com/miohtama/capitalgram.git"
@@ -31,7 +32,21 @@
   "homepage": "https://capitalgram.com",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy-navigation": "^0.3.5",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
+    "cross-env": "^7.0.3",
+    "del": "^7.0.0",
+    "esm-module-alias": "^2.0.2",
+    "gulp": "^4.0.2",
+    "gulp-debug": "^4.0.0",
+    "gulp-favicons": "^3.0.0",
+    "gulp-imagemin": "^8.0.0",
+    "markdown-it-anchor": "^8.6.6",
     "module-alias": "^2.2.2"
+  },
+  "dependencies": {
+    "gulp-responsive": "^3.0.1",
+    "gulp-webp": "^4.0.1"
   }
 }

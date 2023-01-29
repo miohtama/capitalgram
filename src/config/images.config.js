@@ -51,4 +51,4 @@ config.sizeNames = config.sizes.map(function(item){
     return item.name;
 })
 
-module.exports = config;
+export default config;

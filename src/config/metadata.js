@@ -1,7 +1,7 @@
-{
+export default {
   "title": "Capitalgram",
   "url": "https://capitalgram.com/",
-  "description": "Professional advise for DeFi investors",
+  "description": "Insights in decentralised finance and blockchain technology",
   "feed": {
     "subtitle": "DeFi investing and protocol analysis",
     "filename": "feed.xml",
@@ -13,3 +13,5 @@
     "email": "mikko-REMOVENOSPAM-@capitalgram.com"
   }
 }
+
+

@@ -87,7 +87,7 @@ Start dev server:
 ```
 # Any changes to image thumbs and you need to rerun npm run images:resize
 npm run images:resize
-npm run start
+npm run dev
 ```
 
 Or build and host locally for local development
