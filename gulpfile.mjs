@@ -106,7 +106,7 @@ function cleanImages() {
 function generateGulpResponsiveConfiguration(){
 
     // Loop the sizes array and create an object that fits the gulp-responsive reference
-    var responsiveImages = sizes.map(function(item){
+    var responsiveImages = imageConfig.sizes.map(function(item){
         var object = {
             width: item.width,
             rename: function(path) {
@@ -122,7 +122,7 @@ function generateGulpResponsiveConfiguration(){
 
     // Loop the sizes array and create an object that fits the gulp-responsive reference
     // and is a retina version of the former
-    var responsiveImages2x = sizes.map(function(item){
+    var responsiveImages2x = imageConfig.sizes.map(function(item){
         var object = {
             width: item.width * 2,
             rename: function(path) {
@@ -144,8 +144,8 @@ function generateGulpResponsiveConfiguration(){
 // Generate all the images.
 // Beware: This can become a really expensive operation!
 function resizeImages() {
-    return src('static/img/content/src/**/*.{png,jpg,jpeg}')
-        .pipe(dest('_site/img/content/dist'))
+    return gulp.src('static/img/content/src/**/*.{png,jpg,jpeg}')
+        .pipe(gulp.dest('_site/img/content/dist'))
         .pipe(debug({ title : 'Resize'}))
         // .pipe(changed('src/public/images/dist'))
         .pipe(responsive(
@@ -162,7 +162,7 @@ function resizeImages() {
                 withMetadata: false,
             }
         ))
-        .pipe(dest('_site/img/content/dist'));
+        .pipe(gulp.dest('_site/img/content/dist'));
 }
 
 
@@ -179,12 +179,8 @@ const _minifyImages = minifyImages;
 export { _minifyImages as minifyImages };
 const _createWebp = createWebp;
 export { _createWebp as createWebp };
-const _generatePwaFavicons = series(generatePwaFavicons, moveFaviconHtml);
+const _generatePwaFavicons = gulp.series(generatePwaFavicons, moveFaviconHtml);
 export { _generatePwaFavicons as generatePwaFavicons };
 
-// Set the correct processImages task
-if(lfs) {
-    exports.processImages = series(cleanImages, minifyImages);
-} else {
-    exports.processImages = series(cleanImages,resizeImages, createWebp, minifyImages);
-}
+
+export const processImages = gulp.series(cleanImages,resizeImages, createWebp, minifyImages);
