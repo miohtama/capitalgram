@@ -1,24 +1,17 @@
 {
   "name": "capitalgram",
-  "version": "5.0.2",
-  "description": "A corporate site based on eleventy-base-blog",
+  "version": "8.8.8",
+  "description": "Capitalgram blog site",
   "scripts": {
+    "eleventy": "node -r esm node_modules/.bin/eleventy",
+    "eleventy-debug": "DEBUG=* node -r esm node_modules/.bin/eleventy",
     "build": "cross-env ELEVENTY_ENV=prod eleventy && npm run images:resize",
     "watch": "eleventy --watch",
     "dev": "cross-env ELEVENTY_ENV=dev eleventy --serve",
     "debug": "cross-env ELEVENTY_ENV=dev DEBUG=* eleventy",
     "test-mailerlite": "node -e \"require('./src/functions/newsletter/mailerlite.js').test()\"",
-    "images": "yarn gulp processgit Images",
-    "images:clean": "yarn gulp cleanImages",
-    "images:resize": "gulp resizeImages",
-    "images:minify": "yarn gulp minifyImages",
-    "images:favicons": "yarn gulp generatePwaFavicons",
     "gulp": "gulp"
   },
-  "aliases": {
-    "@capitalgram/config": "src/config"
-  },
-  "type": "module",
   "repository": {
     "type": "git",
     "url": "git://github.com/miohtama/capitalgram.git"
@@ -37,6 +30,7 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
     "cross-env": "^7.0.3",
     "del": "^7.0.0",
+    "esm": "^3.2.25",
     "esm-module-alias": "^2.0.2",
     "gulp": "^4.0.2",
     "gulp-debug": "^4.0.0",

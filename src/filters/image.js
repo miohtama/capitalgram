@@ -1,5 +1,6 @@
-const { lfs, nf_resize, relativeSourceDir } = require('../config/images.config'); 
+// const { lfs, nf_resize, relativeSourceDir } = require('../config/images.config'); 
 
+const lfs = false;
 
 function imageLFS(sourceFile, query){
   if(query) {
@@ -12,6 +13,7 @@ function imageLFS(sourceFile, query){
 function image(sourceFile){
   var sourcePointSplit = sourceFile.split('.')
   var webp =  sourcePointSplit[0] + '.webp';
+  const relativeSourceDir = '/img/content/dist';
   return `<picture>
             <source type="image/webp" srcset="${ relativeSourceDir + '/' + webp }" />
             <source srcset="${ relativeSourceDir + '/' + sourceFile }" />

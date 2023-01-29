@@ -1,6 +1,8 @@
 const fs = require('fs');
-const { sourceDir, relativeSourceDir } = require('../config/images.config'); 
+//const { sourceDir, relativeSourceDir } = require('../config/images.config'); 
 
+const sourceDir = './img/content/src';
+const relativeSourceDir = '/img/content/dist';
 
 module.exports = function(file, size){
     var sourceExt = file.split('.')[1];

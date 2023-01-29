@@ -1,21 +1,18 @@
-// This will do src/ folder remap as @capitalgram for imports
-// https://gist.github.com/branneman/8048520
-require('module-alias/register');
+import assert from "assert";
+import { DateTime } from "luxon";
+import fs from "fs";
+import pluginRss from "@11ty/eleventy-plugin-rss";
+import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
+import pluginNavigation from "@11ty/eleventy-navigation";
+import markdownIt from "markdown-it";
 
-const assert = require("assert");
-const { DateTime } = require("luxon");
-const fs = require("fs");
-const pluginRss = require("@11ty/eleventy-plugin-rss");
-const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-const pluginNavigation = require("@11ty/eleventy-navigation");
-const markdownIt = require("markdown-it");
-const markdownItAnchor = require("markdown-it-anchor");
-const pictureFilter = require('./src/filters/picture');
-const imageFilter = require('./src/filters/image');
-const bgimageFilter = require('./src/filters/bgimage');
+import markdownItAnchor from "markdown-it-anchor";
+import pictureFilter from './src/filters/picture';
+import imageFilter from './src/filters/image';
+import bgimageFilter from './src/filters/bgimage';
 
 
-module.exports = function(eleventyConfig) {
+export default function(eleventyConfig) {
 
   // Read env variable set by cross-env
   const env = process.env.ELEVENTY_ENV;
@@ -51,7 +48,7 @@ module.exports = function(eleventyConfig) {
     return array.slice(0, n);
   });
 
-  eleventyConfig.addCollection("tagList", require("./src/11ty/getTagList"));
+  // eleventyConfig.addCollection("tagList", require("./src/11ty/getTagList"));
 
   eleventyConfig.addPassthroughCopy("static/img");
   eleventyConfig.addPassthroughCopy("static/css");

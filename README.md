@@ -86,7 +86,7 @@ Start dev server:
 
 ```
 # Any changes to image thumbs and you need to rerun npm run images:resize
-npm run images:resize
+npm run gulp resizeImages
 npm run dev
 ```
 

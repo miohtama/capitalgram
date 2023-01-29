@@ -5,7 +5,7 @@
 // ------
 
 // Import the image handling config values from our custom config js file.
-import imageConfig from './src/config/images.config.js'; 
+import imageConfig from './images.config.js'; 
 //import { title as _title, metatags, author, mobileColor, url as _url } from "./src/config/metadata.js";
 import metadata from "./src/config/metadata.js";
 
